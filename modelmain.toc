@@ -1,0 +1,50 @@
+\contentsline {chapter}{Abstract}{iii}{}%
+\contentsline {chapter}{List of Tables}{v}{}%
+\contentsline {chapter}{List of Figures}{vi}{}%
+\contentsline {chapter}{\chapternumberline {1}Brief introduction}{1}{}%
+\vskip -20pt
+\contentsline {chapter}{\chapternumberline {2}Comparing the power of phylogenetic, trait, and network structure information to predict plant-frugivore interactions.}{7}{}%
+\contentsline {paragraph}{Trait and Interaction Data}{13}{}%
+\contentsline {paragraph}{Phylogenetic Data}{14}{}%
+\contentsline {paragraph}{Latent Methods}{15}{}%
+\contentsline {paragraph}{Model Structure and Comparison}{15}{}%
+\contentsline {paragraph}{}{16}{}%
+\vskip -20pt
+\contentsline {chapter}{\chapternumberline {3}The impacts of geographic range size and niche breadth on species centrality in floral visitation networks}{29}{}%
+\contentsline {paragraph}{Estimating Niche Breadth}{36}{}%
+\contentsline {paragraph}{}{38}{}%
+\contentsline {paragraph}{}{39}{}%
+\contentsline {paragraph}{}{41}{}%
+\vskip -20pt
+\contentsline {chapter}{\chapternumberline {4}Island biogeography of host-helminth interaction networks}{65}{}%
+\vskip -20pt
+\contentsline {chapter}{\chapternumberline {5}Structural Changes in Mutualistic Networks under Global Anthropogenic Pressure}{93}{}%
+\contentsline {section}{\numberline {5.1}Introduction}{95}{}%
+\contentsline {subsection}{\numberline {5.1.1}Mutualisms are important to the function of ecosystems}{95}{}%
+\contentsline {paragraph}{}{95}{}%
+\contentsline {subsection}{\numberline {5.1.2}Emergent properties of Mutualist Networks}{96}{}%
+\contentsline {paragraph}{}{97}{}%
+\contentsline {subsection}{\numberline {5.1.3}The Importance of Structural Features}{98}{}%
+\contentsline {subsection}{\numberline {5.1.4}Widely Observed Structural Features of Mutualistic Networks}{100}{}%
+\contentsline {section}{\numberline {5.2}Anthropogenic change and mutualistic network structure}{102}{}%
+\contentsline {subsection}{\numberline {5.2.1}Climate}{103}{}%
+\contentsline {subsection}{\numberline {5.2.2}Land use}{106}{}%
+\contentsline {paragraph}{}{106}{}%
+\contentsline {paragraph}{}{106}{}%
+\contentsline {paragraph}{}{107}{}%
+\contentsline {subsection}{\numberline {5.2.3}Invasion}{108}{}%
+\contentsline {paragraph}{}{108}{}%
+\contentsline {paragraph}{}{108}{}%
+\contentsline {paragraph}{}{109}{}%
+\contentsline {paragraph}{}{110}{}%
+\contentsline {paragraph}{}{110}{}%
+\contentsline {section}{\numberline {5.3}Additional Considerations}{111}{}%
+\contentsline {subsection}{\numberline {5.3.1}The Role of Rewiring}{111}{}%
+\contentsline {paragraph}{}{111}{}%
+\contentsline {paragraph}{}{112}{}%
+\contentsline {paragraph}{}{112}{}%
+\contentsline {subsection}{\numberline {5.3.2}The inherent issue of sampling}{113}{}%
+\contentsline {paragraph}{}{113}{}%
+\contentsline {subsection}{\numberline {5.3.3}How are people utilizing network approaches for conservation planning/assessment?}{115}{}%
+\contentsline {section}{\numberline {5.4}Conclusion}{116}{}%
+\contentsline {subsection}{\numberline {5.4.1}Outstanding questions:}{118}{}%

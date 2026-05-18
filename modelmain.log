@@ -1,0 +1,4598 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.7.11)  9 MAY 2026 19:14
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**modelmain.tex
+(./modelmain.tex
+LaTeX2e <2021-11-15> patch level 1
+L3 programming layer <2022-01-21> (./uscthesis.cls
+Document Class: uscthesis 2020/01/01
+(/usr/share/texlive/texmf-dist/tex/latex/memoir/memoir.cls
+Document Class: memoir 2021/06/16 v3.7p configurable book, report, article docu
+ment class
+\onelineskip=\skip47
+\lxvchars=\skip48
+\xlvchars=\skip49
+\@memcnta=\count185
+\c@@memmarkcntra=\count186
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+)
+\stockheight=\skip50
+\stockwidth=\skip51
+\trimtop=\skip52
+\trimedge=\skip53
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 70
+6.
+
+(/usr/share/texmf/tex/latex/lm/t1lmr.fd
+File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+(/usr/share/texlive/texmf-dist/tex/latex/memoir/mem12.clo
+File: mem12.clo 2010/10/19 v0.4b memoir class 12pt size option
+)
+(/usr/share/texmf/tex/latex/lm/lmodern.sty
+Package: lmodern 2009/10/30 v1.6 Latin Modern Fonts
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 22.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/lmm/m/it on input line 23.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/lmsy/m/n on input line 24.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 25.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 26.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/lmm/b/it on input line 27.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/lmsy/b/n on input line 28.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 29.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 31.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 32.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/lmr/m/it on input line 33.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/lmss/bx/n on input line 36.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/lmr/bx/it on input line 37.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+)
+\binding=\skip54
+\spinemargin=\skip55
+\foremargin=\skip56
+\uppermargin=\skip57
+\lowermargin=\skip58
+\headdrop=\skip59
+\normalrulethickness=\skip60
+\mem@maxheadheight=\skip61
+\mem@maxfootheight=\skip62
+\headwidth=\skip63
+\c@storedpagenumber=\count187
+\memPD=\dimen138
+\m@mabparskip=\skip64
+\thanksmarkwidth=\skip65
+\thanksmarksep=\skip66
+\droptitle=\skip67
+\c@book=\count188
+\c@part=\count189
+\c@chapter=\count190
+\c@section=\count191
+\c@subsection=\count192
+\c@subsubsection=\count193
+\c@paragraph=\count194
+\c@subparagraph=\count195
+\beforechapskip=\skip68
+\midchapskip=\skip69
+\afterchapskip=\skip70
+\chapindent=\skip71
+\bottomsectionskip=\skip72
+\secindent=\skip73
+\beforesecskip=\skip74
+\aftersecskip=\skip75
+\subsecindent=\skip76
+\beforesubsecskip=\skip77
+\aftersubsecskip=\skip78
+\subsubsecindent=\skip79
+\beforesubsubsecskip=\skip80
+\aftersubsubsecskip=\skip81
+\paraindent=\skip82
+\beforeparaskip=\skip83
+\afterparaskip=\skip84
+\subparaindent=\skip85
+\beforesubparaskip=\skip86
+\aftersubparaskip=\skip87
+\pfbreakskip=\skip88
+\c@@ppsavesec=\count196
+\c@@ppsaveapp=\count197
+\ragrparindent=\dimen139
+\everylistparindent=\dimen140
+\parsepi=\skip89
+\topsepi=\skip90
+\itemsepi=\skip91
+\parsepii=\skip92
+\topsepii=\skip93
+\topsepiii=\skip94
+\itemsepii=\skip95
+\itemsepiii=\skip96
+\partopsepii=\skip97
+\partopsepiii=\skip98
+\m@msavetopsep=\skip99
+\m@msavepartopsep=\skip100
+\@enLab=\toks16
+\abstitleskip=\skip101
+\absleftindent=\skip102
+\abs@leftindent=\dimen141
+\absrightindent=\skip103
+\absparindent=\skip104
+\absparsep=\skip105
+\c@vslineno=\count198
+\c@poemline=\count199
+\c@modulo@vs=\count266
+\c@memfvsline=\count267
+\vleftskip=\skip106
+\vrightskip=\skip107
+\stanzaskip=\skip108
+\versewidth=\skip109
+\vgap=\skip110
+\vindent=\skip111
+\vleftmargin=\dimen142
+\c@verse=\count268
+\c@chrsinstr=\count269
+\beforepoemtitleskip=\skip112
+\afterpoemtitleskip=\skip113
+\c@poem=\count270
+\beforePoemTitleskip=\skip114
+\midPoemTitleskip=\skip115
+\afterPoemTitleskip=\skip116
+
+(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
+Package: array 2021/10/04 v2.5f Tabular extension package (FMi)
+\col@sep=\dimen143
+\ar@mcellbox=\box50
+\extrarowheight=\dimen144
+\NC@list=\toks17
+\extratabsurround=\skip117
+\backup@length=\skip118
+\ar@cellbox=\box51
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/dcolumn.sty
+Package: dcolumn 2014/10/28 v1.06 decimal alignment package (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/delarray.sty
+Package: delarray 2014/10/28 v1.01 array delimiter package (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/tabularx.sty
+Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
+\TX@col@width=\dimen145
+\TX@old@table=\dimen146
+\TX@old@col=\dimen147
+\TX@target=\dimen148
+\TX@delta=\dimen149
+\TX@cols=\count271
+\TX@ftn=\toks18
+)
+\heavyrulewidth=\dimen150
+\lightrulewidth=\dimen151
+\cmidrulewidth=\dimen152
+\belowrulesep=\dimen153
+\belowbottomsep=\dimen154
+\aboverulesep=\dimen155
+\abovetopsep=\dimen156
+\cmidrulesep=\dimen157
+\cmidrulekern=\dimen158
+\defaultaddspace=\dimen159
+\@cmidla=\count272
+\@cmidlb=\count273
+\@aboverulesep=\dimen160
+\@belowrulesep=\dimen161
+\@thisruleclass=\count274
+\@lastruleclass=\count275
+\@thisrulewidth=\dimen162
+\ctableftskip=\skip119
+\ctabrightskip=\skip120
+\abovecolumnspenalty=\count276
+\@linestogo=\count277
+\@cellstogo=\count278
+\@cellsincolumn=\count279
+\crtok=\toks19
+\@mincolumnwidth=\dimen163
+\c@newflo@tctr=\count280
+\mem@margin@floatbox=\box52
+\@contcwidth=\skip121
+\@contindw=\skip122
+\abovecaptionskip=\skip123
+\belowcaptionskip=\skip124
+\subfloattopskip=\skip125
+\subfloatcapskip=\skip126
+\subfloatcaptopadj=\skip127
+\subfloatbottomskip=\skip128
+\subfloatlabelskip=\skip129
+\subfloatcapmargin=\dimen164
+\c@@contsubnum=\count281
+\m@mscap@capbox=\box53
+\m@mscap@fbox=\box54
+\sidecapsep=\dimen165
+\sidecapwidth=\dimen166
+\m@m@tempdima=\dimen167
+\m@mscapraise=\dimen168
+\sidecapraise=\dimen169
+\m@mscapmainwidth=\dimen170
+\m@mscaplkern=\dimen171
+\beforeepigraphskip=\skip130
+\afterepigraphskip=\skip131
+\epigraphwidth=\skip132
+\epigraphrule=\skip133
+LaTeX Info: Redefining \em on input line 7654.
+LaTeX Info: Redefining \emph on input line 7662.
+\tocentryskip=\skip134
+\tocbaseline=\skip135
+\cftparskip=\skip136
+\cftbeforebookskip=\skip137
+\cftbookindent=\dimen172
+\cftbooknumwidth=\dimen173
+\cftbeforepartskip=\skip138
+\cftpartindent=\skip139
+\cftpartnumwidth=\skip140
+\cftbeforechapterskip=\skip141
+\cftchapterindent=\skip142
+\cftchapternumwidth=\skip143
+\cftbeforesectionskip=\skip144
+\cftsectionindent=\skip145
+\cftsectionnumwidth=\skip146
+\cftbeforesubsectionskip=\skip147
+\cftsubsectionindent=\skip148
+\cftsubsectionnumwidth=\skip149
+\cftbeforesubsubsectionskip=\skip150
+\cftsubsubsectionindent=\skip151
+\cftsubsubsectionnumwidth=\skip152
+\cftbeforeparagraphskip=\skip153
+\cftparagraphindent=\skip154
+\cftparagraphnumwidth=\skip155
+\cftbeforesubparagraphskip=\skip156
+\cftsubparagraphindent=\skip157
+\cftsubparagraphnumwidth=\skip158
+\prechapterprecisshift=\dimen174
+\c@maxsecnumdepth=\count282
+\bibindent=\dimen175
+\bibitemsep=\skip159
+\indexcolsep=\skip160
+\indexrule=\skip161
+\indexmarkstyle=\toks20
+\@indexbox=\insert252
+\glossarycolsep=\dimen176
+\glossaryrule=\dimen177
+\sideparvshift=\skip162
+\sideins=\insert251
+\sidebartopsep=\skip163
+\sidebarhsep=\skip164
+\sidebarvsep=\skip165
+\sidebarwidth=\skip166
+\footmarkwidth=\skip167
+\footmarksep=\skip168
+\footparindent=\skip169
+\footinsdim=\skip170
+\footinsv@r=\insert250
+\@mpfootinsv@r=\insert249
+\m@m@k=\count283
+\m@m@h=\dimen178
+\m@mipn@skip=\skip171
+\sidefootins=\insert248
+\sidefootadjust=\skip172
+\sidefootheight=\skip173
+\sidefoothsep=\skip174
+\sidefootvsep=\skip175
+\sidefootwidth=\skip176
+\m@mdownsf=\skip177
+\c@sidefootnote=\count284
+\sidefootmarkwidth=\skip178
+\sidefootmarksep=\skip179
+\sidefootparindent=\skip180
+\c@pagenote=\count285
+\c@pagenoteshadow=\count286
+\mem@pn@lastkern=\skip181
+\every@verbatim=\toks21
+\afterevery@verbatim=\toks22
+\verbatim@line=\toks23
+\tab@position=\count287
+\verbatim@in@stream=\read2
+\verbatimindent=\skip182
+\verbatim@out=\write3
+\bvboxsep=\skip183
+\c@memfbvline=\count288
+\c@bvlinectr=\count289
+\bvnumlength=\skip184
+\fb@frw=\dimen179
+\fb@frh=\dimen180
+\FrameRule=\dimen181
+\FrameSep=\dimen182
+
+
+LaTeX hooks Warning: Generic hook 'package/before/framed' is deprecated.
+(hooks)              Use hook 'package/framed/before' instead.
+
+\c@cp@cntr=\count290
+\c@ism@mctr=\count291
+\c@xsm@mctr=\count292
+\c@csm@mctr=\count293
+\c@ksm@mctr=\count294
+\c@xksm@mctr=\count295
+\c@cksm@mctr=\count296
+\c@msm@mctr=\count297
+\c@xmsm@mctr=\count298
+\c@cmsm@mctr=\count299
+\c@bsm@mctr=\count300
+\c@workm@mctr=\count301
+\c@sheetsequence=\count302
+\c@lastsheet=\count303
+\c@lastpage=\count304
+(/usr/share/texlive/texmf-dist/tex/latex/textcase/textcase.sty
+Package: textcase 2019/09/14 v1.00 Text only upper/lower case changing (DPC)
+)
+\c@figure=\count305
+\c@lofdepth=\count306
+\cftbeforefigureskip=\skip185
+\cftfigureindent=\skip186
+\cftfigurenumwidth=\skip187
+\c@table=\count307
+\c@lotdepth=\count308
+\cftbeforetableskip=\skip188
+\cfttableindent=\skip189
+\cfttablenumwidth=\skip190
+Package abstract [2008/07/23] emulated by memoir.
+Package appendix [2008/07/23] emulated by memoir.
+Package booktabs [2016/05/16] emulated by memoir.
+Package ccaption [2008/07/23] emulated by memoir.
+Package changepage [2008/07/23] emulated by memoir.
+Package chngcntr [2008/07/23] emulated by memoir.
+Package chngpage [2008/07/23] emulated by memoir.
+Package crop emulated by memoir.
+Package enumerate [2008/07/23] emulated by memoir.
+Package epigraph [2008/07/23] emulated by memoir.
+Package ifmtarg [2008/07/23] emulated by memoir.
+Package index [2008/07/23] emulated by memoir.
+Package makeidx [2008/07/23] emulated by memoir.
+Package moreverb [2008/07/23] emulated by memoir.
+Package needspace [2008/07/23] emulated by memoir.
+Package newfile [2008/07/23] emulated by memoir.
+Package nextpage [2008/07/23] emulated by memoir.
+Package pagenote [2008/07/23] emulated by memoir.
+Package parskip [2008/07/23] emulated by memoir.
+Package patchcmd [2008/07/23] emulated by memoir.
+Package setspace [2008/07/23] emulated by memoir.
+Package shortvrb [2008/07/23] emulated by memoir.
+Package showidx [2008/07/23] emulated by memoir.
+Package titleref [2008/07/23] emulated by memoir.
+Package titling [2008/07/23] emulated by memoir.
+Package tocbibind [2008/07/23] emulated by memoir.
+Package tocloft [2008/07/23] emulated by memoir.
+Package tocvsec2 [2008/07/23] emulated by memoir.
+Package verbatim [2008/07/23] emulated by memoir.
+Package verse [2008/07/23] emulated by memoir.
+
+
+LaTeX hooks Warning: Generic hook 'package/before/float' is deprecated.
+(hooks)              Use hook 'package/float/before' instead.
+
+) (/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2020/11/24 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/latexsym.sty
+Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
+\symlasy=\mathgroup4
+LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
+(Font)                  U/lasy/m/n --> U/lasy/b/n on input line 52.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks24
+\symAMSa=\mathgroup5
+\symAMSb=\mathgroup6
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amscls/amsthm.sty
+Package: amsthm 2020/05/29 v2.20.6
+\thm@style=\toks25
+\thm@bodyfont=\toks26
+\thm@headfont=\toks27
+\thm@notefont=\toks28
+\thm@headpunct=\toks29
+\thm@preskip=\skip191
+\thm@postskip=\skip192
+\thm@headsep=\skip193
+\dth@everypar=\toks30
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2021/10/15 v2.17l AMS math features
+\@mathmargin=\skip194
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks31
+\ex@=\dimen183
+))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen184
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2021/08/26 v2.02 operator names
+)
+\inf@bad=\count309
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count310
+\leftroot@=\count311
+LaTeX Info: Redefining \overline on input line 399.
+\classnum@=\count312
+\DOTSCASE@=\count313
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box55
+\strutbox@=\box56
+\big@size=\dimen185
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count314
+\c@MaxMatrixCols=\count315
+\dotsspace@=\muskip16
+\c@parentequation=\count316
+\dspbrk@lvl=\count317
+\tag@help=\toks32
+\row@=\count318
+\column@=\count319
+\maxfields@=\count320
+\andhelp@=\toks33
+\eqnshift@=\dimen186
+\alignsep@=\dimen187
+\tagshift@=\dimen188
+\tagwidth@=\dimen189
+\totwidth@=\dimen190
+\lineht@=\dimen191
+\@envbody=\toks34
+\multlinegap=\skip195
+\multlinetaggap=\skip196
+\mathdisplay@stack=\toks35
+LaTeX Info: Redefining \[ on input line 2938.
+LaTeX Info: Redefining \] on input line 2939.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/threeparttable/threeparttable.sty
+Package: threeparttable 2003/06/13  v 3.0
+\@tempboxb=\box57
+)
+(/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2021/10/31 v2.13 LaTeX color extensions (UK)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Package option `usenames' ignored on input line 218.
+Package xcolor Info: Driver file: pdftex.def on input line 227.
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1352.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1356.
+Package xcolor Info: Model `RGB' extended on input line 1368.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1370.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1371.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1372.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1373.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1374.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1375.
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/dvipsnam.def
+File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/xcolor/svgnam.def
+File: svgnam.def 2021/10/31 v2.13 Predefined colors according to SVG 1.1 (UK)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/xpatch/xpatch.sty
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2022-01-21 L3 programming layer (loader) 
+
+(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2022-01-12 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count321
+\l__pdf_internal_box=\box58
+))
+Package: xpatch 2020/03/25 v0.3a Extending etoolbox patching commands
+
+(/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2022-01-12 L3 Experimental document command parser
+)
+(/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count322
+))
+
+******************************************************
+Stock height and width: 794.96999pt by 614.295pt
+Top and edge trims: 0pt and 0pt
+Page height and width: 794.96999pt by 614.295pt
+Text height and width: 650pt by 433pt
+Spine and edge margins: 90.3375pt and 90.3375pt
+Upper and lower margins: 72.26999pt and 72.7pt
+Headheight and headsep: 15pt and 0.0001pt
+Footskip: 36.135pt
+Columnsep and columnseprule: 10pt and 0pt
+Marginparsep and marginparwidth: 7pt and 76.3375pt
+Sidecapsep and sidecapwidth: 7pt and 50pt
+Sidebarhsep and sidebarwidth: 7pt and 50pt
+Sidebarvsep and sidebartopsep: 14.5pt and 0pt
+Sidebarheight: 546.64995pt
+Sidefoothsep and sidefootwidth: 7pt and 50pt
+Sidefootvsep and sidefootheight: 14.5pt and 546.64995pt
+******************************************************
+
+
+Class memoir Warning: As of 2018, \fixpdflayout\ is no longer used on input lin
+e 310.
+
+\c@ToCpage=\count323
+\c@th@storepage=\count324
+) (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks36
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2021/03/04 v1.4d Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+)
+\Gin@req@height=\dimen192
+\Gin@req@width=\dimen193
+)
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.sty
+Package: biblatex 2022/02/02 v3.17 programmable bibliographies (PK/MW)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/logreq/logreq.sty
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count325
+
+(/usr/share/texlive/texmf-dist/tex/latex/logreq/logreq.def
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+))
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+\c@tabx@nest=\count326
+\c@listtotal=\count327
+\c@listcount=\count328
+\c@liststart=\count329
+\c@liststop=\count330
+\c@citecount=\count331
+\c@citetotal=\count332
+\c@multicitecount=\count333
+\c@multicitetotal=\count334
+\c@instcount=\count335
+\c@maxnames=\count336
+\c@minnames=\count337
+\c@maxitems=\count338
+\c@minitems=\count339
+\c@citecounter=\count340
+\c@maxcitecounter=\count341
+\c@savedcitecounter=\count342
+\c@uniquelist=\count343
+\c@uniquename=\count344
+\c@refsection=\count345
+\c@refsegment=\count346
+\c@maxextratitle=\count347
+\c@maxextratitleyear=\count348
+\c@maxextraname=\count349
+\c@maxextradate=\count350
+\c@maxextraalpha=\count351
+\c@abbrvpenalty=\count352
+\c@highnamepenalty=\count353
+\c@lownamepenalty=\count354
+\c@maxparens=\count355
+\c@parenlevel=\count356
+\blx@tempcnta=\count357
+\blx@tempcntb=\count358
+\blx@tempcntc=\count359
+\c@blx@maxsection=\count360
+\c@blx@maxsegment@0=\count361
+\blx@notetype=\count362
+\blx@parenlevel@text=\count363
+\blx@parenlevel@foot=\count364
+\c@blx@sectionciteorder@0=\count365
+\blx@entrysetcounter=\count366
+\blx@biblioinstance=\count367
+\labelnumberwidth=\skip197
+\labelalphawidth=\skip198
+\biblabelsep=\skip199
+\bibnamesep=\skip256
+\bibinitsep=\skip257
+\bibparsep=\skip258
+\bibhang=\skip259
+\blx@bcfin=\read3
+\blx@bcfout=\write4
+\blx@langwohyphens=\language2
+\c@mincomprange=\count368
+\c@maxcomprange=\count369
+\c@mincompwidth=\count370
+Package biblatex Info: Trying to load biblatex default data model...
+Package biblatex Info: ... file 'blx-dm.def' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/blx-dm.def
+File: blx-dm.def 2022/02/02 v3.17 biblatex localization (PK/MW)
+)
+Package biblatex Info: Trying to load biblatex style data model...
+Package biblatex Info: ... file 'apa.dbx' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex-apa/apa.dbx
+File: apa.dbx 2021/12/24 v9.15 APA biblatex style data model
+)
+Package biblatex Info: Trying to load biblatex custom data model...
+Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+\c@afterword=\count371
+\c@savedafterword=\count372
+\c@annotator=\count373
+\c@savedannotator=\count374
+\c@author=\count375
+\c@savedauthor=\count376
+\c@bookauthor=\count377
+\c@savedbookauthor=\count378
+\c@commentator=\count379
+\c@savedcommentator=\count380
+\c@editor=\count381
+\c@savededitor=\count382
+\c@editora=\count383
+\c@savededitora=\count384
+\c@editorb=\count385
+\c@savededitorb=\count386
+\c@editorc=\count387
+\c@savededitorc=\count388
+\c@foreword=\count389
+\c@savedforeword=\count390
+\c@holder=\count391
+\c@savedholder=\count392
+\c@introduction=\count393
+\c@savedintroduction=\count394
+\c@namea=\count395
+\c@savednamea=\count396
+\c@nameb=\count397
+\c@savednameb=\count398
+\c@namec=\count399
+\c@savednamec=\count400
+\c@translator=\count401
+\c@savedtranslator=\count402
+\c@shortauthor=\count403
+\c@savedshortauthor=\count404
+\c@shorteditor=\count405
+\c@savedshorteditor=\count406
+\c@narrator=\count407
+\c@savednarrator=\count408
+\c@execproducer=\count409
+\c@savedexecproducer=\count410
+\c@execdirector=\count411
+\c@savedexecdirector=\count412
+\c@with=\count413
+\c@savedwith=\count414
+\c@labelname=\count415
+\c@savedlabelname=\count416
+\c@institution=\count417
+\c@savedinstitution=\count418
+\c@lista=\count419
+\c@savedlista=\count420
+\c@listb=\count421
+\c@savedlistb=\count422
+\c@listc=\count423
+\c@savedlistc=\count424
+\c@listd=\count425
+\c@savedlistd=\count426
+\c@liste=\count427
+\c@savedliste=\count428
+\c@listf=\count429
+\c@savedlistf=\count430
+\c@location=\count431
+\c@savedlocation=\count432
+\c@organization=\count433
+\c@savedorganization=\count434
+\c@origlocation=\count435
+\c@savedoriglocation=\count436
+\c@origpublisher=\count437
+\c@savedorigpublisher=\count438
+\c@publisher=\count439
+\c@savedpublisher=\count440
+\c@language=\count441
+\c@savedlanguage=\count442
+\c@origlanguage=\count443
+\c@savedoriglanguage=\count444
+\c@citation=\count445
+\c@savedcitation=\count446
+\c@pageref=\count447
+\c@savedpageref=\count448
+\shorthandwidth=\skip260
+\shortjournalwidth=\skip261
+\shortserieswidth=\skip262
+\shorttitlewidth=\skip263
+\shortauthorwidth=\skip264
+\shorteditorwidth=\skip265
+\locallabelnumberwidth=\skip266
+\locallabelalphawidth=\skip267
+\localshorthandwidth=\skip268
+\localshortjournalwidth=\skip269
+\localshortserieswidth=\skip270
+\localshorttitlewidth=\skip271
+\localshortauthorwidth=\skip272
+\localshorteditorwidth=\skip273
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/blx-compat.def
+File: blx-compat.def 2022/02/02 v3.17 biblatex compatibility (PK/MW)
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.def
+File: biblatex.def 2022/02/02 v3.17 biblatex compatibility (PK/MW)
+\c@textcitecount=\count449
+\c@textcitetotal=\count450
+\c@textcitemaxnames=\count451
+\c@biburlbigbreakpenalty=\count452
+\c@biburlbreakpenalty=\count453
+\c@biburlnumpenalty=\count454
+\c@biburlucpenalty=\count455
+\c@biburllcpenalty=\count456
+\biburlbigskip=\muskip18
+\biburlnumskip=\muskip19
+\biburlucskip=\muskip20
+\biburllcskip=\muskip21
+\c@smartand=\count457
+)
+Package biblatex Info: Trying to load bibliography style 'apa'...
+Package biblatex Info: ... file 'apa.bbx' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex-apa/apa.bbx
+File: apa.bbx 2021/12/24 v9.15 APA biblatex references style
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
+File: standard.bbx 2022/02/02 v3.17 biblatex bibliography style (PK/MW)
+\c@bbx:relatedcount=\count458
+\c@bbx:relatedtotal=\count459
+)
+Package biblatex Info: Delimiter 'nameyeardelim' in context 'bib' already defin
+ed, overwriting.
+Package biblatex Info: Delimiter 'nameyeardelim' in context 'biblist' already d
+efined, overwriting.
+
+
+Package biblatex Warning: The starred command '\DeclareDelimAlias*' is
+(biblatex)                deprecated.
+(biblatex)                Use the unstarred version '\DeclareDelimAlias'
+(biblatex)                instead.
+
+Package biblatex Info: Delimiter 'nonameyeardelim' in context 'bib' already def
+ined, overwriting.
+Package biblatex Info: Delimiter 'nonameyeardelim' in context 'biblist' already
+ defined, overwriting.
+)
+Package biblatex Info: Trying to load citation style 'apa'...
+Package biblatex Info: ... file 'apa.cbx' found.
+ (/usr/share/texlive/texmf-dist/tex/latex/biblatex-apa/apa.cbx
+File: apa.cbx 2021/12/24 v9.15 APA biblatex citation style
+Package biblatex Info: Delimiter 'nameyeardelim' in context '' already defined,
+ overwriting.
+Package biblatex Info: Delimiter 'andothersdelim' in context '' already defined
+, overwriting.
+Package biblatex Info: Redefining '\fullcite'.
+Package biblatex Info: Redefining '\citeauthor'.
+Package biblatex Info: Redefining '\citeyear'.
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\cites'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\parencites'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcites'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\footcitetexts'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\smartcites'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\textcites'.
+)
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.cfg
+File: biblatex.cfg 
+)
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Document encoding is UTF8 ....
+Package biblatex Info: ... and expl3
+(biblatex)             2022-01-21 L3 programming layer (loader) 
+(biblatex)             is new enough (at least 2020/04/06),
+(biblatex)             setting 'casechanger=expl3'.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/blx-case-expl3.sty
+Package: blx-case-expl3 2022/02/02 v3.17 expl3 case changing code for biblatex
+))
+(/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty
+Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
+\multirow@colwidth=\skip274
+\multirow@cntb=\count460
+\multirow@dima=\skip275
+\bigstrutjot=\dimen194
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcolorbox.sty
+Package: tcolorbox 2022/01/07 version 5.0.2 text color boxes
+
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+\pgfutil@everybye=\toks37
+\pgfutil@tempdima=\dimen195
+\pgfutil@tempdimb=\dimen196
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.t
+ex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box59
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/pgf.revision.tex)
+Package: pgfrcs 2021/05/15 v3.1.9a (3.1.9a)
+))
+Package: pgf 2021/05/15 v3.1.9a (3.1.9a)
+
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2021/05/15 v3.1.9a (3.1.9a)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks38
+\pgfkeys@temptoks=\toks39
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.t
+ex
+\pgfkeys@tmptoks=\toks40
+))
+\pgf@x=\dimen197
+\pgf@y=\dimen198
+\pgf@xa=\dimen199
+\pgf@ya=\dimen256
+\pgf@xb=\dimen257
+\pgf@yb=\dimen258
+\pgf@xc=\dimen259
+\pgf@yc=\dimen260
+\pgf@xd=\dimen261
+\pgf@yd=\dimen262
+\w@pgf@writea=\write5
+\r@pgf@reada=\read4
+\c@pgf@counta=\count461
+\c@pgf@countb=\count462
+\c@pgf@countc=\count463
+\c@pgf@countd=\count464
+\t@pgf@toka=\toks41
+\t@pgf@tokb=\toks42
+\t@pgf@tokc=\toks43
+\pgf@sys@id@count=\count465
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2021/05/15 v3.1.9a (3.1.9a)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
+File: pgfsys-pdftex.def 2021/05/15 v3.1.9a (3.1.9a)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.de
+f
+File: pgfsys-common-pdf.def 2021/05/15 v3.1.9a (3.1.9a)
+)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.
+tex
+File: pgfsyssoftpath.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfsyssoftpath@smallbuffer@items=\count466
+\pgfsyssoftpath@bigbuffer@items=\count467
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.
+tex
+File: pgfsysprotocol.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2021/05/15 v3.1.9a (3.1.9a)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen263
+\pgfmath@count=\count468
+\pgfmath@box=\box60
+\pgfmath@toks=\toks44
+\pgfmath@stack@operand=\toks45
+\pgfmath@stack@operation=\toks46
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code
+.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonomet
+ric.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.cod
+e.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison
+.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.
+tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code
+.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.
+tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerari
+thmetics.code.tex)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count469
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfint.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.te
+x
+File: pgfcorepoints.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@picminx=\dimen264
+\pgf@picmaxx=\dimen265
+\pgf@picminy=\dimen266
+\pgf@picmaxy=\dimen267
+\pgf@pathminx=\dimen268
+\pgf@pathmaxx=\dimen269
+\pgf@pathminy=\dimen270
+\pgf@pathmaxy=\dimen271
+\pgf@xx=\dimen272
+\pgf@xy=\dimen273
+\pgf@yx=\dimen274
+\pgf@yy=\dimen275
+\pgf@zx=\dimen276
+\pgf@zy=\dimen277
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.
+code.tex
+File: pgfcorepathconstruct.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@path@lastx=\dimen278
+\pgf@path@lasty=\dimen279
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code
+.tex
+File: pgfcorepathusage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@shorten@end@additional=\dimen280
+\pgf@shorten@start@additional=\dimen281
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.te
+x
+File: pgfcorescopes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfpic=\box61
+\pgf@hbox=\box62
+\pgf@layerbox@main=\box63
+\pgf@picture@serial@count=\count470
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.c
+ode.tex
+File: pgfcoregraphicstate.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgflinewidth=\dimen282
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformation
+s.code.tex
+File: pgfcoretransformations.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@pt@x=\dimen283
+\pgf@pt@y=\dimen284
+\pgf@pt@temp=\dimen285
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.t
+ex
+File: pgfcoreobjects.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing
+.code.tex
+File: pgfcorepathprocessing.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.te
+x
+File: pgfcorearrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfarrowsep=\dimen286
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@max=\dimen287
+\pgf@sys@shading@range@num=\count471
+\pgf@shadingcount=\count472
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.
+tex
+File: pgfcoreexternal.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfexternal@startupbox=\box64
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.te
+x
+File: pgfcorelayers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.c
+ode.tex
+File: pgfcoretransparency.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.
+tex
+File: pgfcorepatterns.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex
+File: pgfcorerdf.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfnodeparttextbox=\box65
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65
+.sty
+Package: pgfcomp-version-0-65 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@nodesepstart=\dimen288
+\pgf@nodesepend=\dimen289
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18
+.sty
+Package: pgfcomp-version-1-18 2021/05/15 v3.1.9a (3.1.9a)
+)) (/usr/share/texlive/texmf-dist/tex/latex/environ/environ.sty
+Package: environ 2014/05/04 v0.3 A new way to define environments
+
+(/usr/share/texlive/texmf-dist/tex/latex/trimspaces/trimspaces.sty
+Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
+))
+\tcb@titlebox=\box66
+\tcb@upperbox=\box67
+\tcb@lowerbox=\box68
+\tcb@phantombox=\box69
+\c@tcbbreakpart=\count473
+\c@tcblayer=\count474
+\c@tcolorbox@number=\count475
+\tcb@temp=\box70
+\tcb@temp=\box71
+\tcb@temp=\box72
+\tcb@temp=\box73
+
+(/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbraster.code.tex
+Library (tcolorbox): 'tcbraster.code.tex' version '5.0.2'
+\c@tcbrastercolumn=\count476
+\c@tcbrasterrow=\count477
+\c@tcbrasternum=\count478
+\c@tcbraster=\count479
+) (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbskins.code.tex
+Library (tcolorbox): 'tcbskins.code.tex' version '5.0.2'
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex))
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2021/05/15 v3.1.9a (3.1.9a)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
+\pgffor@iter=\dimen290
+\pgffor@skip=\dimen291
+\pgffor@stack=\toks47
+\pgffor@toks=\toks48
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+Package: tikz 2021/05/15 v3.1.9a (3.1.9a)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers
+.code.tex
+File: pgflibraryplothandlers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@plot@mark@count=\count480
+\pgfplotmarksize=\dimen292
+)
+\tikz@lastx=\dimen293
+\tikz@lasty=\dimen294
+\tikz@lastxsaved=\dimen295
+\tikz@lastysaved=\dimen296
+\tikz@lastmovetox=\dimen297
+\tikz@lastmovetoy=\dimen298
+\tikzleveldistance=\dimen299
+\tikzsiblingdistance=\dimen300
+\tikz@figbox=\box74
+\tikz@figbox@bg=\box75
+\tikz@tempbox=\box76
+\tikz@tempbox@bg=\box77
+\tikztreelevel=\count481
+\tikznumberofchildren=\count482
+\tikznumberofcurrentchild=\count483
+\tikz@fig@count=\count484
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfmatrixcurrentrow=\count485
+\pgfmatrixcurrentcolumn=\count486
+\pgf@matrix@numberofcolumns=\count487
+)
+\tikz@expandcount=\count488
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)))
+\tcb@waterbox=\box78
+
+(/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbskinsjigsaw.code.tex
+Library (tcolorbox): 'tcbskinsjigsaw.code.tex' version '5.0.2'
+)) (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbbreakable.code.tex
+Library (tcolorbox): 'tcbbreakable.code.tex' version '5.0.2'
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdfcol.sty
+Package: pdfcol 2019/12/29 v1.6 Handle new color stacks for pdfTeX (HO)
+)
+Package pdfcol Info: New color stack `tcb@breakable' = 1 on input line 23.
+\tcb@testbox=\box79
+\tcb@totalupperbox=\box80
+\tcb@totallowerbox=\box81
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbhooks.code.tex
+Library (tcolorbox): 'tcbhooks.code.tex' version '5.0.2'
+) (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbtheorems.code.tex
+Library (tcolorbox): 'tcbtheorems.code.tex' version '5.0.2'
+) (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbfitting.code.tex
+Library (tcolorbox): 'tcbfitting.code.tex' version '5.0.2'
+\tcbfitdim=\dimen301
+\tcb@lowerfitdim=\dimen302
+\tcb@upperfitdim=\dimen303
+\tcb@cur@hbadness=\count489
+) (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbxparse.code.tex
+Library (tcolorbox): 'tcbxparse.code.tex' version '5.0.2'
+) (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcblistingsutf8.code.tex
+Library (tcolorbox): 'tcblistingsutf8.code.tex' version '5.0.2'
+(/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcblistings.code.tex
+Library (tcolorbox): 'tcblistings.code.tex' version '5.0.2'
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count490
+\lst@gtempboxa=\box82
+\lst@token=\toks49
+\lst@length=\count491
+\lst@currlwidth=\dimen304
+\lst@column=\count492
+\lst@pos=\count493
+\lst@lostspace=\dimen305
+\lst@width=\dimen306
+\lst@newlines=\count494
+\lst@lineno=\count495
+\lst@maxwidth=\dimen307
+
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
+\c@lstnumber=\count496
+\lst@skipnumbers=\count497
+\lst@framebox=\box83
+)
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2020/03/24 1.8d listings configuration
+))
+Package: listings 2020/03/24 1.8d (Carsten Heinz)
+
+(/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcblistingscore.code.tex
+Library (tcolorbox): 'tcblistingscore.code.tex' version '5.0.2'
+(/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbprocessing.code.tex
+Library (tcolorbox): 'tcbprocessing.code.tex' version '5.0.2'
+(/usr/share/texlive/texmf-dist/tex/latex/tools/shellesc.sty
+Package: shellesc 2019/11/08 v1.0c unified shell escape interface for LaTeX
+Package shellesc Info: Restricted shell escape enabled on input line 77.
+))
+\c@tcblisting=\count498
+))
+(/usr/share/texlive/texmf-dist/tex/latex/listingsutf8/listingsutf8.sty
+Package: listingsutf8 2019-12-10 v1.5 Allow UTF-8 in listings input (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/stringenc/stringenc.sty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
+)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+))))
+(/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbexternal.code.tex
+Library (tcolorbox): 'tcbexternal.code.tex' version '5.0.2'
+) (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbmagazine.code.tex
+Library (tcolorbox): 'tcbmagazine.code.tex' version '5.0.2'
+) (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbvignette.code.tex
+Library (tcolorbox): 'tcbvignette.code.tex' version '5.0.2'
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryfadings.code.tex
+File: tikzlibraryfadings.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryfadings.code
+.tex
+File: pgflibraryfadings.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+))) (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbposter.code.tex
+Library (tcolorbox): 'tcbposter.code.tex' version '5.0.2'
+)) (/usr/share/texlive/texmf-dist/tex/latex/capt-of/capt-of.sty
+Package: capt-of 2009/12/29 v0.2 standard captions outside of floats
+)
+(/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count499
+\float@exts=\toks50
+\float@box=\box84
+\@float@everytoks=\toks51
+\@floatcapt=\box85
+)
+(/usr/share/texlive/texmf-dist/tex/latex/mdwtools/footnote.sty
+Package: footnote 1997/01/28 1.13 Save footnotes around boxes
+\fn@notes=\box86
+\fn@width=\dimen308
+)
+(/usr/share/texlive/texmf-dist/tex/generic/ulem/ulem.sty
+\UL@box=\box87
+\UL@hyphenbox=\box88
+\UL@skip=\skip276
+\UL@hook=\toks52
+\UL@height=\dimen309
+\UL@pe=\count500
+\UL@pixel=\dimen310
+\ULC@box=\box89
+Package: ulem 2019/11/18
+\ULdepth=\dimen311
+)
+
+! LaTeX Error: Option clash for package biblatex.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.34 \addbibresource
+                    {references.bib}
+The package biblatex has already been loaded with options:
+  [style=apa,backend=biber,uniquename=false]
+There has now been an attempt to load it with options
+  [style=uscauthoryear]
+Adding the global options:
+  style=apa,backend=biber,uniquename=false,style=uscauthoryear
+to your \documentclass declaration may fix this.
+Try typing  <return>  to proceed.
+
+\@quotelevel=\count501
+\@quotereset=\count502
+(./modelmain.aux (./Introduction.aux)
+(./Fruglink/Manuscript/Manuscript_OikosUpdated.aux)
+(./centralRange/manuscript.aux) (./HelmBiogeog/manuscript.aux
+
+LaTeX Warning: Label `fig:concept' multiply defined.
+
+) (./Review/manuscript.aux))
+\openout1 = `modelmain.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 160.
+LaTeX Font Info:    ... okay on input line 160.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 160.
+LaTeX Font Info:    ... okay on input line 160.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 160.
+LaTeX Font Info:    ... okay on input line 160.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 160.
+LaTeX Font Info:    ... okay on input line 160.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 160.
+LaTeX Font Info:    ... okay on input line 160.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 160.
+LaTeX Font Info:    ... okay on input line 160.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 160.
+LaTeX Font Info:    ... okay on input line 160.
+
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count503
+\scratchdimen=\dimen312
+\scratchbox=\box90
+\nofMPsegments=\count504
+\nofMParguments=\count505
+\everyMPshowfont=\toks53
+\MPscratchCnt=\count506
+\MPscratchDim=\dimen313
+\MPnumerator=\count507
+\makeMPintoPDFobject=\count508
+\everyMPtoPDFconversion=\toks54
+) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+
+(/usr/share/texlive/texmf-dist/tex/latex/grfext/grfext.sty
+Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+))
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 504.
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+Package biblatex Info: Trying to load language 'english' -> 'english-apa'...
+Package biblatex Info: ... file 'english-apa.lbx' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex-apa/english-apa.lbx
+File: english-apa.lbx 2021/12/24 v9.15 APA biblatex localisation
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/english.lbx
+File: english.lbx 2022/02/02 v3.17 biblatex localization (PK/MW)
+)
+Package biblatex Info: Trying to load language 'american' -> 'american-apa'...
+Package biblatex Info: ... file 'american-apa.lbx' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex-apa/american-apa.lbx
+File: american-apa.lbx 2021/12/24 v9.15 APA biblatex localisation
+Package biblatex Info: Trying to load language 'american'...
+Package biblatex Info: ... file 'american.lbx' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/american.lbx
+File: american.lbx 2022/02/02 v3.17 biblatex localization (PK/MW)
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/english.lbx
+File: english.lbx 2022/02/02 v3.17 biblatex localization (PK/MW)
+))))
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'utf8'.
+\openout4 = `modelmain.bcf'.
+
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'modelmain.bbl' found.
+
+(./modelmain.bbl)
+Package biblatex Info: Reference section=0 on input line 160.
+Package biblatex Info: Reference segment=0 on input line 160.
+\c@lstlisting=\count509
+ (/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2021/02/14 v1.3d Input encoding file
+\inpenc@prehook=\toks55
+\inpenc@posthook=\toks56
+)
+Making Title Page
+Making Copyrightpage
+[1
+
+
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 1
+60.
+
+(/usr/share/texmf/tex/latex/lm/ot1lmr.fd
+File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 1
+60.
+
+(/usr/share/texmf/tex/latex/lm/omllmm.fd
+File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
+160.
+
+(/usr/share/texmf/tex/latex/lm/omslmsy.fd
+File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
+160.
+
+(/usr/share/texmf/tex/latex/lm/omxlmex.fd
+File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <12> on input line 160.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 160.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 160.
+LaTeX Font Info:    Trying to load font information for U+lasy on input line 16
+0.
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/ulasy.fd
+File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
+)
+LaTeX Font Info:    Trying to load font information for U+msa on input line 160
+.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 160
+.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 1
+60.
+
+(/usr/share/texmf/tex/latex/lm/ts1lmr.fd
+File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+Making Abstract Page
+[2
+
+] (./abstract.tex)
+Making ToC Page
+[3
+
+
+] (./modelmain.toc) [4
+
+]
+Making LoT
+(./modelmain.lot) [5
+
+
+]
+Making LoF
+(./modelmain.lof [6
+
+
+] [7] [8] [9] [10] [11] [12]
+Overfull \hbox (4.25467pt too wide) in paragraph at lines 36--36
+ [][] []\T1/lmr/m/n/12 Across a di-verse set of mu-tu-al-is-tic sys-tem-s, an-t
+hro-pogenic driver- 
+ []
+
+) [13]
+
+
+-------------------Beginning Body----------------------
+
+
+[1
+
+
+
+
+]
+\openout2 = `Introduction.aux'.
+
+ (./Introduction.tex
+
+LaTeX Warning: Citation 'pulliam2000' on page 2 undefined on input line 2.
+
+
+LaTeX Warning: Citation 'soberon2007' on page 2 undefined on input line 2.
+
+
+LaTeX Warning: Citation 'pulliam2000' on page 2 undefined on input line 2.
+
+
+LaTeX Warning: Citation 'brown1996' on page 2 undefined on input line 2.
+
+
+LaTeX Warning: Citation 'paquette2021' on page 2 undefined on input line 2.
+
+
+LaTeX Warning: Citation 'lundberg2000' on page 2 undefined on input line 4.
+
+
+LaTeX Warning: Citation 'burgess2020' on page 2 undefined on input line 4.
+
+
+LaTeX Warning: Citation 'sexton2009' on page 2 undefined on input line 4.
+
+
+LaTeX Warning: Citation 'pironon2017' on page 2 undefined on input line 4.
+
+
+LaTeX Warning: Citation 'sagarin2002' on page 2 undefined on input line 4.
+
+
+LaTeX Warning: Citation 'sagarin2006' on page 2 undefined on input line 4.
+
+
+LaTeX Warning: Citation 'pironon2017' on page 2 undefined on input line 4.
+
+
+LaTeX Warning: Citation 'hortal2015' on page 2 undefined on input line 8.
+
+
+LaTeX Warning: Citation 'elith2009' on page 2 undefined on input line 8.
+
+
+LaTeX Warning: Citation 'elith2010' on page 2 undefined on input line 8.
+
+
+LaTeX Warning: Citation 'weber2017' on page 2 undefined on input line 8.
+
+
+LaTeX Warning: Citation 'gomes2018' on page 2 undefined on input line 8.
+
+
+Overfull \hbox (20.99162pt too wide) in paragraph at lines 8--9
+\T1/lmr/m/n/12 there is a lack of knowl-edge on the ge-o-graph-ic dis-tri-bu-ti
+on of sev-er-al species ([]).
+ []
+
+[2
+
+]
+
+LaTeX Warning: Citation 'anderson2010' on page 3 undefined on input line 10.
+
+
+LaTeX Warning: Citation 'veloz2009' on page 3 undefined on input line 10.
+
+
+LaTeX Warning: Citation 'varela2014' on page 3 undefined on input line 10.
+
+
+LaTeX Warning: Citation 'aiello2015' on page 3 undefined on input line 10.
+
+
+LaTeX Warning: Citation 'castellanos2019' on page 3 undefined on input line 12.
+
+
+
+LaTeX Warning: Citation 'gaul2020' on page 3 undefined on input line 12.
+
+[3]
+
+LaTeX Warning: Citation 'dallas2018' on page 4 undefined on input line 14.
+
+
+LaTeX Warning: Citation 'santini2019' on page 4 undefined on input line 14.
+
+
+LaTeX Warning: Citation 'lee2022' on page 4 undefined on input line 14.
+
+
+LaTeX Warning: Citation 'weber2017' on page 4 undefined on input line 14.
+
+
+LaTeX Warning: Citation 'brown1984' on page 4 undefined on input line 16.
+
+
+LaTeX Warning: Citation 'lawton1993' on page 4 undefined on input line 16.
+
+
+LaTeX Warning: Citation 'sagarin2002' on page 4 undefined on input line 16.
+
+
+LaTeX Warning: Citation 'sagarin2006' on page 4 undefined on input line 16.
+
+
+LaTeX Warning: Citation 'pironon2017' on page 4 undefined on input line 16.
+
+[4]
+
+LaTeX Warning: Citation 'gilarranz2012' on page 5 undefined on input line 18.
+
+[5]
+
+LaTeX Warning: Citation 'lundberg2000' on page 6 undefined on input line 20.
+
+) [6]
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <17.28> on input line 169.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 169.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 169.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 169.
+ [7
+
+
+
+]
+\openout2 = `Fruglink/Manuscript/Manuscript_OikosUpdated.aux'.
+
+ (./Fruglink/Manuscript/Manuscript_OikosUpdated.tex
+
+LaTeX Font Warning: Font shape `T1/lmr/bx/sc' undefined
+(Font)              using `T1/lmr/bx/n' instead on input line 1.
+
+
+LaTeX Warning: Citation 'guimaraes2020structure' on page 8 undefined on input l
+ine 7.
+
+
+LaTeX Warning: Citation 'saravia2022ecological' on page 8 undefined on input li
+ne 7.
+
+
+LaTeX Warning: Citation 'Young21' on page 8 undefined on input line 7.
+
+
+LaTeX Warning: Citation 'canard2014empirical' on page 8 undefined on input line
+ 7.
+
+
+LaTeX Warning: Citation 'cirtwill2019quantitative' on page 8 undefined on input
+ line 7.
+
+
+LaTeX Warning: Citation 'olesen2011missing' on page 8 undefined on input line 7
+.
+
+
+LaTeX Warning: Citation 'bluthgen2008' on page 8 undefined on input line 7.
+
+
+LaTeX Warning: Citation 'Young21' on page 8 undefined on input line 7.
+
+
+LaTeX Warning: Citation 'olesen2011' on page 8 undefined on input line 7.
+
+
+Overfull \hbox (99.38481pt too wide) in paragraph at lines 7--8
+\T1/lmr/m/n/12 scale pat-tern-s of com-mu-ni-ty as-sem-bly and sta-bil-i-ty [];
+ [].
+ []
+
+[8
+
+]
+
+LaTeX Warning: Citation 'quintero2022methodological' on page 9 undefined on inp
+ut line 10.
+
+
+LaTeX Warning: Citation 'putman2021power' on page 9 undefined on input line 10.
+
+
+
+LaTeX Warning: Citation 'terry2020finding' on page 9 undefined on input line 10
+.
+
+
+LaTeX Warning: Citation 'minoarivelo2016invading' on page 9 undefined on input 
+line 10.
+
+[9]
+
+LaTeX Warning: Citation 'ramos2018fruit' on page 10 undefined on input line 13.
+
+
+
+LaTeX Warning: Citation 'rafferty2013' on page 10 undefined on input line 13.
+
+
+LaTeX Warning: Citation 'eriksson2016evolution' on page 10 undefined on input l
+ine 13.
+
+
+LaTeX Warning: Citation 'fricke2020accelerating' on page 10 undefined on input 
+line 13.
+
+
+LaTeX Warning: Citation 'menke2012plant' on page 10 undefined on input line 13.
+
+
+
+LaTeX Warning: Citation 'laurindo2020drivers' on page 10 undefined on input lin
+e 13.
+
+
+LaTeX Warning: Citation 'carreira2020question' on page 10 undefined on input li
+ne 13.
+
+
+LaTeX Warning: Citation 'dallas2017predicting' on page 10 undefined on input li
+ne 13.
+
+
+Overfull \hbox (8.05447pt too wide) in paragraph at lines 13--14
+[]\T1/lmr/m/n/12 , s-pa-tial and tem-po-ral dis-tri-bu-tion-s [];
+ []
+
+
+Overfull \hbox (74.74889pt too wide) in paragraph at lines 13--14
+[]\T1/lmr/m/n/12 ; [], as well oth-er bi-ot-ic in-ter-ac-tion-s [].
+ []
+
+
+LaTeX Warning: Citation 'bender2018morphological' on page 10 undefined on input
+ line 16.
+
+
+LaTeX Warning: Citation 'gonzalez2015relative' on page 10 undefined on input li
+ne 16.
+
+
+LaTeX Warning: Citation 'moran2010can' on page 10 undefined on input line 16.
+
+
+LaTeX Warning: Citation 'pichler2020' on page 10 undefined on input line 16.
+
+
+Overfull \hbox (6.93697pt too wide) in paragraph at lines 16--17
+[]\T1/lmr/m/n/12 ; []; []. Trait match-
+ []
+
+[10]
+
+LaTeX Warning: Citation 'rafferty2013' on page 11 undefined on input line 19.
+
+
+LaTeX Warning: Citation 'maglianesi2024phylogenetic' on page 11 undefined on in
+put line 19.
+
+
+LaTeX Warning: Citation 'jordano1987patterns' on page 11 undefined on input lin
+e 19.
+
+
+LaTeX Warning: Citation 'wheelwright1982seed' on page 11 undefined on input lin
+e 19.
+
+
+LaTeX Warning: Citation 'Braga21' on page 11 undefined on input line 19.
+
+[11]
+
+LaTeX Warning: Citation 'poisot2021imputing' on page 12 undefined on input line
+ 24.
+
+
+LaTeX Warning: Citation 'strydom2022food' on page 12 undefined on input line 24
+.
+
+
+LaTeX Warning: Citation 'seo2018predicting' on page 12 undefined on input line 
+24.
+
+
+LaTeX Warning: Citation 'banville2023constrains' on page 12 undefined on input 
+line 24.
+
+
+LaTeX Warning: Citation 'poisot2021imputing' on page 12 undefined on input line
+ 24.
+
+
+LaTeX Warning: Citation 'poisot2023network' on page 12 undefined on input line 
+24.
+
+
+Overfull \hbox (19.26991pt too wide) in paragraph at lines 24--25
+[]\T1/lmr/m/n/12 , graph mo-tif dis-tri-bu-tion-s, ma-trix fac-tor-iza-tion [],
+
+ []
+
+
+LaTeX Warning: Citation 'strydom2021roadmap' on page 12 undefined on input line
+ 28.
+
+[12]
+
+LaTeX Warning: Citation 'bello2017' on page 13 undefined on input line 33.
+
+
+LaTeX Warning: Citation 'kembel2010picante' on page 13 undefined on input line 
+33.
+
+
+LaTeX Warning: Reference `supplement' on page 13 undefined on input line 33.
+
+[13]
+
+LaTeX Warning: Citation 'maitner2018bien' on page 14 undefined on input line 41
+.
+
+
+LaTeX Warning: Citation 'jetz2012' on page 14 undefined on input line 41.
+
+[14]
+
+LaTeX Warning: Citation 'RCore' on page 15 undefined on input line 44.
+
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 4
+7.
+(/usr/share/texmf/tex/latex/lm/t1lmtt.fd
+File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+
+LaTeX Warning: Citation 'randomForest' on page 15 undefined on input line 47.
+
+
+LaTeX Warning: Citation 'vazquez2009uniting' on page 15 undefined on input line
+ 47.
+
+
+LaTeX Warning: Citation 'norberg2019comprehensive' on page 15 undefined on inpu
+t line 47.
+
+
+LaTeX Warning: Citation 'youden1950index' on page 15 undefined on input line 47
+.
+
+[15]
+
+LaTeX Warning: Citation 'randomForest' on page 16 undefined on input line 51.
+
+
+LaTeX Warning: Citation 'khalilia2011predicting' on page 16 undefined on input 
+line 51.
+
+
+LaTeX Warning: Citation 'calle2011stability' on page 16 undefined on input line
+ 51.
+
+[16] [17] [18] [19]
+
+LaTeX Warning: Citation 'richardson2000plant' on page 20 undefined on input lin
+e 90.
+
+
+LaTeX Warning: Citation 'laurindo2020drivers' on page 20 undefined on input lin
+e 90.
+
+
+LaTeX Warning: Citation 'hand2009measuring' on page 20 undefined on input line 
+93.
+
+[20]
+
+LaTeX Warning: Citation 'banville2023constrains' on page 21 undefined on input 
+line 99.
+
+
+LaTeX Warning: Citation 'poisot2021imputing' on page 21 undefined on input line
+ 99.
+
+
+LaTeX Warning: Citation 'poisot2023network' on page 21 undefined on input line 
+99.
+
+
+LaTeX Warning: Citation 'nunes2024estimated' on page 21 undefined on input line
+ 99.
+
+[21]
+
+LaTeX Warning: Citation 'tylianakis2017ecological' on page 22 undefined on inpu
+t line 102.
+
+
+LaTeX Warning: Citation 'memmott2007global' on page 22 undefined on input line 
+102.
+
+
+LaTeX Warning: Citation 'teixido2022anthropogenic' on page 22 undefined on inpu
+t line 102.
+
+
+LaTeX Warning: Citation 'lever2014sudden' on page 22 undefined on input line 10
+2.
+
+
+LaTeX Warning: Citation 'bascompte2022resilience' on page 22 undefined on input
+ line 102.
+
+
+LaTeX Warning: Citation 'fricke2020accelerating' on page 22 undefined on input 
+line 102.
+
+
+LaTeX Warning: Citation 'traveset2014mutualistic' on page 22 undefined on input
+ line 102.
+
+
+Overfull \hbox (0.807pt too wide) in paragraph at lines 102--103
+[]\T1/lmr/m/n/12 ; []. Pos-i-tive feed-back-s with-in mu-
+ []
+
+
+Overfull \hbox (25.64804pt too wide) in paragraph at lines 102--103
+\T1/lmr/m/n/12 work struc-ture and re-sult-ing as-sem-blages []; [].
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 102--103
+
+ []
+
+[22] [23] [24
+
+
+]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 142.
+
+
+Overfull \hbox (37.65567pt too wide) in paragraph at lines 145--159
+[][] 
+ []
+
+[25]
+<Fruglink/Figs/ReplicatePerformance_Polytomy.png, id=176, 337.9827pt x 227.6505
+pt>
+File: Fruglink/Figs/ReplicatePerformance_Polytomy.png Graphic file (type png)
+<use Fruglink/Figs/ReplicatePerformance_Polytomy.png>
+Package pdftex.def Info: Fruglink/Figs/ReplicatePerformance_Polytomy.png  used 
+on input line 170.
+(pdftex.def)             Requested size: 433.0pt x 291.6591pt.
+ [26
+
+
+ <./Fruglink/Figs/ReplicatePerformance_Polytomy.png>]
+<Fruglink/Figs/VarImportance_ErrBars_Short.png, id=182, 506.8536pt x 253.9086pt
+>
+File: Fruglink/Figs/VarImportance_ErrBars_Short.png Graphic file (type png)
+<use Fruglink/Figs/VarImportance_ErrBars_Short.png>
+Package pdftex.def Info: Fruglink/Figs/VarImportance_ErrBars_Short.png  used on
+ input line 180.
+(pdftex.def)             Requested size: 433.0pt x 216.912pt.
+ [27 <./Fruglink/Figs/VarImportance_ErrBars_Short.png>]
+<Fruglink/Figs/SpearmanCorplot_nolab.png, id=187, 301.72725pt x 134.904pt>
+File: Fruglink/Figs/SpearmanCorplot_nolab.png Graphic file (type png)
+<use Fruglink/Figs/SpearmanCorplot_nolab.png>
+Package pdftex.def Info: Fruglink/Figs/SpearmanCorplot_nolab.png  used on input
+ line 192.
+(pdftex.def)             Requested size: 433.0pt x 193.60085pt.
+) [28 <./Fruglink/Figs/SpearmanCorplot_nolab.png>] [29
+
+
+
+
+
+]
+\openout2 = `centralRange/manuscript.aux'.
+
+ (./centralRange/manuscript.tex
+Underfull \hbox (badness 10000) in paragraph at lines 3--4
+
+ []
+
+
+! LaTeX Error: \begin{document} ended by \end{Abstract}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6 ...oss environments and scales. \end{Abstract}
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Extra \endgroup.
+<recently read> \endgroup 
+                          
+l.6 ...oss environments and scales. \end{Abstract}
+                                                  
+Things are pretty mixed up, but I think the worst is over.
+
+! Undefined control sequence.
+l.14 ...al networks throughout recent years \citep
+                                                  {bascompte2007plant, landi...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.14 ...nclude predation events, infections \citep
+                                                  {dallas2017predicting}, fl...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.14 ...allas2017predicting}, floral visits \citep
+                                                  {Young21}, or any number o...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.14 ...their potential responses to change \citep
+                                                  {gilarranz2017effects}. Fo...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.14 ...erturbations or species extinctions \citep
+                                                  {okuyama2008network, theba...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (17.3507pt too wide) in paragraph at lines 14--15
+\T1/lmr/m/n/12 pop-u-lar for the s-tudy of e-co-log-i-cal net-work-s through-ou
+t re-cen-t years bas-compte2007plant,
+ []
+
+[30
+
+]
+! Undefined control sequence.
+l.21 ...cts on their associated communities \citep
+                                                  {traveset2017plant, maia20...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.21 ...ow they may respond to disturbances \citep
+                                                  {moulatlet2023species, mar...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.21 ...ed the importance of species traits \citep
+                                                  {watts2016influence, lazar...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.21 ...2019plant} and evolutionary history \citep
+                                                  {Gonzales2015macroecology,...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.21 ...acterized by interaction generalism \citep
+                                                  {waser1996generalization,s...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.21 ...d frequent facultative interactions \citep
+                                                  {geib2012tracing}, is of p...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.21 ...ination services in many ecosystems \citep
+                                                  {potts2010global, rodger20...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[31]
+! Undefined control sequence.
+l.26 ...rks at both local and global scales \citep
+                                                  {moulatlet2023species, dat...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.29 ...observed across multiple local webs \citep
+                                                  {poisot2012dissimilarity})...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.29 ...interactions turn over across space \citep
+                                                  {fricke2020accelerating, m...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.32 ...classical species-area relationship \citep
+                                                  {burkle2012shifts,sugiura2...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.35 ... strategies or high local abundance \citep
+                                                  {holt1997relationship, hur...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.35 ...s of different size and connectance \citep
+                                                  {dormann2017identifying, g...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[32]
+! Undefined control sequence.
+l.41 ...ors, including evolutionary history \citep
+                                                  {webb2000geographic, alzat...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.41 ...evolutionary}, dispersal limitation \citep
+                                                  {alzate2022understanding},...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.41 ...understanding}, biotic interactions \citep
+                                                  {pigot2013species,galiana2...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.41 ...3climate}, and climatic constraints \citep
+                                                  {hausharter2023niche}. As ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.41 ... a larger set of potential partners \citep
+                                                  {slatyer2013niche, batston...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.41 ...e observed in some food web systems \citep
+                                                  {slatyer2013niche}. Niche ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.41 ...bility of environments across space \citep
+                                                  {dallas2025linking}.
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (34.91183pt too wide) in paragraph at lines 41--42
+\T1/lmr/m/n/12 lim-i-ta-tion alzate2022understanding, bi-ot-ic in-ter-ac-tion-s
+ pig-ot2013species,galiana2023climate,
+ []
+
+! Undefined control sequence.
+l.47 ...o date has focused on local scales (\citep
+                                                  {maia2019plant}, but see \...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.47 ...les (\citep{maia2019plant}, but see \citep
+                                                  {moulatlet2023species}), a...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.47 ...s clear links to network properties \citep
+                                                  {gonzalez2010centrality, m...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.47 ...ity in regional or global metawebs (\citep
+                                                  {estrada2007characterizati...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.47 ...martins2025determinants} though see \citep
+                                                  {dallas2022parasite}). How...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.47 ...nover across a wide geographic area \citep
+                                                  {carstensen2014beta, siman...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.47 ...population may be relatively narrow \citep
+                                                  {bison2015upscaling, arroy...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[33] [34] [35]
+! Undefined control sequence.
+l.66 ...Clim at a 2.5 arc-minute resolution \citep
+                                                  {fick2017worldclim}. These...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.66 ...e dimensionality of our niche space \citep
+                                                  {kriticos2014extending, da...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[36] [37]
+! Undefined control sequence.
+l.91 ...ed linear models implemented in Stan\citep
+                                                  {carpenter2017stan} throug...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.91 ...rough the $R$ package \texttt{brms} \citep
+                                                  {burkner2017brms}. In orde...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.91 ...mples were sampled without thinning \citep
+                                                  {link2012thinning}. Simula...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.91 ...to traditional frequentist p-values \citep
+                                                  {shi2021reconnecting}. Rel...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[38]
+! Undefined control sequence.
+l.94 ...ss all sites in which they occurred \citep
+                                                  {baselga2015comparing}, as...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.94 ...n the $R$ package \texttt{betapart} \citep
+                                                  {baselga2012betapart}. We ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[39]
+
+LaTeX Warning: Citation 'arroyo2007display' on page 40 undefined on input line 
+104.
+
+! Undefined control sequence.
+l.104 ...le number of interactions) was low \citep
+                                                  {jordano1987patterns}. At ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[40] [41]
+! Undefined control sequence.
+l.136 ...urnover is high across their range \citep
+                                                  {martins2025determinants}....
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.139 ...eotropics and parts of Australasia \citep
+                                                  {kissling2012bird}. This s...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[42]
+! Undefined control sequence.
+l.143 ... by the availability of mutualists \citep
+                                                  {warren2014mutualism, duff...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.143 ...abiotic tolerances of some species \citep
+                                                  {warren2014mutualism, fowl...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.143 ...lability or efficacy of mutualists \citep
+                                                  {batstone2018using}. Simil...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.143 ..., promoting interaction generalism \citep
+                                                  {hurtado2024generalism}. A...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[43]
+! Undefined control sequence.
+l.146 ...ocal scales, increasing centrality \citep
+                                                  {hurtado2024generalism}. A...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.146 ...undance in restricted environments \citep
+                                                  {suarez2023dispersal}. The...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.146 ...nceptual attention in recent years \citep
+                                                  {tylianakis2008global,mora...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.149 ...applied to more peripheral species \citep
+                                                  {Cauga2019, delmas2019anal...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.149 ...alistic metacommunities to persist \citep
+                                                  {filotas2010effect}, espec...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.149 ...bitat heterogeneity or disturbance \citep
+                                                  {prakash2004habitat}. Patt...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.149 ...preciated in phenological contexts \citep
+                                                  {olesen2008temporal, chave...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.149 ...environments warrant further study \citep
+                                                  {tylianakis2017ecological}.
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (42.41821pt too wide) in paragraph at lines 149--150
+\T1/lmr/m/n/12 species may play key roles in al-low-ing mu-tu-al-is-tic meta-co
+m-mu-ni-ties to per-sist filotas2010effect,
+ []
+
+[44] [45]
+<centralRange/figs/pdf/Concept_v2_busy_sized.pdf, id=248, 703.62875pt x 520.946
+24pt>
+File: centralRange/figs/pdf/Concept_v2_busy_sized.pdf Graphic file (type pdf)
+<use centralRange/figs/pdf/Concept_v2_busy_sized.pdf>
+Package pdftex.def Info: centralRange/figs/pdf/Concept_v2_busy_sized.pdf  used 
+on input line 167.
+(pdftex.def)             Requested size: 702.78297pt x 520.317pt.
+
+Overfull \hbox (87.317pt too wide) in paragraph at lines 167--169
+[][]
+ []
+
+
+LaTeX Warning: Float too large for page by 67.28297pt on input line 169.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[46
+
+
+] [47 <./centralRange/figs/pdf/Concept_v2_busy_sized.pdf>] [48]
+<centralRange/figs/pdf/Effectplot_Metaweb_Updates.pdf, id=1158, 1035.87pt x 881
+.2925pt>
+File: centralRange/figs/pdf/Effectplot_Metaweb_Updates.pdf Graphic file (type p
+df)
+<use centralRange/figs/pdf/Effectplot_Metaweb_Updates.pdf>
+Package pdftex.def Info: centralRange/figs/pdf/Effectplot_Metaweb_Updates.pdf  
+used on input line 183.
+(pdftex.def)             Requested size: 433.0pt x 368.39215pt.
+ [49
+
+ <./centralRange/figs/pdf/Effectplot_Metaweb_Updates.pdf>]
+<centralRange/figs/pdf/gamplot.pdf, id=1188, 505.89pt x 289.08pt>
+File: centralRange/figs/pdf/gamplot.pdf Graphic file (type pdf)
+<use centralRange/figs/pdf/gamplot.pdf>
+Package pdftex.def Info: centralRange/figs/pdf/gamplot.pdf  used on input line 
+193.
+(pdftex.def)             Requested size: 433.0pt x 247.43503pt.
+ [50
+
+ <./centralRange/figs/pdf/gamplot.pdf>]
+<centralRange/figs/pdf/LocalPlot_Composite_v2.pdf, id=4292, 583.17876pt x 483.8
+075pt>
+File: centralRange/figs/pdf/LocalPlot_Composite_v2.pdf Graphic file (type pdf)
+<use centralRange/figs/pdf/LocalPlot_Composite_v2.pdf>
+Package pdftex.def Info: centralRange/figs/pdf/LocalPlot_Composite_v2.pdf  used
+ on input line 201.
+(pdftex.def)             Requested size: 433.62pt x 359.7394pt.
+
+Overfull \hbox (0.62pt too wide) in paragraph at lines 201--202
+ [][] 
+ []
+
+[51
+
+ <./centralRange/figs/pdf/LocalPlot_Composite_v2.pdf>]
+
+LaTeX Warning: Citation 'robertson1929flowers' on page 52 undefined on input li
+ne 210.
+
+<centralRange/figs/pdf/sup/sitemap.pdf, id=4367, 578.16pt x 361.35pt>
+File: centralRange/figs/pdf/sup/sitemap.pdf Graphic file (type pdf)
+<use centralRange/figs/pdf/sup/sitemap.pdf>
+Package pdftex.def Info: centralRange/figs/pdf/sup/sitemap.pdf  used on input l
+ine 214.
+(pdftex.def)             Requested size: 433.0pt x 270.62587pt.
+[52
+
+ <./centralRange/figs/pdf/sup/sitemap.pdf>]
+<centralRange/figs/pdf/sup/CentralityCorrelations.pdf, id=4376, 578.16pt x 289.
+08pt>
+File: centralRange/figs/pdf/sup/CentralityCorrelations.pdf Graphic file (type p
+df)
+<use centralRange/figs/pdf/sup/CentralityCorrelations.pdf>
+Package pdftex.def Info: centralRange/figs/pdf/sup/CentralityCorrelations.pdf  
+used on input line 223.
+(pdftex.def)             Requested size: 433.0pt x 216.50069pt.
+<centralRange/figs/pdf/sup/Local_Centrality_Distributions.pdf, id=4377, 722.7pt
+ x 578.16pt>
+File: centralRange/figs/pdf/sup/Local_Centrality_Distributions.pdf Graphic file
+ (type pdf)
+<use centralRange/figs/pdf/sup/Local_Centrality_Distributions.pdf>
+Package pdftex.def Info: centralRange/figs/pdf/sup/Local_Centrality_Distributio
+ns.pdf  used on input line 234.
+(pdftex.def)             Requested size: 433.0pt x 346.40463pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<centralRange/figs/pdf/sup/MetawebCentralityPlot.pdf, id=4378, 722.7pt x 578.16
+pt>
+File: centralRange/figs/pdf/sup/MetawebCentralityPlot.pdf Graphic file (type pd
+f)
+<use centralRange/figs/pdf/sup/MetawebCentralityPlot.pdf>
+Package pdftex.def Info: centralRange/figs/pdf/sup/MetawebCentralityPlot.pdf  u
+sed on input line 242.
+(pdftex.def)             Requested size: 433.0pt x 346.40463pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<centralRange/figs/pdf/sup/Cooccurence_vs_GeographicRange.pdf, id=4379, 722.7pt
+ x 578.16pt>
+File: centralRange/figs/pdf/sup/Cooccurence_vs_GeographicRange.pdf Graphic file
+ (type pdf)
+<use centralRange/figs/pdf/sup/Cooccurence_vs_GeographicRange.pdf>
+Package pdftex.def Info: centralRange/figs/pdf/sup/Cooccurence_vs_GeographicRan
+ge.pdf  used on input line 251.
+(pdftex.def)             Requested size: 433.0pt x 346.40463pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<centralRange/figs/pdf/sup/closenesscomparison.pdf, id=4380, 505.89pt x 505.89p
+t>
+File: centralRange/figs/pdf/sup/closenesscomparison.pdf Graphic file (type pdf)
+
+<use centralRange/figs/pdf/sup/closenesscomparison.pdf>
+Package pdftex.def Info: centralRange/figs/pdf/sup/closenesscomparison.pdf  use
+d on input line 259.
+(pdftex.def)             Requested size: 433.0pt x 433.0113pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[53 <./centralRange/figs/pdf/sup/CentralityCorrelations.pdf>] [54 <./centralRan
+ge/figs/pdf/sup/Local_Centrality_Distributions.pdf>] [55 <./centralRange/figs/p
+df/sup/MetawebCentralityPlot.pdf>] [56 <./centralRange/figs/pdf/sup/Cooccurence
+_vs_GeographicRange.pdf>] [57 <./centralRange/figs/pdf/sup/closenesscomparison.
+pdf>]
+<centralRange/figs/pdf/sup/Pairplot_Insect_Visitors_Metaweb.pdf, id=4447, 578.1
+6pt x 722.7pt>
+File: centralRange/figs/pdf/sup/Pairplot_Insect_Visitors_Metaweb.pdf Graphic fi
+le (type pdf)
+<use centralRange/figs/pdf/sup/Pairplot_Insect_Visitors_Metaweb.pdf>
+Package pdftex.def Info: centralRange/figs/pdf/sup/Pairplot_Insect_Visitors_Met
+aweb.pdf  used on input line 269.
+(pdftex.def)             Requested size: 433.0pt x 541.25174pt.
+
+
+LaTeX Warning: Float too large for page by 51.15218pt on input line 272.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<centralRange/figs/pdf/sup/Pairplot_Insect_Plants_Metaweb.pdf, id=4448, 578.16p
+t x 722.7pt>
+File: centralRange/figs/pdf/sup/Pairplot_Insect_Plants_Metaweb.pdf Graphic file
+ (type pdf)
+<use centralRange/figs/pdf/sup/Pairplot_Insect_Plants_Metaweb.pdf>
+Package pdftex.def Info: centralRange/figs/pdf/sup/Pairplot_Insect_Plants_Metaw
+eb.pdf  used on input line 276.
+(pdftex.def)             Requested size: 433.0pt x 541.25174pt.
+
+LaTeX Warning: Float too large for page by 51.15218pt on input line 280.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<centralRange/figs/pdf/sup/Pairplot_Avian_Visitors_Metaweb.pdf, id=4449, 578.16
+pt x 722.7pt>
+File: centralRange/figs/pdf/sup/Pairplot_Avian_Visitors_Metaweb.pdf Graphic fil
+e (type pdf)
+<use centralRange/figs/pdf/sup/Pairplot_Avian_Visitors_Metaweb.pdf>
+Package pdftex.def Info: centralRange/figs/pdf/sup/Pairplot_Avian_Visitors_Meta
+web.pdf  used on input line 284.
+(pdftex.def)             Requested size: 433.0pt x 541.25174pt.
+
+LaTeX Warning: Float too large for page by 22.15218pt on input line 288.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<centralRange/figs/pdf/sup/Pairplot_Avian_Plants_Metaweb.pdf, id=4450, 578.16pt
+ x 722.7pt>
+File: centralRange/figs/pdf/sup/Pairplot_Avian_Plants_Metaweb.pdf Graphic file 
+(type pdf)
+<use centralRange/figs/pdf/sup/Pairplot_Avian_Plants_Metaweb.pdf>
+Package pdftex.def Info: centralRange/figs/pdf/sup/Pairplot_Avian_Plants_Metawe
+b.pdf  used on input line 292.
+(pdftex.def)             Requested size: 433.0pt x 541.25174pt.
+
+LaTeX Warning: Float too large for page by 51.15218pt on input line 296.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<centralRange/figs/pdf/sup/Pairplot_Plants_Local.pdf, id=4451, 578.16pt x 722.7
+pt>
+File: centralRange/figs/pdf/sup/Pairplot_Plants_Local.pdf Graphic file (type pd
+f)
+<use centralRange/figs/pdf/sup/Pairplot_Plants_Local.pdf>
+Package pdftex.def Info: centralRange/figs/pdf/sup/Pairplot_Plants_Local.pdf  u
+sed on input line 301.
+(pdftex.def)             Requested size: 433.0pt x 541.25174pt.
+
+LaTeX Warning: Float too large for page by 48.81886pt on input line 305.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<centralRange/figs/pdf/sup/Pairplot_Visitors_Local.pdf, id=4452, 578.16pt x 722
+.7pt>
+File: centralRange/figs/pdf/sup/Pairplot_Visitors_Local.pdf Graphic file (type 
+pdf)
+<use centralRange/figs/pdf/sup/Pairplot_Visitors_Local.pdf>
+Package pdftex.def Info: centralRange/figs/pdf/sup/Pairplot_Visitors_Local.pdf 
+ used on input line 309.
+(pdftex.def)             Requested size: 433.0pt x 541.25174pt.
+
+LaTeX Warning: Float too large for page by 51.15218pt on input line 313.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) [58
+
+] [59 <./centralRange/figs/pdf/sup/Pairplot_Insect_Visitors_Metaweb.pdf>]
+[60 <./centralRange/figs/pdf/sup/Pairplot_Insect_Plants_Metaweb.pdf>] [61 <./ce
+ntralRange/figs/pdf/sup/Pairplot_Avian_Visitors_Metaweb.pdf>] [62 <./centralRan
+ge/figs/pdf/sup/Pairplot_Avian_Plants_Metaweb.pdf>] [63 <./centralRange/figs/pd
+f/sup/Pairplot_Plants_Local.pdf>] [64 <./centralRange/figs/pdf/sup/Pairplot_Vis
+itors_Local.pdf>] [65
+
+
+
+]
+\openout2 = `HelmBiogeog/manuscript.aux'.
+
+ (./HelmBiogeog/manuscript.tex [66
+
+]
+! Undefined control sequence.
+l.11 ...tion and colonization, respectively \citep
+                                                  {macarthur2001}. Despite b...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.11 ... area, with numerous open questions \citep
+                                                  {patino2017}. This is perh...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.11 ...ation of species-area relationships \citep
+                                                  {losos2000, peay2007}. Fur...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.11 ... species functional trait variation \citep
+                                                  {jacquet2017}, predator-pr...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.11 ...et2017}, predator-prey interactions \citep
+                                                  {gravel2011}, and composit...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.11 ...nal differences between communities \citep
+                                                  {lu2018}. It is clear that...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: \begin{document} ended by \end{Abstract}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.12 \end{Abstract}
+                   
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Extra \endgroup.
+<recently read> \endgroup 
+                          
+l.12 \end{Abstract}
+                   
+Things are pretty mixed up, but I think the worst is over.
+
+! Undefined control sequence.
+l.18 ...udy of species interaction networks \citep
+                                                  {delmas2019, dormann2017},...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.18 ... these species interaction networks \citep
+                                                  {tylianakis2017}, with str...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.18 ...s such as nestedness and modularity \citep
+                                                  {dalsgaard2013, dormann201...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.18 ...egards to island area and isolation \citep
+                                                  {sugiura2010, dormann2017,...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.18 ...017, tylianakis2017}. For instance, \citet
+                                                  {traveset2016} compared ma...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.18 ... and pollinator species. Relatedly, \citet
+                                                  {dalsgaard2013} found that...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[67
+
+]
+! Undefined control sequence.
+l.25 ...land populations -- as evidenced by \citet
+                                                  {carstensen2018} -- then d...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.25 ...tween groups of habitat specialists \citep
+                                                  {santos2016}. Meanwhile, i...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[68]
+! Undefined control sequence.
+l.34 ...ds are becoming increasingly common \citep
+                                                  {traveset2016, dalsgaard20...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.34 ...etworks have lagged behind (but see \citep
+                                                  {gravel2011}). However, an...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.53 ...ondon Natural History Museum (LNHM) \citep
+                                                  {gibson2005}, and accessed...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.53 ...sing the \texttt{helminthR} package \citep
+                                                  {helminthr}. These data cu...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.53 ...s of host-parasite interaction data \citep
+                                                  {dallas2018}, despite bein...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.53 ...s), Acanthocephalans, and Nematodes \citep
+                                                  {gibson2005}. We started b...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[69]
+! Undefined control sequence.
+l.57 ...aphy of islands were retrieved from \citep
+                                                  {Weigelt2013}, including i...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.57 ... explaining insular plant diversity \citep
+                                                  {weigelt2013quantifying}. ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.57 ...he group (e.g. Trinidad). Data from \citep
+                                                  {Weigelt2013} were availab...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[70]
+! Undefined control sequence.
+l.62 ...ted to network structural stability \citep
+                                                  {thebault2010stability, da...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.62 ...inos2019mutualistic} and resilience \citep
+                                                  {thebault2010stability, su...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.62 ...size (number of interacting species)\citep
+                                                  {bascompte2003nested, niel...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.65 ...emoving the effects of network size \citep
+                                                  {chagnon2015}, specificall...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.65 ...n2015}, specifically for nestedness \citep
+                                                  {strona2014, song2017some}...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.65 ...lap and decreasing fill proposed by \citet
+                                                  {song2017some}. Calculated...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.65 ... nodes of each class, respectively. \citet
+                                                  {song2017some} show that t...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.65 ...mplemented in the $maxNODF$ package \citep
+                                                  {hoeppke2021maxnodf}. For ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.65 ...ng the maximum potential NODF value \citep
+                                                  {hoeppke2021maxnodf}. We d...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[71]
+! Undefined control sequence.
+l.68 ... as implemented in the MASS package \citep
+                                                  {MASS2002}. We utilized ne...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[72] [73]
+! Undefined control sequence.
+l.102 ...ns and thus lower extinction rates \citep
+                                                  {macarthur2001}, as well a...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.102 ...dates a wider diversity of species \citep
+                                                  {triantis2008measurements,...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.104 ...ls due to lower colonization rates \citep
+                                                  {macarthur2001}. While we ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.104 ...e proxy for colonization potential \citep
+                                                  {Weigelt2013, weigelt2013q...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[74]
+! Undefined control sequence.
+l.106 ... results in interaction nestedness \citep
+                                                  {vazquez2005species, lima2...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.106 ...d in a number of parasitic systems \citep
+                                                  {krasnov2011nestedness, li...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.108 ...ogeography of mutualistic networks \citep
+                                                  {sugiura2010, dalsgaard201...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.108 ...acity than their free-living hosts \citep
+                                                  {poulin2004macroecological...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.108 ...dent on patterns of host dispersal \citep
+                                                  {font2003global, bataille2...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.108 ...ent populations on a given island (\citet
+                                                  {ellis2023host} give an ex...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.108 ...o be retained during colonizations \citep
+                                                  {schatz2023patterns}. Thus...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (40.85185pt too wide) in paragraph at lines 108--109
+\T1/lmr/m/n/12 al-ly have much low-er dis-per-sal ca-pac-i-ty than their free-l
+iving host-s poulin2004macroecological.
+ []
+
+[75]
+! Undefined control sequence.
+l.110 ... features and sampling limitations \citep
+                                                  {nielsen2007ecological, ll...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.110 ...nces or merely incomplete sampling \citep
+                                                  {poulin2016missing, walker...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (17.09253pt too wide) in paragraph at lines 110--111
+\T1/lmr/m/n/12 may be shaped by both bi-o-log-i-cal fea-tures and sam-pling lim
+-i-ta-tion-s nielsen2007ecological,
+ []
+
+[76]
+! Undefined control sequence.
+l.112 ... the London Natural History Museum \citet
+                                                  {gibson2005} still provide...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[77]
+
+! Package biblatex Error: '\bibliographystyle' invalid for 'biblatex'.
+
+See the biblatex package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.115 \bibliographystyle{plainnat}
+                                  
+Use the package option 'style' instead.
+I'm ignoring this command.
+
+
+! LaTeX Error: Can be used only in preamble.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.116 \bibliography
+                   {var}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[78
+
+]
+<HelmBiogeog/Figures/conceptual/concept.pdf, id=4556, 458.44719pt x 402.00154pt
+>
+File: HelmBiogeog/Figures/conceptual/concept.pdf Graphic file (type pdf)
+<use HelmBiogeog/Figures/conceptual/concept.pdf>
+Package pdftex.def Info: HelmBiogeog/Figures/conceptual/concept.pdf  used on in
+put line 125.
+(pdftex.def)             Requested size: 433.0pt x 379.69104pt.
+ [79
+
+ <./HelmBiogeog/Figures/conceptual/concept.pdf>]
+<HelmBiogeog/Figures/NB_MarginalPlots_Wide.pdf, id=4591, 578.16pt x 252.945pt>
+File: HelmBiogeog/Figures/NB_MarginalPlots_Wide.pdf Graphic file (type pdf)
+<use HelmBiogeog/Figures/NB_MarginalPlots_Wide.pdf>
+Package pdftex.def Info: HelmBiogeog/Figures/NB_MarginalPlots_Wide.pdf  used on
+ input line 136.
+(pdftex.def)             Requested size: 433.0pt x 189.43811pt.
+ [80
+
+ <./HelmBiogeog/Figures/NB_MarginalPlots_Wide.pdf>]
+<HelmBiogeog/Figures/NODFc_plots.pdf, id=4613, 433.62pt x 433.62pt>
+File: HelmBiogeog/Figures/NODFc_plots.pdf Graphic file (type pdf)
+<use HelmBiogeog/Figures/NODFc_plots.pdf>
+Package pdftex.def Info: HelmBiogeog/Figures/NODFc_plots.pdf  used on input lin
+e 145.
+(pdftex.def)             Requested size: 433.61894pt x 433.61894pt.
+
+Overfull \hbox (0.61894pt too wide) in paragraph at lines 145--146
+ [] 
+ []
+
+[81
+
+ <./HelmBiogeog/Figures/NODFc_plots.pdf>]
+<HelmBiogeog/Figures/GMCC_NODFc_boxplots.pdf, id=4625, 289.08pt x 433.62pt>
+File: HelmBiogeog/Figures/GMCC_NODFc_boxplots.pdf Graphic file (type pdf)
+<use HelmBiogeog/Figures/GMCC_NODFc_boxplots.pdf>
+Package pdftex.def Info: HelmBiogeog/Figures/GMCC_NODFc_boxplots.pdf  used on i
+nput line 156.
+(pdftex.def)             Requested size: 289.07928pt x 433.61894pt.
+ [82
+
+ <./HelmBiogeog/Figures/GMCC_NODFc_boxplots.pdf>]
+! Undefined control sequence.
+l.186 \affil
+            [a]{Department of Biological Sciences, University of South Carol...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.187 \affil
+            [b]{Center for the Ecology of Infectious Diseases, University of...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Command \Authands undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.190 \renewcommand\Authands
+                            { and }
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+l.195 \beginsupplement
+                      
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.201 ...sures of network nestedness ($\eta$\citep
+                                                  {jonhson2013factors}, spec...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.203 ...k nestedness. However, as shown by \citet
+                                                  {song2017some}, $NODF_c$ i...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Reference `fig:nestMod' on page 83 undefined on input line 203.
+
+[83
+
+]
+<HelmBiogeog/Figures/Netsize_corplot.pdf, id=4637, 433.62pt x 433.62pt>
+File: HelmBiogeog/Figures/Netsize_corplot.pdf Graphic file (type pdf)
+<use HelmBiogeog/Figures/Netsize_corplot.pdf>
+Package pdftex.def Info: HelmBiogeog/Figures/Netsize_corplot.pdf  used on input
+ line 207.
+(pdftex.def)             Requested size: 433.0pt x 433.02345pt.
+
+! Undefined control sequence.
+<argument> ...asures of nestedness ($\eta $\citep 
+                                                  {jonhson2013factors}, spec...
+l.208 ...related with network size in our dataset}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> ...asures of nestedness ($\eta $\citep 
+                                                  {jonhson2013factors}, spec...
+l.208 ...related with network size in our dataset}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> ...asures of nestedness ($\eta $\citep 
+                                                  {jonhson2013factors}, spec...
+l.208 ...related with network size in our dataset}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> ...asures of nestedness ($\eta $\citep 
+                                                  {jonhson2013factors}, spec...
+l.208 ...related with network size in our dataset}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<HelmBiogeog/Figures/NODF.z_Plots_Supplement.pdf, id=4638, 433.62pt x 433.62pt>
+
+File: HelmBiogeog/Figures/NODF.z_Plots_Supplement.pdf Graphic file (type pdf)
+<use HelmBiogeog/Figures/NODF.z_Plots_Supplement.pdf>
+Package pdftex.def Info: HelmBiogeog/Figures/NODF.z_Plots_Supplement.pdf  used 
+on input line 216.
+(pdftex.def)             Requested size: 433.0pt x 433.02345pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[84] [85 <./HelmBiogeog/Figures/Netsize_corplot.pdf>] [86 <./HelmBiogeog/Figure
+s/NODF.z_Plots_Supplement.pdf>]
+<HelmBiogeog/Figures/Spectral.z_Plots_Supplement.pdf, id=4662, 433.62pt x 433.6
+2pt>
+File: HelmBiogeog/Figures/Spectral.z_Plots_Supplement.pdf Graphic file (type pd
+f)
+<use HelmBiogeog/Figures/Spectral.z_Plots_Supplement.pdf>
+Package pdftex.def Info: HelmBiogeog/Figures/Spectral.z_Plots_Supplement.pdf  u
+sed on input line 226.
+(pdftex.def)             Requested size: 433.0pt x 433.02345pt.
+ [87
+
+ <./HelmBiogeog/Figures/Spectral.z_Plots_Supplement.pdf>]
+Overfull \hbox (88.85934pt too wide) in paragraph at lines 241--253
+ [][] 
+ []
+
+<HelmBiogeog/Figures/ParDiv_diagnostics.pdf, id=4674, 505.89pt x 505.89pt>
+File: HelmBiogeog/Figures/ParDiv_diagnostics.pdf Graphic file (type pdf)
+<use HelmBiogeog/Figures/ParDiv_diagnostics.pdf>
+Package pdftex.def Info: HelmBiogeog/Figures/ParDiv_diagnostics.pdf  used on in
+put line 260.
+(pdftex.def)             Requested size: 433.0pt x 433.0113pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<HelmBiogeog/Figures/HostDiv_diagnostics.pdf, id=4675, 505.89pt x 505.89pt>
+File: HelmBiogeog/Figures/HostDiv_diagnostics.pdf Graphic file (type pdf)
+<use HelmBiogeog/Figures/HostDiv_diagnostics.pdf>
+Package pdftex.def Info: HelmBiogeog/Figures/HostDiv_diagnostics.pdf  used on i
+nput line 268.
+(pdftex.def)             Requested size: 433.0pt x 433.0113pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<HelmBiogeog/Figures/NODFc_Distance_diagnostics.pdf, id=4676, 505.89pt x 505.89
+pt>
+File: HelmBiogeog/Figures/NODFc_Distance_diagnostics.pdf Graphic file (type pdf
+)
+<use HelmBiogeog/Figures/NODFc_Distance_diagnostics.pdf>
+Package pdftex.def Info: HelmBiogeog/Figures/NODFc_Distance_diagnostics.pdf  us
+ed on input line 276.
+(pdftex.def)             Requested size: 433.0pt x 433.0113pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[88] [89 <./HelmBiogeog/Figures/ParDiv_diagnostics.pdf>] [90 <./HelmBiogeog/Fig
+ures/HostDiv_diagnostics.pdf>] [91 <./HelmBiogeog/Figures/NODFc_Distance_diagno
+stics.pdf>]
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.283 
+      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Undefined control sequence.
+l.286 ... Cite arxiv paper and Fortuna 2010 \citep
+                                                  {fortuna2010nestedness} an...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[92
+
+]) [93
+
+
+
+
+]
+\openout2 = `Review/manuscript.aux'.
+
+ (./Review/manuscript.tex [94
+
+]
+
+LaTeX Warning: Citation 'boucher1982ecology' on page 95 undefined on input line
+ 11.
+
+
+LaTeX Warning: Citation 'weiblen2015evolutionary' on page 95 undefined on input
+ line 11.
+
+
+LaTeX Warning: Citation 'porto2020pollination' on page 95 undefined on input li
+ne 11.
+
+
+LaTeX Warning: Citation 'ollerton2011many' on page 95 undefined on input line 1
+1.
+
+
+LaTeX Warning: Citation 'rooney2012integrating' on page 95 undefined on input l
+ine 15.
+
+
+LaTeX Warning: Citation 'christian1996nitrogen' on page 95 undefined on input l
+ine 15.
+
+
+LaTeX Warning: Citation 'dallas2015co' on page 95 undefined on input line 15.
+
+
+LaTeX Warning: Citation 'vanbergen2017network' on page 95 undefined on input li
+ne 15.
+
+
+LaTeX Warning: Citation 'rohr2014structural' on page 95 undefined on input line
+ 15.
+
+
+Overfull \hbox (33.21638pt too wide) in paragraph at lines 15--16
+\T1/lmr/m/n/12 parasite in-ter-ac-tion-s [], and mu-tu-al-is-tic in-ter-ac-tion
+-s [];
+ []
+
+[95
+
+]
+
+LaTeX Warning: Citation 'valdovinos2019mutualistic' on page 96 undefined on inp
+ut line 28.
+
+
+LaTeX Warning: Citation 'okuyama2008network' on page 96 undefined on input line
+ 28.
+
+
+LaTeX Warning: Citation 'thebault2010stability' on page 96 undefined on input l
+ine 28.
+
+
+LaTeX Warning: Citation 'suweis2013emergence' on page 96 undefined on input lin
+e 28.
+
+
+LaTeX Warning: Citation 'saavedra2016nested' on page 96 undefined on input line
+ 28.
+
+
+LaTeX Warning: Citation 'grilli2017feasibility' on page 96 undefined on input l
+ine 28.
+
+
+LaTeX Warning: Citation 'wang2023interspecific' on page 96 undefined on input l
+ine 28.
+
+
+LaTeX Warning: Citation 'bascompte2022resilience' on page 96 undefined on input
+ line 28.
+
+
+LaTeX Warning: Citation 'martins2024propagation' on page 96 undefined on input 
+line 28.
+
+
+LaTeX Warning: Citation 'suweis2015effect' on page 96 undefined on input line 2
+8.
+
+
+Overfull \hbox (10.36028pt too wide) in paragraph at lines 28--29
+\T1/lmr/m/n/12 ``struc-tural sta-bil-i-ty" that de-fines the safe op-er-a-tiona
+l s-pace []
+ []
+
+[96]
+
+LaTeX Warning: Citation 'valdovinos2019mutualistic' on page 97 undefined on inp
+ut line 32.
+
+
+LaTeX Warning: Citation 'hale2021ecological' on page 97 undefined on input line
+ 32.
+
+
+LaTeX Warning: Citation 'lever2014sudden' on page 97 undefined on input line 32
+.
+
+
+LaTeX Warning: Citation 'van2021facultative' on page 97 undefined on input line
+ 32.
+
+
+LaTeX Warning: Citation 'cai2020mutualistic' on page 97 undefined on input line
+ 32.
+
+
+LaTeX Warning: Citation 'landi2018complexity' on page 97 undefined on input lin
+e 37.
+
+
+LaTeX Warning: Citation 'thebault2010stability' on page 97 undefined on input l
+ine 37.
+
+
+LaTeX Warning: Citation 'okuyama2008network' on page 97 undefined on input line
+ 37.
+
+
+LaTeX Warning: Citation 'fricke2020accelerating' on page 97 undefined on input 
+line 37.
+
+
+LaTeX Warning: Citation 'vollstadt2022plant' on page 97 undefined on input line
+ 37.
+
+
+LaTeX Warning: Citation 'martins2024propagation' on page 97 undefined on input 
+line 37.
+
+
+Overfull \hbox (40.10704pt too wide) in paragraph at lines 37--38
+\T1/lmr/m/n/12 hys-tere-sis, etc) are heav-i-ly im-pact-ed by net-work struc-tu
+ral prop-er-ties [].
+ []
+
+
+Overfull \hbox (59.02332pt too wide) in paragraph at lines 37--38
+\T1/lmr/m/n/12 faster prop-a-ga-tion of dis-tur-bances in the face of a chang-i
+ng environment[];
+ []
+
+[97]
+
+LaTeX Warning: Citation 'bascompte2003nested' on page 98 undefined on input lin
+e 41.
+
+
+LaTeX Warning: Citation 'bascompte2006asymmetric' on page 98 undefined on input
+ line 41.
+
+
+LaTeX Warning: Citation 'thebault2010stability' on page 98 undefined on input l
+ine 41.
+
+
+LaTeX Warning: Citation 'bascompte2022resilience' on page 98 undefined on input
+ line 41.
+
+
+LaTeX Warning: Citation 'saavedra2016nested' on page 98 undefined on input line
+ 41.
+
+
+LaTeX Warning: Citation 'allesina2012stability' on page 98 undefined on input l
+ine 41.
+
+
+LaTeX Warning: Citation 'suweis2013emergence' on page 98 undefined on input lin
+e 41.
+
+
+LaTeX Warning: Citation 'may1973stability' on page 98 undefined on input line 4
+1.
+
+
+LaTeX Warning: Citation 'allesina2012stability' on page 98 undefined on input l
+ine 41.
+
+
+LaTeX Warning: Citation 'saavedra2016nested' on page 98 undefined on input line
+ 41.
+
+
+LaTeX Warning: Citation 'thebault2010stability' on page 98 undefined on input l
+ine 41.
+
+
+LaTeX Warning: Citation 'grilli2017feasibility' on page 98 undefined on input l
+ine 41.
+
+
+LaTeX Warning: Citation 'corro2021annual' on page 98 undefined on input line 41
+.
+
+
+LaTeX Warning: Citation 'van2021facultative' on page 98 undefined on input line
+ 41.
+
+
+LaTeX Warning: Citation 'valdovinos2016niche' on page 98 undefined on input lin
+e 41.
+
+
+LaTeX Warning: Citation 'landi2018complexity' on page 98 undefined on input lin
+e 41.
+
+
+Overfull \hbox (2.57614pt too wide) in paragraph at lines 41--42
+\T1/lmr/m/n/12 in a broad-er, gen-er-al-ist core []; [];
+ []
+
+
+Overfull \hbox (7.11227pt too wide) in paragraph at lines 41--42
+[]\T1/lmr/m/n/12 , yet de-crease it-s sta-bil-i-ty at e-qui-lib-ri-um [].
+ []
+
+[98]
+
+LaTeX Warning: Citation 'borrelli2015selection' on page 99 undefined on input l
+ine 44.
+
+
+LaTeX Warning: Citation 'fahimipour2014dynamics' on page 99 undefined on input 
+line 44.
+
+
+LaTeX Warning: Citation 'dallas2018compositional' on page 99 undefined on input
+ line 44.
+
+
+LaTeX Warning: Citation 'petanidou2008long' on page 99 undefined on input line 
+44.
+
+
+LaTeX Warning: Citation 'dupont2009spatio' on page 99 undefined on input line 4
+4.
+
+
+LaTeX Warning: Citation 'burkle2011future' on page 99 undefined on input line 4
+4.
+
+
+LaTeX Warning: Citation 'dehling2020similar' on page 99 undefined on input line
+ 44.
+
+
+LaTeX Warning: Citation 'ten2024latitudinal' on page 99 undefined on input line
+ 44.
+
+
+LaTeX Warning: Citation 'saravia2022ecological' on page 99 undefined on input l
+ine 44.
+
+
+LaTeX Warning: Citation 'cai2020mutualistic' on page 99 undefined on input line
+ 44.
+
+
+LaTeX Warning: Citation 'saravia2022ecological' on page 99 undefined on input l
+ine 44.
+
+
+LaTeX Warning: Citation 'maynard2018network' on page 99 undefined on input line
+ 44.
+
+
+LaTeX Warning: Citation 'pellissier2018comparing' on page 99 undefined on input
+ line 44.
+
+
+LaTeX Warning: Citation 'vermaat2009major' on page 99 undefined on input line 4
+4.
+
+
+LaTeX Warning: Citation 'fortuna2010nestedness' on page 99 undefined on input l
+ine 44.
+
+
+LaTeX Warning: Citation 'poisot2014ecological' on page 99 undefined on input li
+ne 44.
+
+
+LaTeX Warning: Citation 'pellissier2018comparing' on page 99 undefined on input
+ line 44.
+
+
+LaTeX Warning: Citation 'dormann2017identifying' on page 99 undefined on input 
+line 44.
+
+
+Overfull \hbox (32.86081pt too wide) in paragraph at lines 44--45
+\T1/lmr/m/n/12 cy of net-work struc-tural prop-er-ties across s-cales in both t
+roph-ic []
+ []
+
+
+Overfull \hbox (10.77661pt too wide) in paragraph at lines 44--45
+[]\T1/lmr/m/n/12 ; []; []; [].
+ []
+
+
+Overfull \hbox (6.5267pt too wide) in paragraph at lines 44--45
+\T1/lmr/m/n/12 use-ful []; []; [];
+ []
+
+[99]
+
+LaTeX Warning: Citation 'fortuna2006habitat' on page 100 undefined on input lin
+e 53.
+
+
+LaTeX Warning: Citation 'bascompte2006asymmetric' on page 100 undefined on inpu
+t line 53.
+
+
+LaTeX Warning: Citation 'yohe2025frugivore' on page 100 undefined on input line
+ 53.
+
+
+LaTeX Warning: Citation 'schleuning2014loss' on page 100 undefined on input lin
+e 53.
+
+
+LaTeX Warning: Citation 'bascompte2003nested' on page 100 undefined on input li
+ne 53.
+
+
+LaTeX Warning: Citation 'arceo2020plant' on page 100 undefined on input line 53
+.
+
+
+LaTeX Warning: Citation 'arceo2020plant' on page 100 undefined on input line 53
+.
+
+
+LaTeX Warning: Citation 'bascompte2003nested' on page 100 undefined on input li
+ne 53.
+
+
+LaTeX Warning: Citation 'guimaraes2017indirect' on page 100 undefined on input 
+line 53.
+
+
+LaTeX Warning: Citation 'bastolla2009architecture' on page 100 undefined on inp
+ut line 53.
+
+
+LaTeX Warning: Citation 'Gonzales2015macroecology' on page 100 undefined on inp
+ut line 53.
+
+
+Overfull \hbox (88.43886pt too wide) in paragraph at lines 53--54
+\T1/lmr/m/n/12 met-ric spe-cial-iza-tion wide-ly ob-served in both seed-dispers
+al[]; []
+ []
+
+[100]
+
+LaTeX Warning: Citation 'ramos2018modularity' on page 101 undefined on input li
+ne 57.
+
+
+LaTeX Warning: Citation 'Gonzales2015macroecology' on page 101 undefined on inp
+ut line 57.
+
+
+LaTeX Warning: Citation 'sebastian2017drivers' on page 101 undefined on input l
+ine 57.
+
+
+LaTeX Warning: Citation 'watts2016influence' on page 101 undefined on input lin
+e 57.
+
+
+LaTeX Warning: Citation 'russo2014patterns' on page 101 undefined on input line
+ 57.
+
+
+LaTeX Warning: Citation 'trojelsgaard2013macroecology' on page 101 undefined on
+ input line 64.
+
+
+LaTeX Warning: Citation 'adedoja2018insect' on page 101 undefined on input line
+ 64.
+
+
+LaTeX Warning: Citation 'lara2019beta' on page 101 undefined on input line 64.
+
+
+LaTeX Warning: Citation 'classen2020specialization' on page 101 undefined on in
+put line 64.
+
+
+Overfull \hbox (39.5849pt too wide) in paragraph at lines 64--65
+\T1/lmr/m/n/12 plant-pollinator networks[]; []; [],
+ []
+
+[101]
+
+LaTeX Warning: Citation 'welti2015structure' on page 102 undefined on input lin
+e 68.
+
+
+LaTeX Warning: Citation 'Gonzales2015macroecology' on page 102 undefined on inp
+ut line 68.
+
+
+LaTeX Warning: Citation 'dalsgaard2013historical' on page 102 undefined on inpu
+t line 68.
+
+
+LaTeX Warning: Citation 'tylianakis2017ecological' on page 102 undefined on inp
+ut line 74.
+
+[102]
+
+LaTeX Warning: Citation 'zettlemoyer2019phenology' on page 103 undefined on inp
+ut line 77.
+
+
+LaTeX Warning: Citation 'burkle2013plant' on page 103 undefined on input line 7
+7.
+
+
+LaTeX Warning: Citation 'teixido2022anthropogenic' on page 103 undefined on inp
+ut line 77.
+
+
+LaTeX Warning: Citation 'memmott2007global' on page 103 undefined on input line
+ 77.
+
+
+LaTeX Warning: Citation 'kudo2019spring' on page 103 undefined on input line 77
+.
+
+
+LaTeX Warning: Citation 'de2023warming' on page 103 undefined on input line 77.
+
+
+
+LaTeX Warning: Citation 'gerard2020global' on page 103 undefined on input line 
+77.
+
+
+LaTeX Warning: Citation 'encinas2012phenology' on page 103 undefined on input l
+ine 77.
+
+
+LaTeX Warning: Citation 'wang2023interspecific' on page 103 undefined on input 
+line 77.
+
+[103]
+
+LaTeX Warning: Citation 'warren2014mutualism' on page 104 undefined on input li
+ne 80.
+
+
+LaTeX Warning: Citation 'warren2014mutualism' on page 104 undefined on input li
+ne 80.
+
+
+LaTeX Warning: Citation 'costa2018defaunation' on page 104 undefined on input l
+ine 83.
+
+
+LaTeX Warning: Citation 'toby2010mutualisms' on page 104 undefined on input lin
+e 83.
+
+
+LaTeX Warning: Citation 'tylianakis2008global' on page 104 undefined on input l
+ine 83.
+
+
+LaTeX Warning: Citation 'schleuning2016ecological' on page 104 undefined on inp
+ut line 83.
+
+
+LaTeX Warning: Citation 'freeman2018climate' on page 104 undefined on input lin
+e 83.
+
+[104]
+
+LaTeX Warning: Citation 'cruz2023mutualisms' on page 105 undefined on input lin
+e 87.
+
+
+LaTeX Warning: Citation 'hoover2012warming' on page 105 undefined on input line
+ 87.
+
+
+LaTeX Warning: Citation 'gerard2020global' on page 105 undefined on input line 
+87.
+
+
+LaTeX Warning: Citation 'gerard2020global' on page 105 undefined on input line 
+87.
+
+
+LaTeX Warning: Citation 'cruz2023mutualisms' on page 105 undefined on input lin
+e 87.
+
+[105]
+
+LaTeX Warning: Citation 'theodorou2017structure' on page 106 undefined on input
+ line 92.
+
+
+LaTeX Warning: Citation 'aizen2012specialization' on page 106 undefined on inpu
+t line 92.
+
+
+LaTeX Warning: Citation 'maurer2024landscape' on page 106 undefined on input li
+ne 92.
+
+
+LaTeX Warning: Citation 'birkenbach2024land' on page 106 undefined on input lin
+e 92.
+
+
+LaTeX Warning: Citation 'theodorou2017structure' on page 106 undefined on input
+ line 96.
+
+
+LaTeX Warning: Citation 'schneiberg2020urbanization' on page 106 undefined on i
+nput line 96.
+
+
+LaTeX Warning: Citation 'maurer2024landscape' on page 106 undefined on input li
+ne 96.
+
+
+LaTeX Warning: Citation 'birkenbach2024land' on page 106 undefined on input lin
+e 96.
+
+
+LaTeX Warning: Citation 'rossi2025anthropogenic' on page 106 undefined on input
+ line 96.
+
+
+LaTeX Warning: Citation 'salazar2020frugivory' on page 106 undefined on input l
+ine 96.
+
+
+Overfull \hbox (99.54861pt too wide) in paragraph at lines 96--97
+\T1/lmr/m/n/12 vid-u-al species or in-ter-ac-tion-s at a giv-en site []; [];
+ []
+
+[106]
+
+LaTeX Warning: Citation 'fortuna2006habitat' on page 107 undefined on input lin
+e 100.
+
+
+LaTeX Warning: Citation 'menke2012plant' on page 107 undefined on input line 10
+0.
+
+
+LaTeX Warning: Citation 'menke2012plant' on page 107 undefined on input line 10
+0.
+
+
+LaTeX Warning: Citation 'liu2023impact' on page 107 undefined on input line 100
+.
+
+[107]
+
+LaTeX Warning: Citation 'piechnik2008food' on page 108 undefined on input line 
+113.
+
+
+LaTeX Warning: Citation 'emer2016species' on page 108 undefined on input line 1
+13.
+
+
+LaTeX Warning: Citation 'richardson2000plant' on page 108 undefined on input li
+ne 113.
+
+
+LaTeX Warning: Citation 'stouffer2014exotic' on page 108 undefined on input lin
+e 113.
+
+
+LaTeX Warning: Citation 'minoarivelo2016invading' on page 108 undefined on inpu
+t line 113.
+
+
+LaTeX Warning: Citation 'russo2014patterns' on page 108 undefined on input line
+ 113.
+
+
+LaTeX Warning: Citation 'fricke2020accelerating' on page 108 undefined on input
+ line 116.
+
+
+LaTeX Warning: Citation 'richardson2000plant' on page 108 undefined on input li
+ne 116.
+
+
+LaTeX Warning: Citation 'prior2015mutualism' on page 108 undefined on input lin
+e 116.
+
+
+LaTeX Warning: Citation 'vollstadt2022plant' on page 108 undefined on input lin
+e 116.
+
+
+LaTeX Warning: Citation 'valdovinos2009structure' on page 108 undefined on inpu
+t line 116.
+
+
+LaTeX Warning: Citation 'aslan2019implications' on page 108 undefined on input 
+line 116.
+
+
+LaTeX Warning: Citation 'zettlemoyer2019phenology' on page 108 undefined on inp
+ut line 116.
+
+
+LaTeX Warning: Citation 'vidal2021variable' on page 108 undefined on input line
+ 116.
+
+
+LaTeX Warning: Citation 'stebbins1970adaptive' on page 108 undefined on input l
+ine 116.
+
+
+LaTeX Warning: Citation 'guimaraes2017indirect' on page 108 undefined on input 
+line 116.
+
+
+LaTeX Warning: Citation 'medeiros2018geographic' on page 108 undefined on input
+ line 116.
+
+
+LaTeX Warning: Citation 'VizentinBugoni2021' on page 108 undefined on input lin
+e 116.
+
+
+Overfull \hbox (102.26033pt too wide) in paragraph at lines 116--117
+\T1/lmr/m/n/12 struc-tural prop-er-ties than al-low-ing them to per-sist []; []
+.
+ []
+
+
+Overfull \hbox (88.72662pt too wide) in paragraph at lines 116--117
+\T1/lmr/m/n/12 part-ner-s, their net ef-fec-t may re-main neg-a-tive when in-di
+-rec-t im-pact-s are considered[].
+ []
+
+[108]
+
+LaTeX Warning: Citation 'piechnik2008food' on page 109 undefined on input line 
+120.
+
+
+LaTeX Warning: Citation 'fricke2020accelerating' on page 109 undefined on input
+ line 120.
+
+
+LaTeX Warning: Citation 'aizen2008invasive' on page 109 undefined on input line
+ 120.
+
+
+LaTeX Warning: Citation 'traveset2014mutualistic' on page 109 undefined on inpu
+t line 120.
+
+
+Overfull \hbox (1.09587pt too wide) in paragraph at lines 120--121
+\T1/lmr/m/n/12 one might ex-pec-t di-rec-tion-al changes in net-work prop-er-ti
+es as-so-ci-at-ed with widespread
+ []
+
+[109]
+
+LaTeX Warning: Citation 'minoarivelo2016invading' on page 110 undefined on inpu
+t line 123.
+
+
+LaTeX Warning: Citation 'vanbergen2017network' on page 110 undefined on input l
+ine 123.
+
+
+Overfull \hbox (91.19409pt too wide) in paragraph at lines 123--124
+\T1/lmr/m/n/12 silience may be im-por-tan-t for pre-dict-ing the in-vasabil-i-t
+y of a giv-en net-work [].
+ []
+
+
+LaTeX Warning: Citation 'pascual2017mutualism' on page 110 undefined on input l
+ine 126.
+
+
+LaTeX Warning: Citation 'wang2023interspecific' on page 110 undefined on input 
+line 126.
+
+
+LaTeX Warning: Citation 'fricke2020accelerating' on page 110 undefined on input
+ line 126.
+
+
+LaTeX Warning: Citation 'schneiberg2020urbanization' on page 110 undefined on i
+nput line 126.
+
+
+LaTeX Warning: Citation 'bartomeus2008contrasting' on page 110 undefined on inp
+ut line 126.
+
+
+LaTeX Warning: Citation 'vanbergen2017network' on page 110 undefined on input l
+ine 126.
+
+
+LaTeX Warning: Citation 'stouffer2014exotic' on page 110 undefined on input lin
+e 126.
+
+
+LaTeX Warning: Citation 'parra2021impacts' on page 110 undefined on input line 
+126.
+
+
+LaTeX Warning: Citation 'vila2009invasive' on page 110 undefined on input line 
+126.
+
+
+Overfull \hbox (22.55649pt too wide) in paragraph at lines 126--127
+\T1/lmr/m/n/12 ness [] or nest-ed-ness [], though
+ []
+
+
+Overfull \hbox (59.23657pt too wide) in paragraph at lines 126--127
+\T1/lmr/m/n/12 net-work-s were larg-er, but ac-tu-al-ly low-er in con-nectance 
+and nestedness[].
+ []
+
+[110]
+
+LaTeX Warning: Citation 'vizentin2020including' on page 111 undefined on input 
+line 134.
+
+
+LaTeX Warning: Citation 'corlett2011frugivore' on page 111 undefined on input l
+ine 134.
+
+
+LaTeX Warning: Citation 'fuzessy2024navigating' on page 111 undefined on input 
+line 134.
+
+
+LaTeX Warning: Citation 'leimberger2023plant' on page 111 undefined on input li
+ne 134.
+
+
+LaTeX Warning: Citation 'eklof2013dimensionality' on page 111 undefined on inpu
+t line 134.
+
+
+LaTeX Warning: Citation 'vizentin2020including' on page 111 undefined on input 
+line 134.
+
+
+LaTeX Warning: Citation 'strydom2021roadmap' on page 111 undefined on input lin
+e 134.
+
+
+LaTeX Warning: Citation 'strydom2023graph' on page 111 undefined on input line 
+134.
+
+
+LaTeX Warning: Citation 'nunes2024estimated' on page 111 undefined on input lin
+e 134.
+
+
+LaTeX Warning: Citation 'burkle2013plant' on page 111 undefined on input line 1
+34.
+
+
+LaTeX Warning: Citation 'olesen2011strong' on page 111 undefined on input line 
+134.
+
+
+LaTeX Warning: Citation 'leimberger2023plant' on page 111 undefined on input li
+ne 134.
+
+
+LaTeX Warning: Citation 'petanidou2008long' on page 111 undefined on input line
+ 134.
+
+
+LaTeX Warning: Citation 'bascompte2007plant' on page 111 undefined on input lin
+e 134.
+
+
+LaTeX Warning: Citation 'burkle2013plant' on page 111 undefined on input line 1
+34.
+
+
+LaTeX Warning: Citation 'sandor2024spatial' on page 111 undefined on input line
+ 134.
+
+
+Overfull \hbox (13.2784pt too wide) in paragraph at lines 134--135
+\T1/lmr/m/n/12 change[]; []; [];
+ []
+
+
+Overfull \hbox (17.49982pt too wide) in paragraph at lines 134--135
+\T1/lmr/m/n/12 case s-tud-ies look-ing at how net-work-s change through time (t
+hough see [];
+ []
+
+[111]
+
+LaTeX Warning: Citation 'VizentinBugoni2021' on page 112 undefined on input lin
+e 137.
+
+
+LaTeX Warning: Citation 'Braga21' on page 112 undefined on input line 137.
+
+
+LaTeX Warning: Citation 'rafferty2013' on page 112 undefined on input line 137.
+
+
+
+LaTeX Warning: Citation 'self' on page 112 undefined on input line 137.
+
+
+LaTeX Warning: Citation 'pichler2020machine' on page 112 undefined on input lin
+e 137.
+
+
+LaTeX Warning: Citation 'poisot2023guidelines' on page 112 undefined on input l
+ine 137.
+
+
+LaTeX Warning: Citation 'sheykhali2020robustness' on page 112 undefined on inpu
+t line 140.
+
+
+LaTeX Warning: Citation 'han2019measuring' on page 112 undefined on input line 
+140.
+
+
+LaTeX Warning: Citation 'toby2010mutualisms' on page 112 undefined on input lin
+e 140.
+
+
+LaTeX Warning: Citation 'moran2022flexible' on page 112 undefined on input line
+ 140.
+
+
+LaTeX Warning: Citation 'nowak2013specialist' on page 112 undefined on input li
+ne 140.
+
+
+LaTeX Warning: Citation 'valdovinos2016niche' on page 112 undefined on input li
+ne 140.
+
+[112]
+
+LaTeX Warning: Citation 'bluthgen2024critical' on page 113 undefined on input l
+ine 150.
+
+
+LaTeX Warning: Citation 'olesen2011missing' on page 113 undefined on input line
+ 150.
+
+
+LaTeX Warning: Citation 'Young21' on page 113 undefined on input line 150.
+
+
+LaTeX Warning: Citation 'bluthgen2024critical' on page 113 undefined on input l
+ine 150.
+
+
+LaTeX Warning: Citation 'bluthgen2008' on page 113 undefined on input line 150.
+
+
+
+LaTeX Warning: Citation 'Valverde2018' on page 113 undefined on input line 150.
+
+
+
+LaTeX Warning: Citation 'olesen2011missing' on page 113 undefined on input line
+ 150.
+
+
+LaTeX Warning: Citation 'cirtwill2019quantitative' on page 113 undefined on inp
+ut line 150.
+
+
+LaTeX Warning: Citation 'valdovinos2019mutualistic' on page 113 undefined on in
+put line 150.
+
+
+LaTeX Warning: Citation 'burkle2011future' on page 113 undefined on input line 
+155.
+
+
+LaTeX Warning: Citation 'duchenne2022seasonal' on page 113 undefined on input l
+ine 155.
+
+
+LaTeX Warning: Citation 'guimaraes2020structure' on page 113 undefined on input
+ line 155.
+
+
+LaTeX Warning: Citation 'medeiros2018geographic' on page 113 undefined on input
+ line 155.
+
+
+LaTeX Warning: Citation 'schleuning2011specialization' on page 113 undefined on
+ input line 155.
+
+
+Overfull \hbox (45.68466pt too wide) in paragraph at lines 155--156
+\T1/lmr/m/n/12 gard-ing species gen-er-al-is-m or net-work turnover []; [].
+ []
+
+[113]
+
+LaTeX Warning: Citation 'thomson2003mutualism' on page 114 undefined on input l
+ine 159.
+
+
+LaTeX Warning: Citation 'burkle2011future' on page 114 undefined on input line 
+159.
+
+
+LaTeX Warning: Citation 'montesinos2017network' on page 114 undefined on input 
+line 159.
+
+
+LaTeX Warning: Citation 'toby2010mutualisms' on page 114 undefined on input lin
+e 159.
+
+
+LaTeX Warning: Citation 'vazquez2005interaction' on page 114 undefined on input
+ line 159.
+
+
+Overfull \hbox (7.46204pt too wide) in paragraph at lines 159--160
+\T1/lmr/m/n/12 ac-tion fre-quen-cy can be a use-ful sur-ro-gate for fit-ness be
+n-e-fit [].
+ []
+
+[114]
+
+LaTeX Warning: Citation 'Janzen1974Deflowering' on page 115 undefined on input 
+line 169.
+
+
+LaTeX Warning: Citation 'bascompte2022resilience' on page 115 undefined on inpu
+t line 169.
+
+
+LaTeX Warning: Citation 'tylianakis2010conservation' on page 115 undefined on i
+nput line 169.
+
+
+LaTeX Warning: Citation 'wheelwright1982seed' on page 115 undefined on input li
+ne 172.
+
+
+LaTeX Warning: Citation 'windsor2022using' on page 115 undefined on input line 
+172.
+
+[115]
+
+LaTeX Warning: Citation 'borrelli2015selection' on page 116 undefined on input 
+line 179.
+
+
+LaTeX Warning: Citation 'saravia2022ecological' on page 116 undefined on input 
+line 179.
+
+
+LaTeX Warning: Citation 'cai2020mutualistic' on page 116 undefined on input lin
+e 179.
+
+[116] [117]
+
+LaTeX Warning: Citation 'poisot2014ecological' on page 118 undefined on input l
+ine 196.
+
+
+LaTeX Warning: Citation 'pellissier2018comparing' on page 118 undefined on inpu
+t line 196.
+
+
+Overfull \hbox (107.11208pt too wide) in paragraph at lines 196--197
+[]\T1/lmr/m/n/12 Network struc-tural prop-er-ties in-her-ent-ly co-vary []; [].
+
+ []
+
+
+LaTeX Warning: Citation 'bascompte2022resilience' on page 118 undefined on inpu
+t line 197.
+
+
+LaTeX Warning: Citation 'borrelli2015selection' on page 118 undefined on input 
+line 198.
+
+
+LaTeX Warning: Citation 'saravia2022ecological' on page 118 undefined on input 
+line 198.
+
+
+Overfull \hbox (9.11073pt too wide) in paragraph at lines 198--199
+[]\T1/lmr/m/n/12 Does "non-Darwinian s-e-lec-tion" []; []
+ []
+
+[118] [119]
+
+! Package biblatex Error: '\bibliographystyle' invalid for 'biblatex'.
+
+See the biblatex package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.221 \bibliographystyle{unsrt}
+                               
+Use the package option 'style' instead.
+I'm ignoring this command.
+
+<Review/Figures/ReviewConcept.pdf, id=4794, 693.68732pt x 393.91016pt>
+File: Review/Figures/ReviewConcept.pdf Graphic file (type pdf)
+<use Review/Figures/ReviewConcept.pdf>
+Package pdftex.def Info: Review/Figures/ReviewConcept.pdf  used on input line 2
+62.
+(pdftex.def)             Requested size: 433.0pt x 245.8867pt.
+) [120
+
+ <./Review/Figures/ReviewConcept.pdf>]
+
+LaTeX Warning: Empty bibliography on input line 194.
+
+
+! LaTeX Error: File `ccApp.tex' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: tex)
+
+Enter file name: 
+! Emergency stop.
+<read *> 
+         
+l.203 \input{ccApp}
+                   ^^M
+*** (cannot \read from terminal in nonstop modes)
+
+ 
+Here is how much of TeX's memory you used:
+ 33404 strings out of 480261
+ 685498 string characters out of 5896481
+ 1525330 words of memory out of 5000000
+ 50728 multiletter control sequences out of 15000+600000
+ 540632 words of font info for 88 fonts, out of 8000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 90i,12n,99p,2634b,5035s stack positions out of 5000i,500n,10000p,200000b,80000s
+!  ==> Fatal error occurred, no output PDF file produced!

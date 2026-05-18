@@ -1,0 +1,42 @@
+\documentclass{article}
+\usepackage{graphicx} % Required for including images
+\usepackage{color}
+\begin{document}
+
+\textbf{Response summary}
+
+
+
+\textbf{Reviewer 1}
+
+\textbf{Comments to the Author:} \\
+
+In this manuscript the authors test whether plant-frugivore interactions can be predicted from phylogenetic structure, species traits and latent structure. The main result is that latent structural features are important to predict the interactions. The main issue here is that there is some circularity in the analysis. Latent structure is obtained from the decomposition of the interaction matrix. The decomposition of the matrix generates axes that summarize the information in the matrix. So, it is expected that those axes will perform well when predicting the interaction matrix. This technique has been used recently to estimate interactions, but combined with other steps, such as phylogenetic imputation, that allow inferring the latent traits for poorly sampled species (see Strydom et al. 2021, Nunes-Martinez and Pires 2024).
+
+Also, because the matrix is sparse other models seem to perform well because they basically have to predict the zeroes. Any model that generates a sparse matrix will have high accuracy. Looking at table 2 we see for instance that the trait only model has a considerably lower rate of true positives (almost five times lower than other models) and high rate of false negatives. I know this dataset well and the main problem with it is that most species are highly undersampled. You cannot predict matrix structure based on traits or phylogeny when sampling is such an important factor generating interaction imbalances between species. The phylogenetic structure the authors find is most likely a mix between true phylogenetic signal in interaction patterns and phylogenetic signal in sampling. One way to address that is to use only well sampled species to train the model and then estimate interactions for undersampled species (as in Nunes-Martinez and Pires 2024). Moreover, although the authors justify their study based on the need to predict interactions, they offer no guidance on how their analysis could be used to estimate interactions.
+
+Specific comments:
+\begin{enumerate}
+    \item Ln 96. and seed dispersal interactions
+    \\
+    \textbf{Response}: Response goes here
+    
+    \item Ln 114. Because the Atlantic frugivory database includes species from the entire Atlantic Forest, many of the plant-frugivore interactions are forbidden simply because species do not co-occur. If that is not taken into account in the model, it is unlikely to perform well. How did you deal with that in the trait based model? Could you incorporate sampling in the trait model?
+    \\
+    \textbf{Response}: Response goes here
+
+    \item Ln 114. Ln189. High AUC can be obtained just because the matrix is sparse.
+    \\
+    \textbf{Response}: Response goes here
+
+    \item Ln 237. latent traits can be used to predict interaction patterns if you use a protocol to obtain latent traits from an input matrix and then estimate the latent traits for species with limited information as done by Strydon et al. (2021) and Nunes-Martinez and Pires (2024). You only have information on latent traits if there is an interaction matrix, different from phylogenetic information and traits, which are independent from the interactions.
+    \\
+    \textbf{Response}: Response goes here
+
+    \item Ln 273. if all interactions are correctly predicted this assumes that all interactions (and “non-interactions”) are well known, i.e., sampling is assumed to be perfect, and we know this is not true. Therefore, the models are most likely missing a lot of interactions, and you are overestimating their true performance.
+    \\
+    \textbf{Response}: Response goes here
+
+\end{enumerate}
+
+\end{document}

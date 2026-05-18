@@ -1,0 +1,148 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Long Lined Cover Letter
+% LaTeX Template
+% Version 2.0 (September 17, 2021)
+%
+% This template originates from:
+% https://www.LaTeXTemplates.com
+%
+% Authors: Wlving Lee
+% (lee.wlving@connect.um.edu.mo)
+%
+% License:
+% CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%-----------4426-----------------------------------------------------------------------------
+
+\documentclass{article}
+\usepackage{charter} % Use the Charter font
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cyan,
+    pdftitle={Overleaf Example},
+    pdfpagemode=FullScreen,
+    }
+
+\usepackage[
+	a4paper, % Paper size
+	top=1in, % Top margin
+	bottom=1in, % Bottom margin
+	left=1in, % Left margin
+	right=1in, % Right margin
+	%showframe % Uncomment to show frames around the margins for debugging purposes
+]{geometry}
+
+\setlength{\parindent}{0pt} % Paragraph indentation
+\setlength{\parskip}{0.5em} % Vertical space between paragraphs
+
+\usepackage{graphicx} % Required for including images
+
+\usepackage{fancyhdr} % Required for customizing headers and footers
+
+\fancypagestyle{firstpage}{%
+	\fancyhf{} % Clear default headers/footers
+	\renewcommand{\headrulewidth}{0pt} % No header rule
+	\renewcommand{\footrulewidth}{1pt} % Footer rule thickness
+}
+
+\fancypagestyle{subsequentpages}{%
+	\fancyhf{} % Clear default headers/footers
+	\renewcommand{\headrulewidth}{1pt} % Header rule thickness
+	\renewcommand{\footrulewidth}{1pt} % Footer rule thickness
+}
+
+\AtBeginDocument{\thispagestyle{firstpage}} % Use the first page headers/footers style on the first page
+\pagestyle{subsequentpages} % Use the subsequent pages headers/footers style on subsequent pages
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	FIRST PAGE HEADER
+%----------------------------------------------------------------------------------------
+
+
+%----------------------------------------------------------------------------------------
+%	YOUR NAME AND CONTACT INFORMATION
+%----------------------------------------------------------------------------------------
+
+\hfill
+\begin{tabular}{l @{}}
+	\today \bigskip\\ % Date
+	Grant Foster \\
+	Coker Life Sciences Building \\
+    715 Sumter Street \\
+    Columbia, SC 29208, USA\\ % Address
+	%Phone: (678) 772-5521 \\
+	Email: fostergt@email.sc.edu
+\end{tabular}
+
+\bigskip % Vertical whitespace
+
+%----------------------------------------------------------------------------------------
+%	ADDRESSEE AND GREETING
+%----------------------------------------------------------------------------------------
+
+\begin{tabular}{@{} l}
+    Dr. Philip Donoghue \\
+	Editor-in-Chief \\
+	\emph{Proceedings of the Royal Society: B} \\
+	%123 Pleasant Lane \\
+	%City, State 12345
+\end{tabular}
+
+\bigskip % Vertical whitespace
+
+Dear Dr. Donoghue,
+
+\bigskip % Vertical whitespace
+
+%----------------------------------------------------------------------------------------
+%	LETTER CONTENT
+%----------------------------------------------------------------------------------------
+We would like to submit our article entitled \textbf{``The impacts of geographic range size and niche breadth on species centrality in floral visitation networks"} by G. Foster, C. Ten Caten, and  T.A. Dallas to be considered for publication as a \textbf{Research article}. \\
+
+%Potential editors: 
+% Miguel Lurgi
+% Erin Saupe 
+
+%Knowledge Gap
+\paragraph*{} Within floral visitation networks, species vary in their connectivity and in their contributions to overall network structure. Centrality, a suite of metrics describing how strongly a given node is connected to the rest of a network, is often used to summarize aspects of this contribution, and may help identify species whose loss may have disproportionate effects on ecological communities. Understanding the drivers of species centrality is therefore critical, particularly in the context of global declines in pollinator abundance and diversity that threaten pollination services. Previous work has shown that species centrality can depend on multiple factors, including species traits and evolutionary history. One potentially important but understudied driver is the geographic and climatic breadth of a species’ range; widely distributed or climatically generalist species may exhibit distinct interaction patterns relative to narrow-ranged species, thereby altering their contributions to network structure and connectivity. However, this phenomenon remains poorly explored in plant–pollinator systems. Here, we investigate how niche breadth and geographic range size shape species centrality using a globally distributed dataset of floral visitation networks comprising 30,330 interactions among 2,555 plant and 4,302 floral visitor species across 99 sites. To do so, we model species’ geographic and environmental ranges from large-scale occurrence data and evaluate how these attributes influence species roles in both local networks and a global metaweb.
+
+
+%Summary and Main Findings
+\paragraph*{} At the scale of the global metaweb, we find strong positive associations between geographic range size and closeness centrality. However, after applying a null modeling approach to account for spatial turnover in interactions across sites, this relationship largely disappears or reverses. In contrast, after standardization niche breadth shows a consistent positive relationship with node centrality for flowering plant species across both network types, while no such relationship is observed for animal floral visitors. At the local scale, centrality is less strongly linked to geographic or environmental range size, although we detect pronounced differences among network types, with stronger patterns in insect- than in avian-associated visitation networks. Our results highlight the importance of interaction turnover across species’ ranges in shaping species roles within mutualistic networks across scales. To our knowledge, this study represents the largest-scale analysis to date of how geographic and climatic breadth influence macroecological patterns of intraspecific species interactions across species' ranges. More broadly, our findings underscore the need for multiscale approaches to understand the drivers and consequences of variation in ecological network structure across environments. We expect this work to be of broad interest to ecologists studying species interactions, biogeography, and the structure of ecological networks.
+
+%Administrative Stuff
+\paragraph*{}The authors have no conflicts of interest to declare. All authors have read the final version of the manuscript and have approved of its submission to the \emph{PRSB}. We declare that this manuscript has not been published before, in whole or in part, and is not currently being considered for publication elsewhere. \\
+
+\newpage
+We believe the following scientists would be well suited to review this manuscript: 
+
+\begin{itemize}
+    \item Francis Banville (francis.banville@umontreal.ca) \url{https://francisbanville.github.io/}
+    \item Elisa Barreto (elisabpereira@gmail.com) \url{https://elisabarreto.com.br/}
+    \item Wesley Dáttilo (wdattilo@hotmail.com) \url{http://www.wesleydattilo.org/}
+    \item Carine Emer (c.emer09@gmail.com) \url{http://www.carineemer.com/}    
+    \item Lucas P. Martins (martinslucas.p@gmail.com) \url{https://sites.google.com/view/lucaspmartins/home}
+    \item Gabriel Massaine Moulatet (mandprogabriel@gmail.com) \url{https://maevolab.mx/authors/gabriel/}
+    \item Jason M. Tylianakis (jason.tylianakis@canterbury.ac.nz) \url{https://www.tylianakislab.org/}
+\end{itemize}
+
+\bigskip % Vertical whitespace
+
+Sincerely,
+
+%\vspace{50pt} % Vertical whitespace
+
+Grant Foster
+
+\end{document}

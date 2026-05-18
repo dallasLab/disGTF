@@ -1,0 +1,321 @@
+\section*{\textbf{\underline{Abstract}}}
+Plant-animal reproductive mutualisms, such as seed dispersal and pollination, represent a diverse suite of interactions that impact the function and dynamics of many ecological communities. Network representations of these interactions exhibit a wide range of structural properties (e.g. nestedness, modularity) that ultimately mediate emergent properties of ecological relevance (e.g. stability, resilience, robustness to secondary extinction). Understanding how these structural properties are affected by anthropogenic forcing and how they scale up to shape emergent features is vital for predicting and conserving mutualistic networks in the face of global change. Here, I review the current state of knowledge on how three major classes of anthropogenic impact: shifts in global climate, land use intensification, and human-mediated invasion, affect the structural properties of plant-animal reproductive mutualism networks. In particular, I synthesize emerging patterns and persistent knowledge gaps in how these drivers alter network structure across systems and scales. Finally, I highlight a series of open questions in the field, the answers to which may help elucidate how these structural shifts scale up to changes in community dynamics, and ultimately improve our ability to predict and conserve mutualistic systems.
+
+\clearpage 
+
+%-----------------------
+\section{Introduction}
+\subsection{Mutualisms are important to the function of ecosystems}
+
+\paragraph*{}
+The term "mutualism" covers a broad suite of species interactions, many of which are collectively vital to the function of many ecosystems as we currently know them \cite{boucher1982ecology}, and iconic organismal features such as flowers or fruits are living homages to the mutualisms that they support \cite{weiblen2015evolutionary}. The flow of resources facilitated by these and other mutualistic interactions can serve key ecological functions, and ultimately provide significant ecosystem services to human communities across the planet. Globally, pollinators may provide as much as \$400 billion dollars annually in agricultural pollination services alone as of 2020 \cite{porto2020pollination}, and are relied upon by 85\% of extant plant species across the globe \cite{ollerton2011many}.
+    
+
+\paragraph{}
+Due to their outsized impact on ecosystem function and services, understanding how mutualistic interactions change in response to perturbation is of great interest. These influential interactions do not happen in a vacuum, and taking a network approach to studying mutualisms can better allow us to understand how mutualisms as a whole affect the structure, function, and resultant services provided by an ecosystem. Network approaches allow us to more clearly understand how perturbations propagate through a system, and have been used to study consumer-resource interactions\cite{rooney2012integrating}, nutrient cycles~\cite{christian1996nitrogen}, host-parasite interactions~\cite{dallas2015co}, and mutualistic interactions \cite{vanbergen2017network, rohr2014structural} have all enhanced the ability to predict how a diverse set of ecosystems may respond to environmental change. In order to understand how communities of interacting species may change in the face of growing anthropogenic forcing, it is vital to understand how human-induced changes tend to affect the structure and function of mutualistic networks. 
+
+%There have been massive changes in mutualistic networks
+\paragraph*{}
+Global ecosystems are subject to anthropogenically driven changes at increasing rates, and as a result so are the mutualistic interaction networks that occur within them. Structural changes in mutualistic networks can be driven by a diverse set of drivers, including shifting climates, urbanization and land use changes, and invasion of non-native species. Here, I aim to characterize the current state of understanding about the ways these diverse drivers affect the structural properties of two major classes of plant-animal reproductive mutualisms: seed dispersal and pollination networks, as well as how we can leverage our knowledge of these patterns to better understand, predict, and conserve these critical natural systems. 
+
+
+% TD: you use 'we' 30 times. It's a bit informal to use this, but I also don't want to tell you to use the passive voice too much. Maybe change some of them, because I'm already picking up on it at this point and I think a reviewer will too. 
+
+
+
+\subsection{Emergent properties of Mutualist Networks} 
+\paragraph*{} 
+The structure of relationships within mutualistic systems can lead them to exhibit dynamic system-level properties, and these emergent characteristics include a number of metrics useful for understanding how mutualistic systems may respond to perturbation. These include properties describing how mutualistic networks behave around equilibrial states, a number of which can be estimated through eigenanalysis of the Jacobian matrix representing mutualistic communities at equilibrium. Both local stability (the tendency of the system to dampen small perturbations from equilibrium) \cite{valdovinos2019mutualistic, okuyama2008network}, as well as resilience (here, the speed at which the system returns to equilibrium after perturbation) \cite{thebault2010stability, suweis2013emergence}, are important for predicting how mutualistic networks respond to anthropogenic change. Other properties include the size of the feasibility domain (the range of parameter values that results in non-zero equilibrial abundances for all species of a community)\cite{saavedra2016nested, grilli2017feasibility, wang2023interspecific}, a property at times referred to as ``structural stability" that defines the safe operational space \cite{bascompte2022resilience} within which a network still retains its function where all species persist. Given an existing network structure, the extent to which disturbances spread widely or remain confined to local subsets of species \cite{martins2024propagation, suweis2015effect} is yet another emergent feature of interest in the context of anthropogenic change, and is closely related to the structural property of modularity. 
+
+
+\paragraph{}
+These metrics collectively provide important insights into how existing network structure may mediate the impact of perturbation, but we are also interested in how networks may be sensitive to changes to their existing structure. By definition, mutualistic partners improve one another's fitness; if the magnitude of benefit scales in some way with population size \cite{valdovinos2019mutualistic}, positive feedbacks between partnered populations or threshold responses \cite{hale2021ecological} may occur. Disrupting these positive feedbacks of networks can facilitate critical transitions, and structural properties of networks can be important for determining behavior at the critical boundary or determining how robust a network is to loss of certain nodes or links. For example, simulated plant-pollinator networks with greater connectance are more likely to undergo large critical transitions as extinctions occur, undergoing larger community-level breakdowns instead of many small breakdowns \cite{lever2014sudden}. The exact shape of how these factors impact structure may be affected both by the strength of interaction, organisms' dependence on given interactions, or the way benefit is structured \cite{van2021facultative}. These positive feedbacks may also cause hysteretic effects crossing the critical transition boundary; that is community assembly and disassembly processes may often be non-symmetric in mutualistic systems, with the outcome depending on precursor system states \cite{cai2020mutualistic}. Understanding of how these processes occur and are influenced by network structural properties is vital for both prediction and conservation of mutualistic systems.
+
+
+\subsection{The Importance of Structural Features}
+%Structural features affect emergent ones
+Many of these aforementioned emergent properties of interest (stability, resilience, hysteresis, etc) are heavily impacted by network structural properties \cite{landi2018complexity}. A significant body of existing literature has been devoted to interrogating relationships between the structural properties and emergent properties of species interaction networks, though at times with counterintuitive results. For example, network modularity (the property of having more connections within smaller subunits of a network than between them), tends to reduce the propagation of direct or indirect perturbations through a mutualistic system \cite{thebault2010stability, okuyama2008network}. Invasion by non-native generalist species increases connectance and decreases modularity of some networks, potentially leading to broader or faster propagation of disturbances in the face of a changing environment\cite{fricke2020accelerating, vollstadt2022plant, martins2024propagation}.  Because of their important and often complex effects on emergent properties, understanding how network structural features tend to change in response to anthropogenic forcing is vital for prediction and management of mutualistic systems. 
+
+%How structure -> Emergent is complicated
+\paragraph*{} 
+Structural characters often have nuanced effects on multiple network features, and carefully considering which emergent features are relevant in a given context is important. For example, one widely observed feature of mutualistic networks is nestedness, in which specialist species with few interaction partners tend to interact with generalist species that have many partners, effectively embedding specialist interactions within a broader, generalist core \cite{bascompte2003nested, bascompte2006asymmetric, thebault2010stability}. As nestedness increases, the overall robustness of the system to species loss may increase due to functional redundancy, while simultaneously making the final breakdown of the system more dramatic (increasing magnitude of critical transitions) \cite{bascompte2022resilience}. The nestedness of strong interactions tends to increase the size of a mutualistic system's feasibility domain \cite{saavedra2016nested}, yet decrease its stability at equilibrium \cite{allesina2012stability}. However, even if more nested mutualistic networks are less stable, they may lead to higher overall community abundance, an effect stronger in systems characterized by abundant but weak mutualisms \cite{suweis2013emergence}. Robert May first pointed out in 1973 the ``paradox of complex interactions", where, under a Lotka-Volterra style modeling framework, larger species assemblages with many strong and randomly assigned species interactions lead to correspondingly smaller feasible domains of community stability \cite{may1973stability}, a pattern that tends to be even more pronounced in mutualistic systems \cite{allesina2012stability, saavedra2016nested}.  In reality however, interactions are not randomly assigned within a community, and empirically observed suites of mutualistic interactions often tend to favor stability in practice, though to varying degrees \cite{thebault2010stability, grilli2017feasibility}. How structural properties translate into emergent ones may be further complicated by plasticity in species interaction preferences \cite{corro2021annual} or the degree of nodes' dependence on mutualisms \cite{van2021facultative}. Valdovinos et al. (2016) found that accounting for potential adaptive foraging behaviors reversed the effects of nestedness and connectance on species persistence times\cite{valdovinos2016niche}. In general, the relationship between structural and emergent properties is complicated and can lead to counterintuitive results \cite{landi2018complexity}.
+
+\paragraph*{} %How do structural features arise? 
+The mechanisms under which emergent properties arise in networks across a landscape still warrant further investigation, especially in the context of mutualistic systems. In food webs, Borrelli et al. (2015) found that an over-representation of stabilizing motifs compared to null expectations across a diverse set of 50 networks, potentially indicating the presence of stabilizing processes present across landscape scales\cite{borrelli2015selection}. This is supported by prior work looking at the constancy of network structural properties across scales in both trophic \cite{fahimipour2014dynamics} and host-parasite \cite{dallas2018compositional} networks, even as individual species turn over across space. This conservation of network properties independent of species turnover may indicate there may be separate assembly mechanisms operating at the level of interaction networks and species assemblages per se \cite{petanidou2008long, dupont2009spatio, burkle2011future, dehling2020similar, ten2024latitudinal}. One potential set of mechanisms acting on network structure may be non-Darwinian selection processes \cite{saravia2022ecological}, where more stable networks endure longer through time as less stable networks break down, a potential phenomenon supported by theoretical modeling work \cite{cai2020mutualistic}. However, one must be cautious in interpreting the prevalence of stabilizing structural features as evidence for these processes; Saravia et al. (2022) found little difference between realized local networks and random draws from the regional metaweb in trophic networks \cite{saravia2022ecological} emphasizing the importance of proper null models in the context of network structure \cite{maynard2018network, pellissier2018comparing}. Additionally, while different structural measures capture different aspects of network topology, they are seldom independent, a feature well-appreciated in food webs \cite{vermaat2009major}. Understanding how structural properties covary is another reason null model approaches are important and looking at joint properties may be useful \cite{fortuna2010nestedness, poisot2014ecological, pellissier2018comparing, dormann2017identifying}. 
+
+
+
+%Network properties may also influence individual species fitness components predictably, according to their traits, with even the fitness benefit conveyed by given interactions depending on community structure (ex. Specialists in nested communities had higher closeness centrality. 
+
+
+\subsection{Widely Observed Structural Features of Mutualistic Networks}
+%Emp Nets are Nested
+There are a number of features pervasive in empirically observed frugivory and floral visitation networks. Empirical networks often exhibit high degrees of interaction nestedness \cite{fortuna2006habitat,bascompte2006asymmetric}, a product of the asymmetric specialization widely observed in both seed-dispersal\cite{yohe2025frugivore, schleuning2014loss} and floral visitor networks \cite{bascompte2003nested}. This feature tends to increase the strength of highly connected nodes, often resulting in long-tailed degree distributions. Especially in pollination systems there may be trade-offs in specialization stemming from this pervasive interaction asymmetry; \cite{arceo2020plant} found that a plant's degree specialism was positively related to heterospecific pollen delivery, likely due to associations with generalist pollinators \cite{arceo2020plant}. Nestedness may increase positive indirect interactions within guilds, ultimately increasing the potential diversity of species a community can support \cite{bascompte2003nested, guimaraes2017indirect}. It also can reduce effective interspecific competition, increasing equilibrial species richness \cite{bastolla2009architecture}, a pattern potentially observed in empirical reproductive networks \cite{Gonzales2015macroecology}. 
+
+%Emp Nets are Modular
+\paragraph*{}
+Modularity is another prevalent feature of mutualistic networks, many of which may be separated by functional guilds \cite{ramos2018modularity} or phylogenetically conserved groups of interaction partners \cite{Gonzales2015macroecology}. Species with certain traits or within certain taxonomic groups may be more likely to make cross-module connections. Sebasti{\'a}n-Gonz{\'a}lez (2017) found that a small number of highly frugivorous birds and high energy content fruits had higher connectivity both between and within modules\cite{sebastian2017drivers}. In their study of Peruvian highland pollination networks, Watts et al. (2016) found connector species were likely to be comparatively generalist and taxonomically clustered (\textit{Diptera:Syrphidae} and \textit{Asterales:Asteraceae})\cite{watts2016influence}. The introduction of a relatively small number of species with higher or lower propensity to establish cross-module connections can fundamentally alter the resultant modularity of a given network \cite{russo2014patterns}, an idea further explored in section 7.  
+%Emp Nets are Sparse? Do I need to talk about this? Ecological networks are generally sparse, a feature that can be a problem for prediction. 
+% TD: eh. If the focus was on prediction, I would say sure, but 1 sentence tops should be spent on that, and I'd do it in a section where you talk about how lower-level properties scale to emergent properties (i.e., sparse networks can't really be nested, right?). 
+
+
+%Emp features may change across space...
+\paragraph*{}
+Agnostic to changing environments, some evidence shows that network structural properties vary across preexisting environmental or spatial gradients.  In a study of both insect and avian pollination networks across broad latitudinal coverage  Tr{\o}jelsgaard and Olsen (2013) found that modularity was highest at low latitudes whereas nestedness peaked at mid-latitudes \cite{trojelsgaard2013macroecology}. Across altitudinal gradients, multiple studies have observed an increase in phylogenetic generalism and an associated increase in nestedness and connectance with increasing elevation in plant-pollinator networks\cite{adedoja2018insect, lara2019beta, classen2020specialization}, though similar evaluations to my knowledge have not been made in frugivory systems. 
+
+%Or climate.
+\paragraph*{}
+Both the mean and variability of temperature may also play a role in shaping network structural properties; Welti et al. (2015) found that both seed dispersal and floral visitation networks were generally more nested in areas with higher inter-annual temperature variability \cite{welti2015structure}. Gonz{\'a}lez et al. (2015) found that in mainland plant-hummingbird networks warmer and more stable climates were associated with higher modularity, though these variables had no effect on island networks \cite{Gonzales2015macroecology}. Both current and past climatic features may have significant effects on network structure \cite{dalsgaard2013historical}, further complicating the question of how and at what rate networks may respond to future climatic change. 
+
+
+
+\section{Anthropogenic change and mutualistic network structure}
+%Transisition into three drivers sections
+While existing environmental conditions have already played a role in shaping mutualistic networks as we know them, human impacts have also drastically altered biotic and abiotic conditions across most of the globe. As natural ecosystems are subject to increasingly severe anthropogenic impacts, so too are the ecological networks that occur within them. Understanding how human-mediated changes affect structural properties and resultant dynamics of mutualistic networks is vital for predicting and conserving species interactions. These changes can occur through several mechanisms, including (1) alterations in community composition, (2) shifts in the probability of interactions occurring, and (3) disruptions to the coevolutionary processes underpinning these networks \cite{tylianakis2017ecological}. Here, I focus on how three major types of anthropogenic disturbance—climatic shifts, changes in land use, and human-facilitated invasion by non-native species—act through these mechanisms to reshape the structural properties of natural mutualistic networks.
+
+\subsection{Climate} %Phenological mismatch
+    \paragraph*{} Changes in climate can affect mutualistic network structure through a number of mechanisms, including inducing changes in species distributions across time and space, altering species abundances, or altering the physiology of interacting organisms. Many plant-animal mutualisms may only be able to occur during relatively short, yet ecologically important developmental or life history windows. For example, animal pollination can only occur when both the flowering time of the plant and the seasonal activity period of the animal intersect. As climate shifts the timing of these developmental periods, phenological shifts and subsequent mismatches have the potential to occur, altering the strength of mutualistic interactions or even removing them altogether \cite{zettlemoyer2019phenology, burkle2013plant, teixido2022anthropogenic} . For example, in a forest-prairie floral visitation network Memmott et al. (2007) showed that up to 50\% of floral visitors have reduced overlap between their seasonal activity period and known floral resources over the past century\cite{memmott2007global}. Link rewiring, in which species form new linkages in response to environmental change, may help alleviate some of the effects of phenological mismatch, but empirically observed fitness reductions due to reduced phenological overlap with mutualists has been observed\cite{kudo2019spring, de2023warming}. Corresponding reduction in pollinator fitness has yet to be observed in field systems, though these reductions are likely already occurring in some contexts \cite{gerard2020global}. These altered interaction probabilities can scale up into altered network structural properties; Encinas-Viso et al. (2012) found in simulated communities that increasing phenological overlap between competitors led to less stable, less nested, and ultimately less specious communities \cite{encinas2012phenology}. As climate shifts phenological periods, even if mutualistic interactors remain phenologically coupled, intraguild shifts in species' activity periods (such as overlapping flight or flowering periods) can change competitive interactions with cascading effects through the community \cite{wang2023interspecific}.
+    %Spatial mismatch
+    \paragraph*{} 
+    Even if mutualistic partners do not become decoupled in time, climate-driven range shifts may also decouple partnerships by reducing spatial overlap. Warming conditions may shift species ranges northward latitudinally or higher in elevation. Differences in features such as generation time and dispersal capacity mean that two mutualistic partners are unlikely to be able to shift their distributions at the same rate. Or, if biotic interactions limit the distributions of some mutualistic species, partners may be unable to shift ranges without commensurate shifts of the distributions of their partners \cite{warren2014mutualism}. This may be especially salient in the case of seed-dispersal mutualisms, where the ability of plant species to shift their ranges in response to climatic changes may be dependent on their interaction partner \cite{warren2014mutualism}.
+
+    \paragraph*{}
+    While species may shift their distributions or phenology to track preferred environmental conditions, climate change can also alter species abundances, potentially leading to local extirpation. Complete extirpation is not necessary for ecological disruption however; functional extinction can precede or occur independently of true extirpation when populations become too small to effectively fulfill their roles as mutualists \cite{costa2018defaunation}. Moreover, mutualistic partners often differ dramatically in their adaptive capacity due to contrasting life histories, such as generation time and population size \cite{toby2010mutualisms}. For example, the adaptive potential of semelparous insects with annual life cycles differs substantially from that of the long-lived plants they pollinate. Existing work has already shown plant-animal mutualisms are generally weakened by climate change across broad scales \cite{tylianakis2008global}. Climate-driven extinctions are not necessarily random, and taxonomic or functional biases in abundance changes may have large effects on network properties. Schleuning et al. (2016) found that higher elevation montane mutualism networks were less robust to climate-mediated losses than their lower-elevation counterpoints \cite{schleuning2016ecological}. Limitations to upslope movement have already been shown to reduce population size or extirpate montane species \cite{freeman2018climate}, potentially putting high elevation mutualistic networks at higher risk of network breakdown. 
+    
+    %Changes to the phisiology of interactions
+    \paragraph*{}
+    Changes in environmental conditions may also alter the strength of a given interaction through changes in physiology or interaction preference \cite{cruz2023mutualisms}, potentially leading to interaction breakdown. Hoover et al. (2012) observed shifts in nectar chemistry as a function of altered pCO2, warming, and nitrogen deposition, which then had downstream effects on experimental pollinator preference and longevity \cite{hoover2012warming}. Similar changes in pollen quality may also affect nutritional rewards of interactions, altering the fitness or preference of plants or pollinators \cite{gerard2020global}. These sorts of processes may alter the coevolutionary processes underpinning the development of mutualistic networks, or cause negative fitness consequences in taxa without the plasticity to alter their interaction patterns accordingly. Warming conditions also tend to reduce body size in insects while it has less predictable effects on the size of plants; this could potentially alter matching of specialized insect feeding morphologies with their plants \cite{gerard2020global}. These sorts of mismatches can degrade interactions as a function of environment, and understanding how both plant and pollinator traits might shift with changing environments is important for predicting the outcomes even for contemporary interactions \cite{cruz2023mutualisms}.
+
+\subsection{Land use}
+
+    \paragraph{}
+    Human-mediated changes in land cover results in large shifts in habitat availability, both in an absolute sense and in terms of the spatial distribution of habitats. At local scales, the impact of land use change on network structure depend on speed, type, and extent of conversion. For example, Theodorou et al. (2017) found previously agricultural areas actually increased in both floral and bee diversity when urbanized, emphasizing the importance of establishing useful bases of comparison \cite{theodorou2017structure}. As natural areas are fragmented, specialized and rare interactions are lost at disproportionally higher rates than generalist interactions \cite{aizen2012specialization}, with remaining generalist interactions potentially forming a widespread consistent core of interactions at landscape scales. This loss can be driven by the actual extirpation of specialists from the community itself \cite{maurer2024landscape}, or by shifting biotic or abiotic contexts reducing the prevalence or efficacy of that interactions \cite{birkenbach2024land}. In the case of habitat fragmentation, even if overall habitat loss is small the proportion of edge area is increased as existing land-types are subdivided. As edge-habitats become more prevalent across the landscape, networks may grow increasingly homogenized as turnover decreases over larger spatial extent, even if local assemblages retain their diversity or structure. 
+
+    
+    \paragraph{}
+    While land-cover conversion can often have profound impact on the presence of individual species or interactions at a given site \cite{theodorou2017structure, schneiberg2020urbanization, maurer2024landscape, birkenbach2024land}, whether these changes scale up into differences in overall network structure may be more context-dependent. For example, a recent paper by Rossi et al. (2025) quantified changes in frugivore networks in disturbed amazon forest plots, finding that while logging and burning across timescales did reduce richness of both interacting species and links between them, neither had predictable impacts on network structural properties \cite{rossi2025anthropogenic}. Salazar-Rivera et al. (2020) found that modularity was maintained in periurban frugivory networks compared to undisturbed habitats, only observing a decrease in nestedness  \cite{salazar2020frugivory}. Network properties at local scales may be maintained if land use changes exert too small of an impact on structural or functional properties of mutualistic assemblages to cause appreciable changes in network structure. However, a lack of difference across disturbance regimes may also be an indication of comparatively strong constraints on the operational structural features that can be realized in a network comprised of a given regional pool of mutualists. 
+
+    
+    \paragraph{}
+    Observed network structures may help mutualistic communities deal with disturbance, or at least mediate their responses. Fortuna and Bascompte (2006) found that empirically observed networks were more sensitive to simulated small reductions in habitat area, but persisted longer than randomly assembled graphs in the face of severe disturbance, largely due to the large amount of nestedness observed within empirical networks providing functional redundancy \cite{fortuna2006habitat}. These properties largely stemmed from persistent high degrees of nestedness observed within empirically observed networks. Further empirical observations of how structural properties both mediate the response of mutualistic networks to change, as well as how these changes feedback to alter structural properties is warranted. Even if structural properties are not negatively impacted by altered land use, specific ecosystem services may still be disrupted \cite{menke2012plant}. For example, Menke et al. (2012) found that frugivory networks along forest edges were more nested and had greater connectance,  but saw an overall decrease in dispersal of large-fruited forest-specialist plants \cite{menke2012plant} . While helpful for predicting and understanding changes in mutualistic networks, relying on structural features alone as indicators of network change can mask functionally critical losses. In practice, isolating the effects of land use change from other anthropogenic drivers is often difficult. Areas with large amounts of human-mediated land cover conversion are often subject to increased propagule pressure of nonnative mutualists \cite{liu2023impact}, which may have their own impacts on network structural properties. 
+
+
+
+
+
+
+
+
+
+
+\subsection{Invasion}
+    \paragraph{}
+    Human-mediated dispersal has vastly altered the distributions of species across the globe, and how patterns of how non-native species invade existing assemblages can have persistent effects on the structural properties of mutualistic networks. Species with generalist interaction strategies can more easily invade existing ecological networks \cite{piechnik2008food} and species roles are often conserved between native and invaded ranges \cite{emer2016species}. Invasive plants are often effectively dispersed by generalist pollinators and seed dispersers \cite{richardson2000plant}, though in general many successful invaders can also successfully interact with relative specialists in their new range \cite{stouffer2014exotic}. How the traits of a potential invader relate to the existing community can affect its propensity of invasion; in simulated communities \cite{minoarivelo2016invading} found potential invaders with trait means different from the existing community were more likely to successfully establish. The generalism or specialism of a potential invader may also be predictive of its effect on network properties given establishment \cite{russo2014patterns}.
+
+    \paragraph{} %homogenation across scales
+    As synanthropic generalist species are introduced into more human-affected habitats, mutualistic assemblages and potentially network structures tend to homogenize across regional scales \cite{fricke2020accelerating}. Even in times where homogenization  across space is limited in the context of the entire community, persistent "invader complexes" of introduced species that interact with each other may still alter network properties or invasability \cite{richardson2000plant, prior2015mutualism, vollstadt2022plant}. Generalist invaders may also have hysteretic effects on networks once well integrated into existing assemblages. In networks where invasive plants have already established, removing them may in fact further alter network structural properties than allowing them to persist \cite{valdovinos2009structure, aslan2019implications}. Reliance on non-native pollination partners may further exacerbate the effects of other anthropogenic disturbances. Zettlemoyer et al. (2019) found higher phenotypic plasticity and greater phenological shifts in introduced plant species compared to native taxa, potentially further increasing the risk of phenological mismatch between native pollinators and introduced plants they now rely on\cite{zettlemoyer2019phenology}. Alternatively, while introduced mutualists may provide some direct benefit to native partners, their net effect may remain negative when indirect impacts are considered\cite{vidal2021variable}. If invading species exert competitive pressure that reduces the abundance of their native intraguild counterparts while simultaneously being less effective at fulfilling mutualistic functions (pollination, protection, etc.), mutulistic networks may collapse functionally even as interactions (e.g. floral visitation, etc) appear to continue. While tight coevolutionary coupling is seen between some specialist partners \cite{stebbins1970adaptive}, the widespread generalism exhibited in many animal-plant networks can cause indirect impacts of invaders to play a large role in shaping their eco-evolutionary trajectories \cite{guimaraes2017indirect, medeiros2018geographic}. Native preferences to associate with introduced mutualists could even cause invasional meltdown of native interactions, a phenomenon exemplified in avian frugivory networks in Hawaii \cite{VizentinBugoni2021}.
+
+
+    \paragraph{} %Invasion of generalists leads us to expect changes in invaded network properties, though evidence is mixed in practice 
+    If invasion favors generalist species \cite{piechnik2008food, fricke2020accelerating}, one might expect directional changes in network properties associated with widespread invasion, especially if coupled declines in native mutualists or shifts in their interaction patterns \cite{aizen2008invasive}. Supergeneralist invaders may significantly increase nestedness by creating cross-module connections \cite{traveset2014mutualistic}, allowing perturbations to propagate through the network farther and with greater strength. However, invasive species may also provide functional redundancy of potential partners, potentially helping buffer mutualistic networks against species extinction. However, such buffering may not always translate to greater robustness or resilience in the face of broader perturbations. 
+    
+    \paragraph{}
+    In addition to structural properties, emergent properties such as robustness or resilience may be important for predicting the invasability of a given network \cite{minoarivelo2016invading}. The presence of invasive mutualists can modify how networks respond to perturbation, potentially altering the severity or likelihood of coextinction cascades. By simulating secondary extinction cascades in invaded or uninvaded empirical networks, Vanbergen et al. (2017) found that coextinctions were less likely in disturbed networks due to functional redundancy of partners \cite{vanbergen2017network}. However, given that an initial coextinction event occurred, the risk of a cascading collapse was actually higher in these networks, highlighting how expectations about how invasion may impact short and long-term responses to change differently in some scenarios. 
+    
+    \paragraph{}
+    Expectations for how structural characters translate into emergent properties may be very different depending on how the strength and structure of competition within the community \cite{pascual2017mutualism, wang2023interspecific}. In addition to global homogenization of interactions across scales, Fricke and Svenning (2020) found that more highly-invaded frugivory networks had higher connectance and lower modularity \cite{fricke2020accelerating}. Some evidence exists that the increasing prevalence of synanthropic generalists in some pollinator communities increases interaction evenness \cite{schneiberg2020urbanization} or nestedness \cite{bartomeus2008contrasting}, though the exact pattern of this may depend on factors such as pollination syndrome or local pollinator communities. Vanbergen et al. (2017) also found that disturbed pollination networks were larger, but actually lower in connectance and nestedness\cite{vanbergen2017network}. Even further complicating expectations, numerous other studies have also observed little to no predictable impact of invasion on overall network properties such as nestedness or modularity \cite{stouffer2014exotic, parra2021impacts}, even when considering invasion of hypergeneralist plant species \cite{vila2009invasive}. Further investigation into the processes maintaining network properties despite significant node-level changes is needed to fully synthesize these variable results across systems. 
+
+
+
+\section{Additional Considerations}
+
+\subsection{The Role of Rewiring}
+\paragraph{}
+Ecological networks are not static through time or space. While links between species may erode through time in response to changing environments, new links may form as well, a process known as link rewiring. This phenomenon is an important consideration when assessing how mutualistic networks may respond to anthropogenic pressures. While it remains essential to account for processes that erode existing interactions (e.g. phenological mismatches, species extinctions, etc.), failing to account for potential for rewiring may lead us to overestimate their effects \cite{vizentin2020including}. However, despite recent conceptual advances in understanding the rules and constraints that govern rewiring \cite{corlett2011frugivore, fuzessy2024navigating}, in practice we often do not know how networks will rewire until they are perturbed, and they may at times fail to rewire as strongly as expected \cite{leimberger2023plant}. Leveraging predictive approaches can be potentially powerful in this context in order to better understand how networks may respond to change\cite{eklof2013dimensionality, vizentin2020including, strydom2021roadmap, strydom2023graph, nunes2024estimated}, but to date there are relatively few case studies looking at how networks change through time (though see \cite{burkle2013plant, olesen2011strong, leimberger2023plant, petanidou2008long}). This gap has been long-acknowledged in the literature \cite{bascompte2007plant}, but due to the logistical challenges and significant resource requirements of resampling interactions at a given site regularly it is one that we have been slow to fill as a scientific community. From the evidence that does exist, species traits or position within a network may be predictive of their persistence \cite{burkle2013plant} or rewiring \cite{sandor2024spatial}.
+
+\paragraph{}
+In some cases, phylogenetic conservation of traits or interaction preference may be useful for determining which species may be interacting in present assemblages, as well as which interactions may occur between novel sets of species. This has been done both in modern systems \cite{VizentinBugoni2021} as well as used it to gather insights into paleoecological systems of interacting mutualists \cite{Braga21}. In other systems however phylogenetic traits still can't capture as much as traits do \cite{rafferty2013}. Machine learning approaches can help overcome the problem of predicting potential species interactions as well as potentially identify traits associated with rewiring potential \cite{self, pichler2020machine}, though care needs to be taken in applying many of these approaches to notoriously sparse ecological data \cite{poisot2023guidelines}.
+
+\paragraph{}
+Species' capacity to rewire may be an otherwise hidden or underappreciated potential of functional redundancy, and affinity-based rewiring has been shown to maintain network properties and stability in theoretical systems \cite{sheykhali2020robustness}. There are also new exciting avenues for measuring the rate and scale of rewiring as well with potential for application in ecological systems \cite{han2019measuring}. However, it is also important to emphasize that mutualistic interactions are not the only relationships being affected by global change. Competitive and trophic interactions are also likely to be affected by anthropogenic drivers, potentially complicating the picture of the emergent outcomes of rewiring. Furthermore, shifts in environmentally-mediated interaction strengths can fundamentally alter the dynamics of a network, even without changing its overall structure.  Mechanisms to maintain mutualisms may be developed on coevolutionary timescales, and species may not be able to alter interaction patterns to reflect current fitness benefits \cite{toby2010mutualisms}. However, this is not always true; flexibility in interaction preferences has been observed across numerous pollinator\cite{moran2022flexible} and frugivore taxa \cite{nowak2013specialist}, and adaptive foraging may help ameliorate the negative impacts of environmental change in some animal taxa\cite{valdovinos2016niche}. 
+
+% TD: damn this is a long section that seems almost tangential to the main thesis/point of the review. Maybe it's not. 
+
+
+
+
+\subsection{The inherent issue of sampling}
+%Problems with sampling networks and when they should make us careful about how we interpret network structurally properties.} %I think this is important to talk about, but need to be strategic about where it's incorporated to not undercut. 
+\paragraph{}
+Network representations can be useful representations of an ecological system, but it is important to keep in mind that the way we sample and construct these models may cause artifacts in our inference \cite{bluthgen2024critical, olesen2011missing, Young21}. Sampling capability and efficacy varies widely across different types of mutualistic systems, and biases may potentially lead to artificial structural features. For example, at least some of the persistence of patterns of high nestedness and low connectivity of many ecological networks may be a byproduct of poorly sampling them \cite{bluthgen2024critical, bluthgen2008} or neutral evolutionary processes\cite{Valverde2018}. One solution to circumvent this shortfall is by combining data from multiple sources \cite{olesen2011missing, cirtwill2019quantitative}, such as independent abundance estimates or alternative sources of interaction data. By properly combining data from multiple sources it becomes possible to account for these structural artifacts as well as characterize higher order interactions and structure, even without a fully sampled network \cite{valdovinos2019mutualistic}. 
+% TD: no love for link prediction to fill in potentially missing gaps? Rough. 
+
+
+\paragraph*{}
+When describing or characterizing networks, the scale of aggregation chosen should be biologically motivated. Combining data across too large a spatial or temporal extent can artificially decrease network connectance and lead to misinterpretations regarding species generalism or network turnover \cite{burkle2011future, duchenne2022seasonal}. As potential partners that never overlap coincidentally in time or space are aggregated into the same network, this creates an overabundance of "missing" links even if the species in question may ostensibly interact given their conference.  As such, the same network may exhibit different structural features depending on your level of aggregation \cite{guimaraes2020structure}. Species considered generalists across their range may function as relative specialists at individual sites, with local populations only interacting with a narrow handful of partners in any given biotic context. Eco-evolutionary modeling \cite{medeiros2018geographic} found that gene flow among generalist populations may actually increase their trait-matching to local mutualists. Even in the same habitats, network properties may change across fine scales (e.g. forest floor to canopy) \cite{schleuning2011specialization}. While network approaches necessarily simplify complex ecological systems, the particular methodological choices made can substantially influence the structural properties observed and the conclusions we draw from them.
+
+
+\paragraph*{}
+Additionally, many theoretical expectations for how structural features translate into emergent properties rely on simulating truly mutualistic networks, where interactions between mutualists by definition confer a positive fitness benefit to both interacting species. However, interactions may not always convey a fitness benefit in practice \cite{thomson2003mutualism}. The fitness impacts of opportunistic interactions, "cheaters", palynivory, and granivory are often difficult to quantify, especially as the interaction is often contributing to fitness of each partner in very different ways (e.g. the benefit of resource for a pollinator is difficult to measure against the fitness benefit of pollination for a plant). ``True" mutualisms -- where both organisms receive a positive fitness benefit -- may actually be more conserved than interaction networks show \cite{burkle2011future, montesinos2017network}. Additionally, even the fitness effects of existing interactions may shift along the mutualism-antagonism continuum as climate alters the cost-benefit relationship of an interaction\cite{toby2010mutualisms} Empirically measuring the fitness effect conveyed by an interaction is logistically challenging but vital work, especially in the context of global change. There is some evidence, at least in pollination systems, that easier to measure properties such as interaction frequency can be a useful surrogate for fitness benefit \cite{vazquez2005interaction}. However, it remains unclear whether this relationship holds across broader spatial scales or applies to other forms of reproductive mutualism.
+
+%A few papers I've read have had calls to move from a conventional focus on network-level features to focus more on interaction or node-level properties. Honestly more of a "different network properties are related-Fortuna at first, then moving more to the interaction level-Simmons \cite{fortuna2010nestedness, simmons2019vulnerable}
+%Maybe better citations, but these are the two I first noticed the trend with
+
+
+
+
+\subsection{How are people utilizing network approaches for conservation planning/assessment?}
+%How are people utilizing network approaches for conservation planning/assessment?
+The idea of conserving species interactions has been around for nearly a half-century \cite{Janzen1974Deflowering}. Conserving mutualist assemblages and reducing the rate of anthropogenic impacts can help mitigate potential future degradation of existing networks, but a large amount of change has already occurred in many of mutualistic systems. Accounting for both existing and potential future changes during conservation planning and assessment is a vital reality for effective management of ecosystems. Clear links between management goals and measurable outcomes are also essential in network contexts. For example, practices allowing or promoting temporal variance population size across a community generally have positive effects on network stability \cite{bascompte2022resilience}, but may be counter to management practice for individual species\cite{tylianakis2010conservation}. 
+
+\paragraph*{}
+While conceptually linked, not all reproductive mutualisms are equal. Plant-pollinator relationships require an individual pollinator to engage in multiple interactions with the same species for successful conspecific pollen transfer, whereas effective seed dispersal can occur as the result of a single frugivory interaction. The different fitness benefits and mechanisms of these interactions may translate into very different impacts of global change on their structure and coevolutionary underpinnings \cite{wheelwright1982seed}. Regardless, taking network-level approaches to ecological questions can provide insight into numerous foundational ecological properties, and understanding how networks change may have relevance in the community beyond the confines of the network itself \cite{windsor2022using}.
+
+%-----------------------
+\section{Conclusion} %Needs citations, but the ideas are here. 
+Mutualistic networks represent complex webs of interactions that underlie essential ecosystems. Here, we have reviewed evidence that ever-increasing human impacts inflict non-random changes in the structural properties of these networks, which have the potential to scale up into emergent properties of ecological and evolutionary consequence. Anthropogenic shifts in global climate, land use, and species assemblages all have the potential to alter mutualist assemblages and the interactions between them. Understanding how resultant changes in structural properties of mutualistic networks can allow us to better predict how networks may respond to future perturbations, but additional research is needed to highlight the mechanistic causes and consequences of these changes. Across all three types of anthropogenic impacts discussed, we have examples of relatively drastic changes in node or interaction level properties failing to scale up into expected changes in structural or emergent features of networks. Further investigation of the rules that govern how these interactions scale up to network level properties, especially in the context of empirically disturbed networks, is warranted. 
+
+\paragraph*{}
+In many ways, theoretical advancements in our ability to predict how networks may respond to environmental change have outpaced empirical evaluation of these predictions. Sampling a given network repeatedly through time is labor intensive, but a vital effort necessary to begin closing this gap. Existing empirical work looking at network change through time has made vital steps forward in our understanding how mutualistic networks change throughout time. The concept of non-Darwinian selection processes \cite{borrelli2015selection, saravia2022ecological}, where more stable network structures persist longer through time, are predicted \cite{cai2020mutualistic}, but empirical investigation of this phenomenon in the context of mutulistic systems has yet to be explored. Clarifying the extent to which stabilizing dynamics operate at the network level and identifying appropriate null models for comparison remains an important area for future investigation.
+
+\paragraph*{}
+Structural features can be powerful for understanding how species interactions networks may respond to global change, but not if we lack a coherent understanding of how structural features scale up to ecologically meaningful outcomes. Many existing structural metrics applied to ecological networks are borrowed from analysis of non-ecological graphs. 
+Moving beyond single-metric summaries towards approaches that characterize the distribution, covariance, and constraints among multiple node, interaction, and network-level properties may provide a more complete picture of the operational space these networks may occupy. A deeper understanding of the relationship among structural properties, and between structure and function in mutualistic communities, will be essential for revealing the principles that govern network responses to global change. 
+
+\paragraph*{}
+These questions are especially urgent in the face of accelerating anthropogenic change. As climates shift, land-cover changes, and species introductions rewire ecological communities, the persistence of mutualistic networks will depend on their capacity to reorganize in response. Identifying which structural properties matter, under which contexts, and for which outcomes, remains an essential need in the context of a changing world. Bridging the gap between theoretical and empirical models of network change, especially through repeated, interannual sampling of mutualistic networks as they respond to shifting environments is a vital need. With a proper understanding of these processes, we may be able to move from simply describing how networks change in response to perturbations to actively managing them in ways that help them endure. 
+
+% TD: a bit of a conservation focus in the conclusions (and a bit throughout). That's fine (unless reviewers take issue). There's no outlining of open questions, which could be a good addition to try to target and motivate future research, while also acknowledging that the 'call to action' in the paragraphs above don't capture the full space of what should be done (if this makes sense). I'd probably read the last 3-4 paragraphs of that styndom paper to see what their 'call' looks like. Or one of the other reviews like Tylianakis. Otherwise it reads as pretty solid, and may get accepted through the amount of work surveying the literature while maybe not offering as strong of a synthetic bit as other reviews would have. 
+
+
+\subsection{Outstanding questions:} %Required; 1-2s apiece. ~350 word max total
+
+\begin{enumerate}
+    \item How does the relationship between structural and emergent properties change depending on the temporal or spatial scale of aggregation? Does choosing too broad or narrow a spatial scale obscure the impacts of structural properties on network dynamics? 
+    \item How can considering distributions of node or interaction level traits alongside network structural properties improve our understanding or prediction of emergent properties? 
+    \item Network structural properties inherently covary \cite{poisot2014ecological, pellissier2018comparing}. Can we leverage our understanding of how these features constrain one another to more effectively predict emergent network properties from suites of structural metrics, rather than from individual features alone?
+    \item How is the feasibility domain of a given network \cite{bascompte2022resilience} constrained by the underlying species pool and suite of possible interactions? Can we use characterizations of this space to better understand how mutualistic systems may respond to future anthropogenic change? 
+    \item Does "non-Darwinian selection" \cite{borrelli2015selection, saravia2022ecological} on stabilizing features play a role in maintaining mutualistic network structures over eco-evolutionary timescales? If so, when might these processes maintain mutualistic function in the face of changing environments? 
+    \item Most existing work on the stability of mutualistic network structures has focused on static network properties; how might selection towards stabilizing features influence sequential assembly processes? 
+    \item Why do substantial changes in species or interaction level properties so often fail to translate into measurable changes in overall network structure, and what does this reveal about the processes that maintain structural stability in mutualistic systems?
+    \item How can insights gained from characterizing network structural properties be translated into actionable conservation and management strategies?
+\end{enumerate}
+
+%How do these different drivers ultimately interact? \cite{vidal2021variable, vazquez2009uniting}
+
+%Non-Darwinian selection processes. What's the right null model? 
+
+%How can considering distributions of node or interaction level traits alongside network structural properties improve our understanding or prediction? 
+
+%Invasive species may be positive or negative; what determines which? 
+
+%There are many examples where we see really drastic changes in node or interaction level properties, but these don't scale up to appreciable changes in overall structure. Why is this true and what can we learn from it? 
+
+%Given a said species pool with set interaction possibilities and whatnot, what's the potential network structure that can be assembled from them? Do we need to care about human impacts on structure if the operational space of a network so constrains it potential features? 
+
+
+
+
+\newpage
+
+\bibliographystyle{unsrt} 
+%\bibliographystyle{IEEEannot}  
+%\bibliography{annot} 
+  
+
+
+
+
+%\section*{Tables}
+
+%\begin{tabular}{||l p{.6\textwidth}||}
+%\toprule
+%\textbf{Term}       & Definition \\
+%\midrule
+%\textbf{Structural Properties}  & \\
+%Modularity   & Definition \\
+%Nestedness   &  Definition \\
+%Connectedness   & Definition \\
+%Interaction Evenness   & Definition \\
+%Node Degree   & The total number of connections that a node has to other species \\
+%Node Strength   & Specific to weighted networks; the sum of all edge weights connected to a given node \\
+%\textbf{Emergent Properties}  & \\
+%Local Stability   & Definition \\
+%Structural Stability   & Definition \\
+%Resilience  & Definition \\
+%Robustness to Secondary Extinction  & Definition \\
+%Hysteresis  & Definition \\
+%Tendency for Disturbance to Propogate \\ 
+%\textbf{Jargon}  & \\
+%Non-Darwinian Selection Process   & \cite{saravia2022ecological} \\
+%\bottomrule
+%\end{tabular}
+
+
+\clearpage 
+
+\section*{Figures}
+
+
+\begin{figure}[h!]
+  \begin{center}
+    \includegraphics[width=\textwidth]{Review/Figures/ReviewConcept.pdf}
+    \label{fig:ConceptDraft}
+    \caption{Across a diverse set of mutualistic systems, anthropogenic drivers including changes in climate (1a), land-use patterns (1b), and the human-mediated introduction of novel mutualists (1c) can alter the structural properties of the mutualistic networks they impact (2a–2c).  These changes to component structural features may, in turn, impact emergent properties of ecological relevance (3a–3d). For example, robustness (3a) characterizes a network’s ability to avoid secondary extinctions through functional redundancy. Other emergent features describe the behavior of systems near equilibrium, including their stability—the tendency to return to equilibrium after disturbance (3b), and resilience—the speed at which they return (3c). Other features include the tendency of networks to propagate or buffer the indirect effects of disturbance (3d, where a large disturbance in the top central node's population is propagated within the network through shared links). By improving our understanding of how anthropogenic forcing elicits structural change in mutualistic networks, and how those changes translate into altered emergent properties, we can better predict and conserve mutualistic systems.}
+  \end{center}
+\end{figure}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+%--- Supplement ---
+
+%\clearpage
+\newcommand{\beginsupplement}{%
+        \setcounter{page}{1}
+        \setcounter{table}{0}
+        \renewcommand{\thetable}{S\arabic{table}}%
+        \setcounter{figure}{0}
+        \renewcommand{\thefigure}{S\arabic{figure}}%
+        }
+
+%\section*{Supplemental Material}
+
+%{\large Paper title} \\
+
+
+%\noindent FirstName LastName$^{a,*}$ and  FirstName LastName$^{b}$  \\
+
+%\noindent $^{a}$ place 1
+%\noindent $^{b}$ place 2
+%\noindent $^{*}$ name@lsu.edu \\
+
+
+%\beginsupplement
