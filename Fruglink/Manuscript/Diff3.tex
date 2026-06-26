@@ -1,0 +1,352 @@
+\documentclass[num-refs]{article}%%%%where rsproca is the template name
+%DIF LATEXDIFF DIFFERENCE FILE
+%DIF DEL Oldest.tex   Wed Sep  3 17:48:48 2025
+%DIF ADD Newest.tex   Tue Sep  9 17:20:09 2025
+\usepackage[paper=a4paper,left=25mm,right=25mm,top=25mm,bottom=25mm]{geometry}
+\usepackage{natbib}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{gensymb}
+\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage{setspace}
+\setcounter{secnumdepth}{-1}
+\geometry{verbose,letterpaper,tmargin=2.54cm,bmargin=2.54cm,lmargin=2.54cm,rmargin=2.54cm}
+\usepackage{authblk}
+\usepackage[running]{lineno}
+\usepackage{booktabs}
+\usepackage[normalem]{ulem}
+\useunder{\uline}{\ul}{}
+\doublespacing
+%DIF PREAMBLE EXTENSION ADDED BY LATEXDIFF
+%DIF UNDERLINE PREAMBLE %DIF PREAMBLE
+\RequirePackage[normalem]{ulem} %DIF PREAMBLE
+\RequirePackage{color}\definecolor{RED}{rgb}{1,0,0}\definecolor{BLUE}{rgb}{0,0,1} %DIF PREAMBLE
+\providecommand{\DIFadd}[1]{{\protect\color{blue}\uwave{#1}}} %DIF PREAMBLE
+\providecommand{\DIFdel}[1]{{\protect\color{red}\sout{#1}}}                      %DIF PREAMBLE
+%DIF SAFE PREAMBLE %DIF PREAMBLE
+\providecommand{\DIFaddbegin}{} %DIF PREAMBLE
+\providecommand{\DIFaddend}{} %DIF PREAMBLE
+\providecommand{\DIFdelbegin}{} %DIF PREAMBLE
+\providecommand{\DIFdelend}{} %DIF PREAMBLE
+\providecommand{\DIFmodbegin}{} %DIF PREAMBLE
+\providecommand{\DIFmodend}{} %DIF PREAMBLE
+%DIF FLOATSAFE PREAMBLE %DIF PREAMBLE
+\providecommand{\DIFaddFL}[1]{\DIFadd{#1}} %DIF PREAMBLE
+\providecommand{\DIFdelFL}[1]{\DIFdel{#1}} %DIF PREAMBLE
+\providecommand{\DIFaddbeginFL}{} %DIF PREAMBLE
+\providecommand{\DIFaddendFL}{} %DIF PREAMBLE
+\providecommand{\DIFdelbeginFL}{} %DIF PREAMBLE
+\providecommand{\DIFdelendFL}{} %DIF PREAMBLE
+\newcommand{\DIFscaledelfig}{0.5}
+%DIF HIGHLIGHTGRAPHICS PREAMBLE %DIF PREAMBLE
+\RequirePackage{settobox} %DIF PREAMBLE
+\RequirePackage{letltxmacro} %DIF PREAMBLE
+\newsavebox{\DIFdelgraphicsbox} %DIF PREAMBLE
+\newlength{\DIFdelgraphicswidth} %DIF PREAMBLE
+\newlength{\DIFdelgraphicsheight} %DIF PREAMBLE
+% store original definition of \includegraphics %DIF PREAMBLE
+\LetLtxMacro{\DIFOincludegraphics}{\includegraphics} %DIF PREAMBLE
+\newcommand{\DIFaddincludegraphics}[2][]{{\color{blue}\fbox{\DIFOincludegraphics[#1]{#2}}}} %DIF PREAMBLE
+\newcommand{\DIFdelincludegraphics}[2][]{% %DIF PREAMBLE
+\sbox{\DIFdelgraphicsbox}{\DIFOincludegraphics[#1]{#2}}% %DIF PREAMBLE
+\settoboxwidth{\DIFdelgraphicswidth}{\DIFdelgraphicsbox} %DIF PREAMBLE
+\settoboxtotalheight{\DIFdelgraphicsheight}{\DIFdelgraphicsbox} %DIF PREAMBLE
+\scalebox{\DIFscaledelfig}{% %DIF PREAMBLE
+\parbox[b]{\DIFdelgraphicswidth}{\usebox{\DIFdelgraphicsbox}\\[-\baselineskip] \rule{\DIFdelgraphicswidth}{0em}}\llap{\resizebox{\DIFdelgraphicswidth}{\DIFdelgraphicsheight}{% %DIF PREAMBLE
+\setlength{\unitlength}{\DIFdelgraphicswidth}% %DIF PREAMBLE
+\begin{picture}(1,1)% %DIF PREAMBLE
+\thicklines\linethickness{2pt} %DIF PREAMBLE
+{\color[rgb]{1,0,0}\put(0,0){\framebox(1,1){}}}% %DIF PREAMBLE
+{\color[rgb]{1,0,0}\put(0,0){\line( 1,1){1}}}% %DIF PREAMBLE
+{\color[rgb]{1,0,0}\put(0,1){\line(1,-1){1}}}% %DIF PREAMBLE
+\end{picture}% %DIF PREAMBLE
+}\hspace*{3pt}}} %DIF PREAMBLE
+} %DIF PREAMBLE
+\LetLtxMacro{\DIFOaddbegin}{\DIFaddbegin} %DIF PREAMBLE
+\LetLtxMacro{\DIFOaddend}{\DIFaddend} %DIF PREAMBLE
+\LetLtxMacro{\DIFOdelbegin}{\DIFdelbegin} %DIF PREAMBLE
+\LetLtxMacro{\DIFOdelend}{\DIFdelend} %DIF PREAMBLE
+\DeclareRobustCommand{\DIFaddbegin}{\DIFOaddbegin \let\includegraphics\DIFaddincludegraphics} %DIF PREAMBLE
+\DeclareRobustCommand{\DIFaddend}{\DIFOaddend \let\includegraphics\DIFOincludegraphics} %DIF PREAMBLE
+\DeclareRobustCommand{\DIFdelbegin}{\DIFOdelbegin \let\includegraphics\DIFdelincludegraphics} %DIF PREAMBLE
+\DeclareRobustCommand{\DIFdelend}{\DIFOaddend \let\includegraphics\DIFOincludegraphics} %DIF PREAMBLE
+\LetLtxMacro{\DIFOaddbeginFL}{\DIFaddbeginFL} %DIF PREAMBLE
+\LetLtxMacro{\DIFOaddendFL}{\DIFaddendFL} %DIF PREAMBLE
+\LetLtxMacro{\DIFOdelbeginFL}{\DIFdelbeginFL} %DIF PREAMBLE
+\LetLtxMacro{\DIFOdelendFL}{\DIFdelendFL} %DIF PREAMBLE
+\DeclareRobustCommand{\DIFaddbeginFL}{\DIFOaddbeginFL \let\includegraphics\DIFaddincludegraphics} %DIF PREAMBLE
+\DeclareRobustCommand{\DIFaddendFL}{\DIFOaddendFL \let\includegraphics\DIFOincludegraphics} %DIF PREAMBLE
+\DeclareRobustCommand{\DIFdelbeginFL}{\DIFOdelbeginFL \let\includegraphics\DIFdelincludegraphics} %DIF PREAMBLE
+\DeclareRobustCommand{\DIFdelendFL}{\DIFOaddendFL \let\includegraphics\DIFOincludegraphics} %DIF PREAMBLE
+%DIF LISTINGS PREAMBLE %DIF PREAMBLE
+\RequirePackage{listings} %DIF PREAMBLE
+\RequirePackage{color} %DIF PREAMBLE
+\lstdefinelanguage{DIFcode}{ %DIF PREAMBLE
+%DIF DIFCODE_UNDERLINE %DIF PREAMBLE
+  moredelim=[il][\color{red}\sout]{\%DIF\ <\ }, %DIF PREAMBLE
+  moredelim=[il][\color{blue}\uwave]{\%DIF\ >\ } %DIF PREAMBLE
+} %DIF PREAMBLE
+\lstdefinestyle{DIFverbatimstyle}{ %DIF PREAMBLE
+	language=DIFcode, %DIF PREAMBLE
+	basicstyle=\ttfamily, %DIF PREAMBLE
+	columns=fullflexible, %DIF PREAMBLE
+	keepspaces=true %DIF PREAMBLE
+} %DIF PREAMBLE
+\lstnewenvironment{DIFverbatim}{\lstset{style=DIFverbatimstyle}}{} %DIF PREAMBLE
+\lstnewenvironment{DIFverbatim*}{\lstset{style=DIFverbatimstyle,showspaces=true}}{} %DIF PREAMBLE
+%DIF END PREAMBLE EXTENSION ADDED BY LATEXDIFF
+
+\begin{document}
+
+\title{Comparing the power of phylogenetic, trait, and network structure information to predict plant-frugivore interactions}
+% Include full author names and degrees, when required by the journal.
+% Use the \authfn to add symbols for additional footnotes and present addresses, if any. Usually start with 1 for notes about author contributions; then continuing with 2 etc if any author has a different present address.
+
+\author[1\authfn{1}]{ANONYMIZED}
+
+\maketitle
+
+\linenumbers
+\section*{Abstract}
+\paragraph*{}
+Due to the constraints of limited effort and sampling error, observed species interaction networks are an imperfect representation of the ``true'' underlying community. Link prediction methods allow us to construct a potentially more complete representation of a given empirical network by guiding targeted sampling of predicted links, as well as offer insight into potential interactions that may occur as species' ranges shift. Various data types can predict interactions; understanding how different kinds of information compare in their ability to predict links between different types of nodes is important. To this end, we compare random-forest regression models informed by combinations of phylogenetic structure, species traits, and latent network structure-hidden features inferred from the observed network topology-in their ability to predict interactions in a diverse network of fruiting plants and frugivorous birds in Brazil's Atlantic forest. We found that for our dataset, latent structure derived through a single-value decomposition approach was the most important determinant of model predictive performance. While incorporating trait or phylogenetic information alongside latent features had little effect on discriminatory power, they did meaningfully increase overall model accuracy. Our results highlight the potential importance of latent structural features for predicting mutualistic interactions, and encourage a clear conceptual link between prediction performance metrics and the overall goal of predicting cryptic links. \\
+\\
+
+
+%%%% Keyword entries to be placed here %%%%
+\textbf{keywords:} frugivory, mutualistic network, link prediction, seed dispersal, mutualism
+
+
+\rsbreak
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\clearpage 
+
+\section*{Introduction}
+\paragraph*{}
+Natural systems are characterized by a diverse set of interacting organisms; organizing these interaction sets into ecological networks can help us gain insight into community and ecosystem-level processes. Whether consumer-resource, host-parasite, or mutualistic networks, understanding which species interact and why can give us insight into features as specific as the dynamics of one focal species all the way up to broad-scale patterns of community assembly and stability \citep{guimaraes2020structure, saravia2022ecological}. As such, ecologists have put a great deal of effort into observing and quantifying the interactions found in nature. However, like any data collection process, the sampling of ecological networks is imperfect. No matter how much effort we put into characterizing a network, we may often miss observing interactions (links), or even interactors themselves (nodes) \citep{Young21}. Moreover, the likelihood of observing a given interaction is related to factors such as the abundances of both interactors \citep{canard2014empirical}, with the total interaction set of rare species less likely to be represented accurately \citep{olesen2011missing, cirtwill2019quantitative}. Errors in the construction of ecological networks, especially when biased, can lead to dramatic changes in network structure \citep{bluthgen2008, Young21}. Ecological networks are also temporally dynamic. Local species turnover can add or subtract links, while regional-scale extinctions, evolution, or range shifts may rewire existing connections \citep{olesen2011}. 
+
+\paragraph*{}
+Increasing sampling intensity or duration could solve these problems; as sampling effort increases it is less likely for rare links to go unobserved, allowing for a more accurate representation of the true network structure. However, the resources that can be devoted to sampling are limited. While the increasing availability of passive monitoring technologies\citep{quintero2022methodological}, as well efforts to extract interaction data from existing large-scale occurrence datasets \citep{putman2021power} may increase the availability on interaction data, the problem of incompletely sampling interactions will never fully disappear. A potential way to address this shortfall is to utilize predictive approaches to decide which particular species or links should be targeted for additional sampling. To this end, the goal of predicting cryptic links between nodes allows us to more productively focus limited sampling resources \citep{terry2020finding}. Predictive approaches also allow for us to predict network organization arising from novel complements of species. Identifying likely or unlikely possible linkages between invading species and already present interactors allows us to get a more complete picture of biotic constraints on invasibility \citep{minoarivelo2016invading}, and ultimately a better understanding of how species interaction networks may be altered by anthropogenic forcing.  
+
+\paragraph*{}
+Mutualistic interactions are dependent on a complex set of factors including life history \citep{ramos2018fruit}, phenotypic traits \citep{rafferty2013}, co-evolutionary history \citep{eriksson2016evolution}, spatial and temporal distributions \citep{menke2012plant, fricke2020accelerating, laurindo2020drivers}, as well other biotic interactions \citep{carreira2020question}. Incorporating information that either directly influences, or conveys information about these factors into link prediction frameworks should hopefully improve prediction performance \citep{dallas2017predicting}. When applying link prediction in practice, we often have a variety of species and interaction-level properties at our disposal, many of which may perform better or worse at predicting in certain types of networks or interactions. Understanding which types of information may be better or worse at predicting interactions in different contexts, however, is still an open avenue of research. 
+
+\paragraph*{}
+For plant-frugivore seed dispersal systems, information on species morphological traits (gape-width, fruit characteristics, etc), may be at the root of why many taxa do or do not interact \citep{moran2010can, gonzalez2015relative, bender2018morphological}. Trait matching link prediction approaches are able to use suites of continuous or discrete traits that either directly or indirectly influence interaction probability across a large number of species. These approaches perform well in situations when a small number of traits are linked to interaction probabilities across many species (e.g. flower and beak morphometric traits in flower-hummingbird pollinator systems \citep{pichler2020}). However, while trait data may give us insight into biological underpinnings of network connections we observe, they may not always be the most appropriate for link prediction methods. Interactions may be determined by a large suite of traits that individually contribute small amounts. Alternatively, traits relevant for one taxonomic group may not be relevant for another (gape size may be predictive for birds, but not for primates). Or interaction propensities may be controlled by traits difficult to quantify, such as microhabitat usage or foraging strategies. In all of these cases, trait-matching approaches may perform relatively poorly for some or all types of nodes in a given network. In these cases, alternative information sources such as phylogenetic information or latent network structure (discussed below) may be useful for link prediction. 
+
+\paragraph*{}
+Using phylogenetic relationships between species may be useful for predicting links due to a number of factors. Firstly, traits that mediate species interactions may be phylogenetically conserved, allowing us to treat information about phylogenetic relationships between organisms as a proxy for traits. This assumption may be especially useful when traits governing interactions are numerous, hard to measure, or hard to identify. However, phylogenetic conservatism may break down at fine evolutionary scales due to local selection pressures on traits governing interactions \citep{perez2007phylogenetic}, making phylogenetic information an imperfect proxy in some contexts \citep{rafferty2013}. Additionally, while post-hoc correlative investigation may be able to suggest potential traits of interest, this approach ultimately further abstracts from the mechanisms governing interactions even if prediction performance is quite good. Despite these shortcomings, in the use-case of targeting potential links for surveillance (in essence a prediction problem), a phylogenetic approach may still be quite useful. In addition to proxying traits, as coevolutionary history between organisms can often be an important factor governing the presence of an interaction, incorporating phylogenetic information may be vital to represent this linkage. While plant-frugivore networks may generally be less coevolutionarily linked and more asymmetric (species with few interactions tend to interact with partners with many interactions) than some other classes of ecological networks\citep{wheelwright1982seed, jordano1987patterns, maglianesi2024phylogenetic}, capturing nodes' shared evolutionary history may still be important for prediction. By definition phylogenetic methods require a phylogeny that includes all the species you intend to predict interactions for, causing potential limitations for predicting in systems where phylogenetic information may be incomplete. However, as the cost and time required to sequence non-model genomes has and continues to decline, the problem of data availability continues to become a more and more surmountable barrier to prediction. To-date, phylogeny-based interaction predictions have been successfully implemented in a number of both mutualistic\citep{Braga21} and antagonistic\citep{pearse2013predicting} plant-animal network systems.
+
+
+
+\paragraph*{}
+Independent of the phylogenetic relationships and traits of individual nodes in a network, latent structural features of networks themselves may actually be useful for predicting missing links. In this context, the term ``latent features" refers broadly to hidden properties derived from the topology of the interaction network, which can be approximated through any number of dimensionality-reduction approaches \citep{poisot2021imputing}. While there are a multitude of different methods used to create latent network features for interaction prediction (single-value decomposition, random dot product graphs \citep{strydom2022food}, graph motif distributions, matrix factorization \citep{seo2018predicting}, etc), we focus on single-value decomposition, an eigendecomposition approach already used with some success in describing the structure of and assisting in the prediction of empirical food webs, \citep{banville2023constrains} host-virus associations \citep{poisot2021imputing, poisot2023network}, and seed-dispersal interactions \citep{nunes2024estimated}. Once an existing network is known, calculating latent structural features is computationally tractable. While arguably even more agnostic to the mechanisms driving species interactions, this structural information may capture particular types of real linkages difficult to discover based on trait or phylogenetic information alone. 
+
+
+\paragraph*{}
+Prevailing interaction prediction approaches have often centered on a single information type, but recent work in host-parasite systems have emphasized the power of machine learning approaches to synthesize multiple data types to predict interactions \citep{strydom2021roadmap}. Despite the use of this variety of information streams for link prediction problems, studies directly comparing the predictive capacity of phylogenetic, trait, and latent features are few, and have not been applied in plant-frugivore systems. Beyond looking at the performance of these feature classes independently however, knowing how they may be used together is another important avenue of research. By looking at the performance of models trained on combinations of different data types we are better able to understand whether different methods overlap in the types of links they predict well, and perhaps more importantly whether we can use these information streams in concert to create models that are more than the sum of their parts. To this end, we apply random forest prediction algorithms to predict plant-frugivore interactions in Atlantic forests in Brazil using combinations of species trait data, phylogenetic information, and latent structural features. 
+
+\section*{Methods}
+
+\paragraph{Trait and Interaction Data}
+The full interaction network was published by Bello et al. \citep{bello2017}, and includes a total of $5,226$ unique species interactions between $787$ plant species and $342$ frugivore species. This network effectively represents a regional metaweb of observed interactions, with the realized set of interactions at a given site being a subset, the exact composition of which is determined by local assembly processes. By taking a metaweb approach-predicting “possible” interactions independent of local geographic or temporal variation in species abundance—we aim to better understand the factors associated with the potential for interaction. This general approach is shared by a number of other studies predicting potential interactions across large spatial scales. \citep{strydom2022food, dansereau2024spatially, hao2025global} Due to the availability of phylogenetic and trait data, we restricted our analyses to avian-plant interactions, representing the most species-rich set of frugivores in this dataset ($3,856$ unique interactions between $394$ and $242$ plant and bird species, respectively). Of our avian-frugivore species (hereafter frugivores), the number of unique plant interactions per frugivore (frugivore degree) ranged from 1 (53 species) to 120 unique plant interactions recorded for \emph{Turdus rufiventris}; median frugivore degree was 5. The number of unique frugivore interactions per plant (plant degree) was generally lower, ranging from 1 (128 species) to 80 unique frugivore interactions recorded for \emph{Myrsine coriacea}; median plant degree was 2. Overall this interaction network is characterized by a relatively high degree of phylogenetic generalism. Out of 187 frugivore species that interacted with more than one plant for which phylogenetic information is available, only 9 interacted with a group of plants more phylogenetically related than random chance (\citep{kembel2010picante}, see supplement). 
+
+\paragraph*{}
+The Bello et al. dataset includes a number of informative traits for both plant and frugivore nodes that could be potentially useful for prediction, many of which we used in our trait-based models. These include frugivore allometric measures such as body mass and gape size, and ecological traits such as degree of frugivory (scored 1-3). Frugivore mean body mass was unavailable for 3 species, while mean gape size was unavailable for 68 species. Plant traits include fruit diameter, fruit color, growth form, and fruit lipid concentration (scored 1-3). For trait-based models, species were filtered to only include those with complete sets of trait data (174/242 frugivore species). As part of our research goal was to compare the power of phylogenetic and trait data, we chose to omit these species for trait based models rather than phylogenetically impute missing trait information. Categorical variables (such as plant growth form) were transformed into a series of binary variables through one-hot encoding. Continuous data on fruit size was available for 280/394 plant species; plants without trait data were again excluded from trait-based models. Details on plant and frugivore traits used in the analysis are available in Table \ref{tab:traits}). 
+
+
+
+\paragraph{Phylogenetic Data}
+For plant species, phylogenetic data was retrieved from the BIEN database, accessed using the r package `BIEN` \citep{maitner2018bien}. Out of 787 plant species in our dataset, 646 occurred in the BIEN phylogeny. 61 plant species with a recorded avian frugivore interaction did not occur in this phylogeny. For absent species with a congeneric in our phylogeny, we added those species as a polytomy at the parent node of that genera, allowing us to add an additional 46 species to our analysis. 16 species did not have congenerics present in the network, and were discarded from the analysis. Results were qualitatively the same if these polytomies are omitted from the analysis (see supplement). Bird phylogenies were retrieved from VertLife \citep{jetz2012}; for our analysis, we used 100 trees sampled from the Bayesian posterior distribution. Phylogenetic information was unavailable for two bird species in our network. As with plants, both species were added as polytomies at their \DIFdelbegin \DIFdel{respect }\DIFdelend \DIFaddbegin \DIFadd{respective }\DIFaddend parent genera. Each sampled tree was used in one of one hundred replicates for each model incorporating phylogenetic data. For both the plant and bird phylogenies we performed eigenvalue decomposition, and trained phylogenetic models on the first 4 dominant eigenvectors for plants and the first 3 dominant eigenvectors for birds. The incorporated eigenvectors explained 37.2\% of variation for plants. While the exact amount of variation explained by the incorporated eigenvectors differed among sampled trees for birds due to variation in posterior samples, on average the incorporated eigenvectors explained $46.02\pm 2.29\%$ of variation for birds. 
+
+
+    \paragraph{Latent Methods} We used \DIFdelbegin \DIFdel{single-value decomposition (SVD) of the full }\DIFdelend \DIFaddbegin \DIFadd{singular value decomposition of each training }\DIFaddend interaction matrix to create continuous latent features \DIFdelbegin \DIFdel{to be used }\DIFdelend for prediction using the \DIFdelbegin \DIFdel{`SVD()` }\DIFdelend \DIFaddbegin \texttt{\DIFadd{svd()}} \DIFaddend function in base R\citep{RCore}. \DIFaddbegin \DIFadd{For each training iteration, we fixed the dimensions of the training matrix to be equal to the full network, adding interactions (1's) of only the training set before creating latent features. As such, in any individual training matrix, some species with few interactions may have no recorded interactions. Latent features of training subsets were highly correlated with those derived for imputing based on the full interaction matrix (see supplementary figures S11 and S12). }\DIFaddend We used the first three \DIFdelbegin \DIFdel{axis }\DIFdelend \DIFaddbegin \DIFadd{axes }\DIFaddend of variation for both plants and birds as continuous predictors. \DIFdelbegin \DIFdel{Due to the incompatibility of latent networkfeatures with out of sample prediction, during model validation we derived node-level latent properties from the full interaction network, though each training set utilized only a portion of these nodes}\DIFdelend \DIFaddbegin \DIFadd{For imputation of missing links across the entire network, we utilized the entire interaction matrix to construct latent features}\DIFaddend . 
+
+    \paragraph{Model Structure and Comparison} We used random forest regression models informed by different feature types to make comparisons across types of information, as implemented in the R \texttt{randomForest} package \citep{randomForest}. Random forest models are effectively an ensembled series of classification trees, each of which is applied to bootstrapped subsamples of training data and a portion of the potential predictor variables. By incorporating the information of many decision trees together, random forest techniques can often boast high predictive accuracy across a variety of ecological settings, the ability to uncover complex and nonlinear interactions between predictor variables, and internally cross-validate by repeatedly testing on "out of bag samples" (portions of the data not included in a given bootstrap subsample)\citep{breiman2001random,cutler2007random}. In the context of ecological networks, random forest models have been successfully applied to predict species interactions across a variety of systems.\citep{desjardins2017ecological, pichler2020, sydenham2022metacomnet} We tested a total of 7 models; three using predictors from only one type of information (traits, phylogeny, or latent features), three pairwise combinations of each predictor class, and one model incorporating all possible predictors. In order to validate model performance, we trained 100 iterations of each model. Like most empirically observed ecological networks, our training network was very sparse \citep{vazquez2009uniting}. Our total interaction matrix included 3,643 observed interactions and 90,917 unobserved interactions. To address this class imbalance, for each iterations we first randomly selected 80\% of our data for training, and then randomly removed unobserved interactions from the edgelist (i.e. rows of the edgelist where the interaction value is equal to 0) from the training data until we achieved a 1:3 ratio of observed:unobserved interactions (see supplementary figures \DIFdelbegin \DIFdel{S5-S7 }\DIFdelend \DIFaddbegin \DIFadd{S6-S8 }\DIFaddend for the results of alternative prevalence values). After model training, performance was evaluated on the remaining 20\% test set. We analyze model performance both through area under the receiver-operator curve (AUC), which measures model discriminatory power, and root mean squared error (RMSE), which measures prediction accuracy. These two measures are commonly used to evaluate the effectiveness of predictive approaches \citep{norberg2019comprehensive}, but the choice of which metric to optimize may be different depending on the use case in question (see discussion). For each model iteration we also recorded the optimal suitability threshold for classification as the value that maximized Youden's $J$ statistic (the sum of specificity and sensitivity minus one, a common diagnostic statistic for dichotomous tests \citep{youden1950index}). \DIFaddbegin \DIFadd{For comparisons of model accuracy metrics across models, we performed post hoc two-sided pairwise }\emph{\DIFadd{t}}\DIFadd{-tests adjusted for multiple comparisons\mbox{%DIFAUXCMD
+\citep{holm1979simple}}\hspace{0pt}%DIFAUXCMD
+. 
+}\DIFaddend 
+
+\paragraph{}
+After validating model predictive performance using this test-train split, we then re-ran 100 iterations of each model using the full network without internal class balancing. Using the full suite of interaction information allows us to better predict potential unobserved links. We present the pairwise suitability correlations of each of these full model outputs, as well as present a list of links predicted to be highly suitable by one or more of our models but that are not observed to occur in this data set. We then used the average optimal threshold value for each model as model-specific thresholds for classification. For each model, variable importance was quantified by the mean decrease in Gini coefficient (MDG) after permutation of each variable as implemented in the R \texttt{randomForest} package \citep{randomForest}. A common variable importance metric for classification problems, MDG is calculated by normalizing the sum of all decreases in node purity (the ability of a given tree to correctly distinguish links from nonlinks) given permutation by the total amount of decision trees in the ensemble \citep{calle2011stability, khalilia2011predicting}. A higher MDG value for a given variable indicates that variable is more important to model performance. 
+
+
+
+
+
+
+\section*{Results}
+
+\subsection*{Model Performance}
+Using an 80-20 split of testing and training data, all models were able to predict testing interactions with reasonable accuracy and discriminatory power (Figure \ref{fig:Figure_1}). AUC was lowest for trait only models (0.84 $\pm.009$) followed by phylogeny only models (\DIFdelbegin \DIFdel{0.85 $\pm .009$}\DIFdelend \DIFaddbegin \DIFadd{0.84 $\pm .008$}\DIFaddend ). All models including latent information outperformed latent-agnostic models in terms of discriminatory power, with the greatest AUC achieved by \DIFdelbegin \DIFdel{Latent (0.94 $\pm .004$}\DIFdelend \DIFaddbegin \DIFadd{trio (0.91 $\pm .007$}\DIFaddend ) and phylogeny-latent models (\DIFdelbegin \DIFdel{0.94 $\pm .004$), both of which even outperformed the full trio model (0.93 $\pm .006$}\DIFdelend \DIFaddbegin \DIFadd{0.91 $\pm .006$); pairwise }\emph{\DIFadd{t}}\DIFadd{-tests indicated no significant difference between them ($p = 0.14$}\DIFaddend ). However, prediction accuracy did not follow the same trends as discriminatory power. Latent and phylogeny-only models had the lowest overall accuracy (\DIFdelbegin \DIFdel{56.0, $\pm 0.32$ and 56}\DIFdelend \DIFaddbegin \DIFadd{57.7, }\DIFaddend $\pm 0.40$ \DIFaddbegin \DIFadd{and 56.1$\pm 0.44$}\DIFaddend , respectively), while the most accurate models were those combining trait information with another information type. The \DIFdelbegin \DIFdel{trio model was }\DIFdelend \DIFaddbegin \DIFadd{trait-phylogeny (RMSE: 49.3 $\pm .42$) and trio (RMSE: 49.4 $\pm .44$) models were }\DIFaddend the most accurate (\DIFdelbegin \DIFdel{RMSE: 48.6 $\pm .37$}\DIFdelend \DIFaddbegin \DIFadd{pairwise }\emph{\DIFadd{t}}\DIFadd{-tests indicating no difference, $p=0.8$}\DIFaddend ), closely followed by the \DIFdelbegin \DIFdel{trait-phylogeny (RMSE: 49.2 $\pm .36$) and trait-latent models }\DIFdelend \DIFaddbegin \DIFadd{traits-latent model }\DIFaddend (RMSE: \DIFdelbegin \DIFdel{49.0 }\DIFdelend \DIFaddbegin \DIFadd{49.8 }\DIFaddend $\pm .37$). The trait-only model had only middling accuracy performance however (RMSE: \DIFdelbegin \DIFdel{52.8 $\pm .57$}\DIFdelend \DIFaddbegin \DIFadd{52.7 $\pm .54$}\DIFaddend ).
+
+\subsection*{Variable Importance on Entire Network}
+After validating model performance on novel test-data, we then retrain replicate models of each type on the full network in order to generate more robust predictions. Variable importance was quantified by mean decrease in Gini coefficient after permutation of each variable. In all models incorporating them, latent SVD features were unilaterally the most important variables for prediction (Figure \ref{fig:Figure_2}); all models combining latent features with other data sources ranked plant SVD axis 1 followed by frugivore SVD axis 1 as the two most important variables, with some variation as the ordering of the rest of the SVD axis importance. The latent-only model generally followed similar patterns of variable importance as composite models, though frugivore SVD axis 1 had higher importance than the corresponding plant SVD axis. For the trio model, frugivore mass and fruit diameter were the next most important traits, which was consistent with the ordering of all other trait models. While the next most important trait was frugivore gape size for the trio model, for other models incorporating trait information fruit length was the next most important trait. 
+
+\paragraph*{}
+In general, we found that continuous frugivore traits (body mass, gape width) were more informative to prediction than continuous plant traits. Similarly, phylogenetic information about frugivores was generally more important for prediction than phylogenetic information for plants. In the phylogenetic-only model, all three frugivore phylogenetic eigenvectors were more important than all plant eigenvectors, while for the trio model only plant eigenvalue axis 2 was more important than frugivore eigenvalue axis 2. Out of the remaining traits, the trio model was most informed by frugivory level, with the remaining categorical plant traits impacting Gini coefficient very little for all models. 
+
+
+
+\subsection*{Comparing models}
+Across the entire network, suitability values between all models were highly correlated (Figure \ref{fig:Figure_3}); most models were able to correctly discriminate between observed and unobserved links. While the ability to reconstitute observed links is important for model performance, focusing on model agreement on the suitability of unobserved interactions can provide insight into which models may identify different potential interactions that are yet unobserved but may occur given the appropriate ecological context. Across all potential links, Spearman's rank correlation of predicted suitability values showed low correlation between phylogenetic and trait models ($\rho = 0.643$), despite both exhibiting very similar overall performance. Phylogenetic and latent models showed the lowest agreement in suitability predictions of all pairwise combinations of models, with $\rho = 0.566$ when comparing across all links,  which then dropped to $\rho = 0.032$ when only looking at unobserved links. This marked drop suggests that most of the agreement in suitability rankings between these models was in known interactions. The low agreement between the ranking of potential interactions \DIFdelbegin \DIFdel{pose }\DIFdelend \DIFaddbegin \DIFadd{poses }\DIFaddend a barrier to meaningfully target potential sampling based on the results of these two models used independently, highlighting the importance of composite models that synthesize multiple information types to create predictions. 
+
+
+\paragraph*{}
+Similarly, suitability predictions of composite and individual component models tended to mirror relative information type importance. For example, suitability values from \DIFaddbegin \DIFadd{the }\DIFaddend trait-latent model were more tightly correlated with those from the latent model ($\rho=0.882$) than the trait model ($\rho=0.773$). Table \ref{tab:confusion} presents the confusion matrix for all models after classifying points according to each models' average optimal threshold value across all training iterations. We see that at their optimal threshold value, all models exhibit markedly low false-negative rates with the exception of the trait only model, which exhibited a false-negative rate of $4.80\%$.
+
+
+
+
+
+
+
+
+\section*{Discussion}
+\paragraph*{}
+Models incorporating latent structural features consistently outperformed models that excluded them in terms of discriminatory power, but had generally lower accuracy. In contrast, trait based and phylogenetic models displayed lower AUC values, but a better RMSE. Overall performance of phylogenetic and trait-only models were remarkably similar in terms of both performance measures used. Incorporating latent features into each model once again yielded nearly identical discriminatory  capacity, but an overall slightly higher accuracy for the trait-latent features model compared to the phylogeny-latent feature model. The discriminatory power of each individual model generally reflects the relative importance of variable information types (\ref{fig:Figure_2}). 
+
+\paragraph*{}
+The strength of latent features for predicting interactions may lie in their particular suitability for relatively generalist interaction networks. Frugivorous vertebrates, for instance, often exhibit high levels of generalism in their interactions \citep{richardson2000plant}, often more-so than their plant-partners \citep{salazar2020frugivory}. In systems characterized by low interaction specificity, latent features may be especially effective at capturing the neutral processes that underlie community assembly. Abundant, wide-ranging, or highly generalist species may drive a "rich get richer" dynamic, where hyper-generalists that already interact with multiple species are more likely to accumulate additional partners. This pattern is reflected in our results: the 20 links with the highest predicted suitability from our trio model were spread across 16 bird species, many of which already participated in a large number of observed interactions. While the median number of interactions per bird in the dataset was 5, the median degree for these 16 species was 56. The top predicted missing link connected the \DIFdelbegin \DIFdel{red-rumped cacique (}\DIFdelend \DIFaddbegin \DIFadd{azure-shouldered tanager (}\DIFaddend \emph{\DIFdelbegin \DIFdel{Cacicus haemorrhous}\DIFdelend \DIFaddbegin \DIFadd{Thraupis cyanoptera}\DIFaddend }) and \emph{\DIFdelbegin \DIFdel{Trema micrantha}\DIFdelend \DIFaddbegin \DIFadd{Myrsine umbellata}\DIFaddend }, two relatively common species that have indeed been documented as interacting in other datasets \DIFdelbegin \DIFdel{\mbox{%DIFAUXCMD
+\citep{fontanari2018rede}}\hspace{0pt}%DIFAUXCMD
+}\DIFdelend \DIFaddbegin \DIFadd{\mbox{%DIFAUXCMD
+\citep{silva2002patterns, fricke2020accelerating}}\hspace{0pt}%DIFAUXCMD
+}\DIFaddend. Host abundance, in particular, has been identified as a key driver of interaction probability in other Neotropical frugivory networks \citep{laurindo2020drivers}. Overall, latent features derived from network dimensionality reduction or motif completion may be especially powerful tools in the context of generalist interaction networks. 
+
+\paragraph*{} 
+While comparing models in terms of discriminatory power highlights the importance of latent features, incorporating phylogenetic or trait information alongside latent features actually improves model accuracy measures (RMSE), despite slightly reducing discriminatory power. The question whether it is better to optimize one metric or the other, is largely dependent on the particular use case. As we've presented the problem of link prediction, primarily as a way to guide sampling efforts to more efficiently measure networks \DIFdelbegin \DIFdel{on limited resource}\DIFdelend \DIFaddbegin \DIFadd{given limited resources}\DIFaddend , discriminatory power is likely a more apt metric. Beyond ranking different links, the relative confidence in each link is of less concern as the most likely links will be validated with additional observation data. However, if the aim was something closer to filling in a partially sampled network and then analyzing its properties, a metric like RMSE or H-measure\citep{hand2009measuring} may be more appropriate as it better allows you to directly incorporate uncertainty about particular linkages into your resultant analyses. 
+
+
+\paragraph*{} In models incorporating frugivore and plant \DIFdelbegin \DIFdel{phylogentic }\DIFdelend \DIFaddbegin \DIFadd{phylogenetic }\DIFaddend information, the frugivore phylogeny tended to be more important to model performance. Ideally, this is likely because patterns of interactions are more phylogenetically conserved between frugivores than plants. On average, frugivores tend to interact with a more phylogenetically conserved group of plants than vice versa, with a given plant's fruit being consumed with a more phylogenetically dispersed set of avian taxa. Some of this phenomenon may be due to the frugivore phylogeny being more \DIFdelbegin \DIFdel{full }\DIFdelend \DIFaddbegin \DIFadd{fully }\DIFaddend summarized by a smaller number of eigenvectors. On average, the first three eigenvectors of the decomposed frugivore phylogeny explained $46.02\%$ of total variation across the phylogeny on average, while the first four eigenvectors only explained 37.5\% of variation for plants. The difference in variation and resultant effects on prediction may be due to overall structural features of the phylogeny, or differences in the total phylogenetic divergence characterized by the tree. Frugivory is a strategy that spans the avian tree, occurring in a diverse set of taxonomic orders \citep{daniel2009global}, though this dataset reflects a relatively narrower set of frugivorous taxa. Out of our 242 avian species investigated in this study, the majority belonged to the orders \textit{Passeriformes}, \textit{Piciformes}, and \textit{Columbiformes}, comprising 193, 18, and 10 species, respectively. Ornithochory is also widely distributed across plant taxa in this system, a pattern reflected in other tropical systems \citep{kuhlmann2016fruits, pizo2021frugivory}. 
+
+
+\paragraph*{} Our modeling approach represents a useful framework for predicting species interactions in a variety of systems, but care must be taken when interpreting the results in the particular context of each system. 
+\DIFaddbegin 
+
+
+\DIFaddend While we ultimately find that latent features dominate prediction in our system, the potential for information leakage between test and train sets means we must be conservative in our interpretation of comparisons across models. Due to the nature of matrix decomposition \DIFdelbegin \DIFdel{approach}\DIFdelend \DIFaddbegin \DIFadd{approaches}\DIFaddend , there is no clear way to utilize either latent or phylogenetic features to predict out of bounds. \DIFdelbegin \DIFdel{The decompositions must be performed on the entire network before performing the test-train split, potentially leading to information leakage even after then subsetting the data during cross-validation. However, this phenomenon is only a potential problem when comparing performances on subdivided training data, and should not affect our predictions using the entire network}\DIFdelend \DIFaddbegin \DIFadd{Even when creating latent features from training subsets of interaction data, the dimensions of the training matrix must be fixed to the size of the full network in order to generate predictions for all species within the network. As such, while useful for imputing potentially missing interactions between known species, latent features are unsuitable for predicting interactions of species that are not already represented within the existing species pool}\DIFaddend . The dominance of latent features using internal cross-validation metrics support their importance in our system. \DIFdelbegin \DIFdel{Additionally}\DIFdelend \DIFaddbegin \DIFadd{However}\DIFaddend , as latent features are derived from \DIFaddbegin \DIFadd{portions of or all of }\DIFaddend the observed interaction network, their predictive capacity may be sensitive to network characteristics such as network size, connectance, and the proportion of links that are still unsampled (see supplement).  Additional work is needed to fully explore these relationships in order to explore in which contexts latent features might be more or less useful for prediction. Despite their caveats, latent features have already been successfully implemented to predict links in a variety of ecological network types, and can provide significant improvements in predictive performance in a variety of ecological\citep{poisot2021imputing, banville2023constrains, poisot2023network, nunes2024estimated} and non-ecological \citep{yeung2002reverse, wu2019prediction, zeng2020sdlda} contexts.
+
+Future work investigating the utility of latent features to predict frugivorous interactions in a variety of empirical systems and the mechanisms through which they act represents an important avenue for future research. While there are currently no clear methods through which we can apply these methods for out-of-sample prediction, these methods are promising ways to target potentially missing links in existing networks. Similarly, our presented interpretation of the efficacy of phylogenetic information for predicting missing links assumes that phylogenetic relatedness reflects conserved traits or shared evolutionary histories that govern interactions. However, while phylogenetic relationships do impact at least some of the species traits governing interactions, there may be other confounding information (such as a phylogenetic biases in research effort) within phylogenetic information as well. While not reducing overall link prediction performance, this does mean we should once again take a more conservative interpretation of our prediction results when comparing across models, as is the case with any correlative approach. 
+
+\paragraph*{}
+Link prediction is a promising method to deal with the realities of incompletely sampled natural systems, and may play an increasingly important role in helping to gain insight into how interactions networks may change over time. Anthropogenic effects on climate, landcover, and biodiversity all have the potential to fundamentally alter mutualistic networks, whether through changing mutualistic assemblages themselves, or the probability of interactions within a network \citep{memmott2007global, tylianakis2017ecological, teixido2022anthropogenic}. Positive feedbacks within mutualistic communities may often make them more likely to exhibit alternative stable states, and changes in mutualistic communities may result in drastic changes to network structure and resulting assemblages \citep{lever2014sudden, bascompte2023resilience}. Link prediction methods provide an opportunity for us to better understand which species are interacting now, and which may interact in the future. Prediction approaches can also be useful when predicting the potential effects of invaders on mutualistic network structure \citep{traveset2014mutualistic, fricke2020accelerating}. However, at its core, predicting which interactions are unsampled but present in a given ecological context is related to but distinct from the task of predicting how interactions may shift in response to changing biotic or abiotic conditions. If the eco-evolutionary processes governing the formation of novel interactions over short timescales are sufficiently different from those governing the maintenance and structure of long-standing interactions across a community, then different modeling approaches may vary in their effectiveness at predicting missing links versus truly novel ones. To fully understand and predict the scope of mutualistic network change, future work applying predictive approaches to temporally sampled mutualistic networks is necessary. Understanding the spatial and temporal scales at which mutualistic interactions turn over or change strength, and how we can utilize predictive approaches to forecast these changes is a vital next step for understanding the dynamics of mutualistic networks in a changing world. \\
+
+\noindent \textbf{Acknowledgements}: This work has been performed with funding to both authors provided by ANONYMIZED. \DIFaddbegin \DIFadd{We also thank Dr. Pedro R. Peres-Neto, who provided advice and code used to improve the cross-validation methods implemented in this manuscript. Additionally, we thank the four anonymous reviewers who provided valuable comments and suggestions which improved this manuscript. 
+}\DIFaddend 
+
+\noindent \textbf{Open Research statement}: All $R$ code and data necessary to reproduce this is available on figshare at \\ \texttt{https://figshare.com/s/544021fc48732ca5bb13}. A version-controlled history of this project is also publically available on github at \texttt{ANONYMIZED}.
+
+\noindent \textbf{Conflict of interest}: The authors have no conflicts of interest to declare.
+
+
+
+\clearpage
+\bibliographystyle{apalike}
+\bibliography{Fruglink}
+
+\clearpage 
+
+\section*{Tables} 
+
+
+\begin{table}[!h]
+\caption{Frugivore and plant traits used for interaction prediction. Non-ordinal factors such as fruit color were transformed through one-hot encoding prior to inclusion in the model.}
+\DIFaddbeginFL \vspace{20pt}
+\DIFaddendFL \label{tab:traits}
+\begin{tabular}{clll} 
+ \hline
+ Species & Trait & Units & Range/Levels \\  
+ \hline
+ \hline
+Frugivore & Body Size &  g &  6.60 - 3500 \\
+& Gape Size &   mm  & 2.80-36.29  \\  
+& Degree of Frugivory &  \DIFdelbeginFL \DIFdelFL{factor   }\DIFdelendFL \DIFaddbeginFL \DIFaddFL{-   }\DIFaddendFL &  low, medium, high \\  
+Plant & Fruit Diameter &  mm  & 1.2-325  \\
+& Fruit Color &  \DIFdelbeginFL \DIFdelFL{factor  }\DIFdelendFL \DIFaddbeginFL \DIFaddFL{-  }\DIFaddendFL & yellow, red, black, brown, green, other \\
+& Fruit Lipid Content &  \DIFdelbeginFL \DIFdelFL{factor   }\DIFdelendFL \DIFaddbeginFL \DIFaddFL{-   }\DIFaddendFL &  low, medium, high  \\ 
+& Plant Growth Form &   \DIFdelbeginFL \DIFdelFL{factor  }\DIFdelendFL \DIFaddbeginFL \DIFaddFL{-  }\DIFaddendFL &  tree, liana, palm, scrub, other \\ 
+ \hline
+\end{tabular}
+\end{table}
+
+
+\clearpage 
+
+
+\begin{table}[]
+\caption{True and false positive and negative rates for models trained on the entire interaction network, classified assuming the average threshold value across all training interactions that maximized Youden's $J$ statistic. Percentages represent proportions in each category out of all total links each model predicted; the absolute count of each category is represented in parenthesis. Total number of predicted links differed across models according to availability of covariant data.}
+\label{tab:confusion}
+\DIFaddbeginFL \vspace{20pt}
+\DIFaddendFL \begin{tabular}{@{}lllll@{}}
+\toprule
+{\ul } & {\ul } & {\ul } & {\ul } & {\ul } \\ 
+   \textbf{Model}    &  \textbf{True Positives}      &    \textbf{False Positives}    &    \textbf{True Negatives}    &    \textbf{False Negatives}    \\
+\midrule
+\textbf{Latent}   &  3.85\% (3,643)      &    0.28\% (263)&    95.87\% (90,654)&    0.00\% (0)    \\
+\textbf{Phy}       &   3.87\% (3,350)&  0.27\% (231)&   95.66\% (82,806)&     0.29\% (175)\\
+\textbf{Traits}       &   1.86 \% (778)&  0.22\% (92)&  93.20\% (39,021)&       4.73\% (1,979)\\ 
+\textbf{PhyLatent}       &    4.07\% (3,525)&     0.124\% (107)&    95.80\% (82,930)&    0.00\% (0)     \\ 
+\textbf{PhyTraits}      &   6.63\% (2,723)&  0.35\% (143)&    93.02\% (38,212)&   0.01\% (2)\\ 
+\textbf{TraitsLatent}       &   6.59\% (2,757)     & 0.44\% (185)& 92.97\% (38,928)&   0.00\% (0)     \\ 
+\textbf{Trio}       &   6.863\% (2,725)&  0.15\% (61)&  93.22\% (38,294)&     0.00\% (0)    \\ 
+\bottomrule
+\end{tabular}
+\end{table}
+
+
+\clearpage 
+
+
+
+%Potential conceptual figures - conceptual figure. 
+\section*{Figures}
+\begin{figure}[!h]%[tbhp]
+\centering
+\DIFdelbeginFL %DIFDELCMD < \includegraphics[width=\linewidth]{Figs/ReplicatePerformance_Polytomycol2.png}
+%DIFDELCMD < %%%
+\DIFdelendFL \DIFaddbeginFL \includegraphics[width=\linewidth]{Figs/ReplicatePerformance_CV.png}
+\DIFaddendFL \caption{Summary performance metrics of all 7 models, as measured by area under the receiver operating characteristic curve (AUC) and root mean square error (RMSE); highest performing models for each metric are outlined in \DIFdelbeginFL \DIFdelFL{black}\DIFdelendFL \DIFaddbeginFL \DIFaddFL{dashed (AUC) or dotted lines (RMSE)}\DIFaddendFL . Mean metric values are presented from 100 replicates of each model structure alongside standard deviation. Model discriminatory power between links and non-links is maximized by including latent structural features, with the inclusion of trait, phylogenetic information, or both actually slightly decreasing discriminatory power. However, inclusion of trait and phylogenetic information, while not improving AUC, does increase overall model accuracy as measured by mean root squared error. \DIFaddbeginFL \DIFaddFL{Pairwise }\emph{\DIFaddFL{t}}\DIFaddFL{-test adjusted for multiple comparisons showed no significant difference between the discriminatory power of the highest performing models (Trio, PhyLatent, $p=0.13$), or between the RMSE of the two highest accuracy models (Trio, PhyTraits $p=0.8$).}\DIFaddendFL }
+\label{fig:Figure_1}
+\end{figure}
+
+
+\clearpage 
+
+\begin{figure}%[tbhp]
+\centering
+\includegraphics[width=\linewidth]{Figs/VarrImportance_ErrBars_Shortcol2.png}
+\caption{Variable importance across all models as measure by Gini importance score; color scheme is consistent with figure 1. In all models that include them, latent traits were consistently the most important variables for prediction. These were followed by continuous frugivore traits (body mass, gape size), and frugivore phylogenetic axes. Plant phylogenies and continuous trait information were generally less important for prediction than frugivore traits. Categorical plant traits (Lipid content, fruit color, growth form) were the least important variables for prediction.}
+\label{fig:Figure_2}
+\end{figure}
+
+
+
+\clearpage 
+
+
+\begin{figure}%[tbhp]
+\centering
+\DIFdelbeginFL %DIFDELCMD < \includegraphics[width=\linewidth]{../Figs/SpearmanCorplot_nolab.png}
+%DIFDELCMD < %%%
+\DIFdelendFL \DIFaddbeginFL \includegraphics[width=\linewidth]{../Figs/SpearmanCorplot_nolab.pdf}
+\DIFaddendFL \caption{Pairwise Spearman's rank correlations of link suitabilities across models for all potential interaction (A), as well as only unobserved interactions (B). The latter set of links represents both true forbidden links, as well as other potential interactions not observed in our dataset.}
+\label{fig:Figure_3}
+\end{figure}
+
+
+\end{document}

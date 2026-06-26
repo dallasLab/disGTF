@@ -1,0 +1,42 @@
+\documentclass{article}
+\usepackage{graphicx} % Required for including images
+\usepackage{color}
+\usepackage{natbib}
+\usepackage[a4paper, total={7in, 10in}]{geometry}
+\begin{document}
+
+
+\bigskip % Vertical whitespace
+
+Drs. Will Pearse and Pedro Peres-Neto, 
+
+
+\paragraph{}
+
+We appreciate the time and thoughtful comments from both of you, as well as the reviewers of this manuscript. Dr. Peres-Neto, we also especially appreciate your discussion, simulations, and code illustrating your cross-validation technique. We believe the revisions have substantially improved the quality of the manuscript and are pleased to submit a revised version that incorporates your suggestions.
+
+\paragraph{}In our prior approach comparing the predictive power across models, latent features were derived by performing singular value decomposition on the entire network. While each model is then trained on only a subset of observed and background interactions, because their associated latent features were derived from the full network there may ostensibly be the potential for information leakage between the test and training sets. We have since followed Dr. Peres-Neto's example, and now present main text results where we instead perform our test-train split first, and then create latent features from an interaction matrix based on the training data. The overall dimensions of this matrix are still fixed to be the same size as that of the full network, but test interactions are omitted (0's instead of 1's). We perform singular value decomposition on this reduced interaction matrix, and then predict missing interactions using our random-forest approach. 
+
+
+\paragraph{}As shown in the updated Figure 1, this revised cross-validation approach has little to no qualitative effect on our interpretation of results. Although it generally reduces the discriminatory performance of latent models slightly, latent features still provide the strongest discriminatory power compared to phylogenetic or trait information. Latent features alone now perform marginally worse than models that combine them with other information types, but the overall consistency across approaches reinforces our confidence in the utility of latent traits for imputing missing interactions.\\
+\\
+
+
+\includegraphics[width=\linewidth]{Figs/supplement_figs/CV_ComparisonFig.png}
+
+\paragraph{}We have provided an attached document highlighting changes main to the main text to reflect this updated analysis. The majority of these edits center on our description of latent feature creation in the methods, model comparisons in the first paragraph of the results and in Figure 1, and discussions of the limitations of latent features in paragraph 5 of the discussion. We have also added five new figures and accompanying text to the supplementary information, both emphasizing the correlations between latent features created from training sets and the full network, as well as the original version of the analysis when latent features were created from the full network. We have also added acknowledgments to Dr. Peres-Neto for your assistance with this cross-validation procedure, as well as anonymous reviewers. 
+
+\paragraph{}Broadly, we see our manuscript as split in to two parts. In the first, we attempt to convince the reader of the efficacy of our predictive method by training on a subset of our data and evaluating predictive performance on the holdout set (presented in figure 1). We then in the second section retrain these models on data from the entire network, focusing on imputing potentially missed links from the full network rather than model performance outright. Here we compare variable importance across model according to internal cross-validation procedures (Fig 2), and agreement between model predictions (Fig 3, Table 2). As such, Fig 2, Fig3, and Table 2 were unaffected by the change in cross-validation technique of creating latent features from the training matrix (since in these cases models were trained on the entire network, rather than a smaller training subset). See supplementary figure S14 for a comparison of variable importance across modeled only trained on 80\% training sets (qualitatively identical to main text figure 2, with the two being directly compared in supplemental figure S15). 
+
+\paragraph{}
+We are grateful for the opportunity to resubmit our work for your consideration. We believe this paper has dramatically improved throughout the peer review process here at \emph{Oikos}, and are grateful for the chance to continuing refining the manuscript. 
+
+
+\bigskip % Vertical whitespace
+
+Sincerely,
+
+%\vspace{50pt} % Vertical whitespace
+
+Grant Foster
+\end{document}

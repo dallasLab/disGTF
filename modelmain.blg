@@ -1,53 +1,15 @@
-This is BibTeX, Version 0.99d (TeX Live 2022/dev/Debian)
-Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
-The top-level auxiliary file: modelmain.aux
-A level-1 auxiliary file: Introduction.aux
-A level-1 auxiliary file: Fruglink/Manuscript/Manuscript_OikosUpdated.aux
-A level-1 auxiliary file: centralRange/manuscript.aux
-A level-1 auxiliary file: HelmBiogeog/manuscript.aux
-A level-1 auxiliary file: Review/manuscript.aux
-I found no \citation commands---while reading file modelmain.aux
-I found no \bibdata command---while reading file modelmain.aux
-I found no \bibstyle command---while reading file modelmain.aux
-You've used 0 entries,
-            0 wiz_defined-function locations,
-            88 strings with 629 characters,
-and the built_in function-call counts, 0 in all, are:
-= -- 0
-> -- 0
-< -- 0
-+ -- 0
-- -- 0
-* -- 0
-:= -- 0
-add.period$ -- 0
-call.type$ -- 0
-change.case$ -- 0
-chr.to.int$ -- 0
-cite$ -- 0
-duplicate$ -- 0
-empty$ -- 0
-format.name$ -- 0
-if$ -- 0
-int.to.chr$ -- 0
-int.to.str$ -- 0
-missing$ -- 0
-newline$ -- 0
-num.names$ -- 0
-pop$ -- 0
-preamble$ -- 0
-purify$ -- 0
-quote$ -- 0
-skip$ -- 0
-stack$ -- 0
-substring$ -- 0
-swap$ -- 0
-text.length$ -- 0
-text.prefix$ -- 0
-top$ -- 0
-type$ -- 0
-warning$ -- 0
-while$ -- 0
-width$ -- 0
-write$ -- 0
-(There were 3 error messages)
+[0] Config.pm:307> INFO - This is Biber 2.17
+[0] Config.pm:310> INFO - Logfile is 'modelmain.blg'
+[54] biber:340> INFO - === Fri Jun 26, 2026, 17:22:42
+[66] Biber.pm:418> INFO - Reading 'modelmain.bcf'
+[345] Biber.pm:972> INFO - Found 345 citekeys in bib section 0
+[356] Biber.pm:4383> INFO - Processing section 0
+[364] Biber.pm:4574> INFO - Looking for bibtex file 'references_cleaned.bib' for section 0
+[378] bibtex.pm:1713> INFO - LaTeX decoding ...
+[730] bibtex.pm:1518> INFO - Found BibTeX data source 'references_cleaned.bib'
+[2968] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[2968] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[2968] Biber.pm:4203> INFO - Sorting list 'apa/global//global/global' of type 'entry' with template 'apa' and locale 'en-US'
+[2968] Biber.pm:4209> INFO - No sort tailoring available for locale 'en-US'
+[3271] bbl.pm:654> INFO - Writing 'modelmain.bbl' with encoding 'UTF-8'
+[3462] bbl.pm:757> INFO - Output to modelmain.bbl

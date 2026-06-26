@@ -1,5 +1,8 @@
 \documentclass{uscthesis}
 \usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage[normalem]{ulem}
+\useunder{\uline}{\ul}{}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%% Options include: [forbinding], which produces 
 %%% an alternative title page and an appropriate
@@ -9,19 +12,32 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%  LaTeX Preamble
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\usepackage[style=apa, backend=biber, uniquename=false]{biblatex}
+\usepackage[
+  style=apa,
+  backend=biber,
+  uniquename=false,
+  natbib=true,
+  safeinputenc=true
+]{biblatex}
+\DeclareUnicodeCharacter{0301}{}
 \usepackage{graphicx} 
 \usepackage{multirow}
 %Packages for the review
 \usepackage[most]{tcolorbox}
 \usepackage{capt-of}
 \usepackage{float}
-%
+\usepackage{rotating}
 \usepackage{footnote}
 \usepackage[normalem]{ulem}
+\usepackage{hyperref}
+\hypersetup{colorlinks,
+linkcolor={black},
+citecolor={black},
+filecolor={black},
+urlcolor={black},
+}
+
+\bibliography{references_cleaned}
 %\usepackage{hyperref}
 %\bibliography{references}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -29,9 +45,6 @@
 %% any LaTeX packages that you	 need.  Most packages should work 
 %% with this documentclass.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%f
-
-\usepackage[style=uscauthoryear]{biblatex}
-\addbibresource{references.bib}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -68,7 +81,7 @@
 %%  Some of it is required.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\title{Some Stuff about Species Interaction Networks}
+\title{The Organization and Consequences of Species Interactions Across Ecological Scales}
 
 \author{Grant Thomas}{Foster}    %% First Name then 
                                  %% Last Name
@@ -88,11 +101,11 @@ University of Georgia 2020\\ %% The \\ on this line is
                                  %% Graduate School.
 \college{College of Arts and Sciences}  %%As listed by Grad School
 
-\advisor {Dr.}{Tad A}{Dallas}  %%% Be sure the 
-\readera{Dr.}{Carol}{Boggs}     %%% third field is 
-\readerb{Dr.}{Eric}{Lo Presti}          %%% the one used in 
-\readerc{Dr.}{Melissa}{Nolan} %%% your department.
-\readerd{Dr.}{Bret}{Elderd}               %%% Only use as many as
+\advisor {Dr.}{Tad A Dallas}{Major Professor}  %%% Be sure the 
+\readera{Dr.}{Carol Boggs}{Committee Member}     %%% third field is 
+\readerb{Dr.}{Eric LoPresti}{Committee Member}          %%% the one used in 
+\readerc{Dr.}{Melissa Nolan}{Committee Member} %%% your department.
+\readerd{Dr.}{Bret Elderd}{Committee Member}               %%% Only use as many as
 %%% If you have just two readers, for example, leave out \readerc and
 %%% \readerd
 %%%
@@ -101,7 +114,7 @@ University of Georgia 2020\\ %% The \\ on this line is
 %%% are not used under the honors option.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\dean{Plato}{Founder of the Academy}   %% The Dean of the Graduate School
+\dean{Lara Lomicka Anderson}{Dean of the Graduate School}   %% The Dean of the Graduate School
                    %% BE SURE TO CHECK THE NAME OF THE
                    %%PERSON CURRENTLY HOLDING THIS POSITION	
 		   %% and the correct title.		             		
@@ -128,7 +141,7 @@ University of Georgia 2020\\ %% The \\ on this line is
                      %% option and it is REQUIRED for Honors
                      %% theses. 
 
-%\acknowledgments{thanks} %% This calls the file thanks.tex 
+\acknowledgments{acknowledgments} %% This calls the file thanks.tex 
 %% This is optional       %% where you have put your 
                           %%acknowledgments.
 
@@ -158,28 +171,29 @@ University of Georgia 2020\\ %% The \\ on this line is
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{document}
+
 \chapter{Brief introduction}    %% Calls Introduction.tex
 \include{Introduction}    %% Calls Introduction.tex
                           %% Introduction.tex should begin
-                          %%
+                  	        %%
                           %% \chapter{Introduction}
                           %% followed by the text of the 
                           %% introduction.
 \addtocontents{toc}{\protect\vskip-20pt}                          
-\chapter[Comparing the power of phylogenetic, trait, and network structure information to predict plant-frugivore interactions.]{Comparing the power of phylogenetic, trait, and network structure information to predict plant-frugivore interactions\footnote{Published as: Foster, G., \& T. Dallas. Comparing the power of phylogenetic, trait, and network structure information to predict plant-frugivore interactions. \textit{Oikos} 3, e11156. 2026. Reproduced here under the CC BY 4.0 license terms. See Appendix D.}}  
+\chapter[Comparing the power of phylogenetic, trait, and network structure information to predict plant-frugivore interactions.]{Comparing the power of phylogenetic, trait, and network structure information to predict plant-frugivore interactions\footnote{Published as: Foster, G., \& T. Dallas. Comparing the power of phylogenetic, trait, and network structure information to predict plant-frugivore interactions. \textit{Oikos} 3, e11156. 2026. Reproduced here under the CC BY 4.0 license terms. See Appendix E.}}  
            
-\include{Fruglink/Manuscript/Manuscript_OikosUpdated.tex}                             
+\include{Fruglink/Manuscript/Manuscript.tex}                             
                                                 
                      
                           
 \addtocontents{toc}{\protect\vskip-20pt}
-\chapter[The impacts of geographic range size and niche breadth on species centrality in floral visitation networks]{The impacts of geographic range size and niche breadth on species centrality in floral visitation networks\footnote{In revision at \textit{Proceedings of the Royal Society: B}. Reproduced here under the CC BY 4.0 license terms. See Appendix D.}}   
+\chapter[The impacts of geographic range size and niche breadth on species centrality in floral visitation networks]{The impacts of geographic range size and niche breadth on species centrality in floral visitation networks\footnote{In revision at \textit{Proceedings of the Royal Society: B}. Reproduced here under the CC BY 4.0 license terms. See Appendix E.}}   
 
 
 \include{centralRange/manuscript.tex}                                                                  
 
 \addtocontents{toc}{\protect\vskip-20pt}
-\chapter[Island biogeography of host-helminth interaction networks]{The impacts of geographic range size and niche breadth on species centrality in floral visitation networks\footnote{In revision at \textit{A GOOD JOURNAL, I PROMISE}. Reproduced here under the CC BY 4.0 license terms. See Appendix D.}}   
+\chapter[Island biogeography of host-helminth interaction networks]{Island biogeography of host-helminth interaction networks}   
 
 
 \include{HelmBiogeog/manuscript.tex}                                                                  
@@ -190,17 +204,46 @@ University of Georgia 2020\\ %% The \\ on this line is
 
 \include{Review/manuscript.tex}                                                                  
 
+\addtocontents{toc}{\protect\vskip-20pt}
+\chapter[Environmental context alters the predictability of yeast community assembly from monoculture demographic parameters]{Environmental context alters the predictability of yeast community assembly from monoculture demographic parameters}   
 
-\printbibliography %%  This is the command to use to
+\include{NutrientNeutrality/manuscript.tex}                                                                  
+
+\printbibliography[heading=bibintoc, title={References}]
+
+
 			       %%  insert the bibliography if you are using
                            %% the biblatex.sty package.  See the 
                            %% uscthesisdoc.pdf documentation for
                            %% for alternative bibliographic systems.     
 
-\Appendix                 %% Use this command if you have one 
-                          %% appendix. Use \Appendices if you 
+\Appendices                 %% Use this command if you have one 
+
+
+\addtocontents{toc}{\protect\vskip-20pt}
+\chapter{Supplemental information for Chapter 2}
+%\setcounter{page}{129}         
+\input{Fruglink/supplement/supplement.tex}
+
+\addtocontents{toc}{\protect\vskip-20pt}
+\chapter{Supplemental information for Chapter 3}
+%\setcounter{page}{135}         
+\input{centralRange/supplement.tex}
+
+\addtocontents{toc}{\protect\vskip-20pt}
+\chapter{Supplemental information for Chapter 4}
+%\setcounter{page}{129}         
+\input{HelmBiogeog/supplement.tex}
+
+\addtocontents{toc}{\protect\vskip-20pt}
+\chapter{Supplemental information for Chapter 6}
+       
+\input{NutrientNeutrality/supplement.tex} 
+
+\addtocontents{toc}{\protect\vskip-20pt}
 \chapter{Rights to reprint work published under a CC-BY 4.0 license}
-\input{ccApp}
-\end{document}                          %% have more than one.
+\input{ccApp.tex}
+
 \end{document}
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

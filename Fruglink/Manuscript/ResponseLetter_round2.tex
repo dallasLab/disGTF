@@ -1,0 +1,232 @@
+\documentclass{article}
+\usepackage{graphicx} % Required for including images
+\usepackage{color}
+\usepackage{natbib}
+\usepackage[a4paper, total={7in, 10in}]{geometry}
+\begin{document}
+
+
+\hfill
+\begin{tabular}{l @{}}
+	\today \bigskip\\ % Date
+	ANONYMIZED\\
+	%Coker Life Sciences Building \\
+    %715 Sumter Street \\
+    %Columbia, SC 29208, USA\\ % Address
+	%Phone: (678) 772-5521 \\
+	%Email: fostergt@email.sc.edu
+\end{tabular}
+
+\bigskip % Vertical whitespace
+
+%----------------------------------------------------------------------------------------
+%	ADDRESSEE AND GREETING
+%----------------------------------------------------------------------------------------
+
+\begin{tabular}{@{} l}
+    Dr. Pedro Peres-Neto \\
+	Editor-in-Chief \\
+	\emph{Oikos} \\
+	%123 Pleasant Lane \\
+	%City, State 12345
+\end{tabular}
+
+\bigskip % Vertical whitespace
+
+Dr. Peres-Neto,
+
+
+\paragraph{}
+
+We appreciate the time and thoughtful comments of all three reviewers of this manuscript, and believe their feedback has been helpful for improving the overall quality and clarity of our work. We are grateful to the editor for the opportunity to address concerns raised in the previous round of review and revise our submission accordingly. Below, we respond to the general feedback we received from subject editor Dr. Will Pearse, followed by explicit line-by-line responses to the most recent round of comments provided by each reviewer. In addition to the changes described here, we have included a pdf version of the manuscript highlighting all changes to the main text made during this round of revisions. For ease of review, all line numbers referenced in our response refer to lines in this accompanying document highlighting changes. 
+\\
+
+\textbf{From Dr. Will Pearse:} 
+\textcolor{blue}{The reviewers are broadly in agreement that this is an interesting article, but there is one major sticking point that has come up several times: the potential circularity of these results. At present, this is not engaged with sufficiently in the manuscript (beyond one sentence in methods - lines 163-165) and, as a result, I think only more mathematically-minded readers who already know what SVD is and are reading extremely carefully will notice this issue.}
+
+\textcolor{blue}{Please prepare a response where you (1) clearly outline what has been done in the manuscript (it's not clear to me exactly what you did to address this issue, although it sounds like you did do something) and (2) clearly explain why this doesn't induce a problem of circularity along the lines that the reviewers have highlighted in the manuscript.}
+
+
+Our analysis is broadly split into two parts: in the first we create and evaluate the performance trained on subsets of our interactions data (the results of which are presented in fig 1), while in the second part we train models on the entire dataset and analyze variable importance (fig 2), suitabilities (fig 3), and classification error (table 2). Latent or phylogenetic features, as we create them, cannot be used to predict out of sample, so in both sections of the analysis the entire network is used to create latent features. Because this process must by necessity occur prior to designating our test-train data split in the first analysis section, there may be a potential risk of information leakage in this context. To our knowledge, there is no way for us to detect or quantify the potential impact of information leakage in this first section of the analysis. However, we still believe in validity of our analysis due to the following reasons: 
+\begin{enumerate}
+    \item \textbf{The agreement of models between sections.} In the second section of our analysis, we train models on the entire dataset and in order to analyze their agreement between predicted suitabilities, circumventing any potential information leakage between test and train splits. Model performance we qualitatively similar across these two sections, and perhaps more importantly the consistent importance of latent features for prediction was also shared (explored in supplemental figure S7). The congruence of these two results gives us confidence that the predictive power of latent features is unlikely to be significantly inflated by information leakage. 
+    
+    \item \textbf{Precedent set by other systems.} While relatively underutilized in the context of ecology, the approach of using SVD-derived features for prediction have been successfully used in a variety of contexts to predict novel interactions. These include predicting drug-disease interactions \cite{wu2019prediction}, non-coding RNA sequences and disease \cite{zeng2020sdlda}, and potential interactions within gene networks \cite{yeung2002reverse}. We believe our paper exemplifies how these methods may be useful for prediction within the realm of ecology, though care must be taken in their interpretations in ecological contexts. 
+    
+    \item \textbf{We are most interested in agreement between models}. While evaluating model accuracy is important, our primary interest lies in the \emph{comparative} value of different information types and the added predictive power achieved by combining them. Accordingly, much of our focus is on agreement between models and how patterns in suitability scores reflect complementary information captured by different predictors. Latent features show high variable importance and can predict interactions missed by trait- or phylogeny-only models. We believe the key insights of our paper emerge from comparing the structure and overlap of predictions across models rather than relying solely on global performance metrics, the latter of which may be more sensitive to artifacts of information leakage. 
+\end{enumerate}
+
+
+In order to engage with this nuance more effectively, we have made a number of changes to the main text, as well as added additional supplemental analyses of simulated data. We believe these and other changes made in response to this most recent round of revisions have led to a clearer, more thorough manuscript and analysis. 
+
+
+\section{Reviewer 4}
+
+\textcolor{blue}{\textbf{Reviewer 4's Comments to the Author:}} \\
+
+\textcolor{blue}{\textbf{General assessment:}} \\
+
+\textcolor{blue}{This manuscript compares three types of information (phylogenies, traits, and network structure) to predict plant-frugivore interactions in Brazil. The authors developed seven different models of random forest, finding that the ones incorporating latent features of network structure had the best accuracy and discriminatory power. Overall, I believe this work is an important contribution to the field of predictive network ecology by showing how different types of information can be used together to predict interactions. The code used for data manipulation, analysis, and visualization is well documented and permanently archived in an online repository, making it possible to reproduce the results and apply the methods in different study systems.}
+
+\textcolor{blue}{The authors responded very well to most concerns raised by the reviewers from the previous round, and the changes made significantly improved the manuscript. They provided more ecological examples and explanations, better defined statistical terms like latent features, and conducted further analyses to explore the effect of network sparseness on model performance. However, I believe that some areas can still be improved, including two important concerns raised by the reviewers (circularity in the analysis and evaluation of model performance on incomplete interaction data) that could be better addressed. Here are my specific comments and suggestions. I look forward to seeing a revised version that addresses these comments.} \\
+ 
+\textcolor{blue}{\textbf{Major comments:}} \\
+
+\textbf{Comment 1}: \textcolor{blue}{Circularity in the analysis.}
+    \textcolor{blue}{I think the circularity issue raised by the reviewers in the previous round is important enough that it should be discussed in the manuscript, either in the introduction or discussion. In addition to what the reviewers wrote about circularity (calculating network structure using all interactions, then using network structure to predict interactions), I wonder if this issue would be present if we used the structure of the metaweb to predict interactions in local networks, to avoid using the same data as both explanatory and response variables.}
+    \\
+    \textbf{Response}: In order to more fully engage with this point, we have added additional text to the third to final paragraph of the discussion. This section now reads as follows: 
+    \begin{quote}
+            Our modeling approach represents a useful framework for predicting species interactions in a variety of systems, but care must be taken when interpreting the results in the particular context of each system. While we ultimately find that latent features dominate prediction in our system, the potential for information leakage between test and train sets means we must be conservative in our interpretation of comparisons across models. Due to the nature of matrix decomposition approach, there is no clear way to utilize either latent or phylogenetic features to predict out of bounds. The decompositions must be performed on the entire network before performing the test-train split, potentially leading to information leakage even after then subsetting the data during cross-validation. However, this phenomenon is only a potential problem when comparing performances on subdivided training data, and should not affect our predictions using the entire network. The dominance of latent features using internal cross-validation metrics support their importance in our system. Additionally, as latent features are derived from the observed interaction network, their predictive capacity may be sensitive to network characteristics such as network size, connectance, and the proportion of links that are still unsampled (see supplement). Additional work is needed to fully explore these relationships in order to explore in which contexts latent features might be more or less useful for prediction. Despite their caveats, latent features have already been successfully implemented to predict links in a variety of ecological network types, and can provide significant improvements in predictive performance in a variety of ecological\cite{banville2023constrains, poisot2021imputing, poisot2023network, nunes2024estimated} and non-ecological \cite{yeung2002reverse, wu2019prediction, zeng2020sdlda} contexts.
+    \end{quote}
+
+   While the idea of using metaweb structure to predict local networks is compelling, it also introduces several complexities and potential sources of uncertainty. The metaweb is made of the collection of interactions observed across all local webs within the study area, representing a regional pool of potential interactions, a subset of which may be realized at any individual site. If species exhibit high interaction across space (e.g. species A interacts with species B wherever the cooccur), then the metaweb should be a good proxy for local interactions (though arguably not a more independent one). However, if interaction fidelity is low, however, species that cooccur across multiple sites may only interact in some of them. In this case, we would expect a model that fails to account for local assembly processes to perform relatively poorly at recapitulating a local web, even if it captures "potential" interactions at broad scales relatively well. Investigating how these processes scale from individual networks to the regional metaweb are of great interest to us, but we feel they are outside the current scope. 
+
+
+    \\
+
+    \textbf{Comment 2}: \textcolor{blue}{Evaluating model performance on incomplete interaction data.}
+    \textcolor{blue}{Different statistics were used in the manuscript to evaluate model performance. I wonder if the issue raised in the previous round of review about the evaluation of model performance on incomplete interaction data (network with many unobserved interactions that are actually occurring) could be addressed by ignoring the true negative and false positive rates, focusing instead on the true positive and false negative rates. Since Youden’s J statistics and the AUC are calculated using true negative and false positive rates, would it be better to choose other statistics that do not evaluate the capacity of the model to predict missing interactions?}
+    \paragraph*{}\textbf{Response}: In the case of a binary classification task (such as the case of classifying links vs non-links), most commonly used unitary performance metrics reward models both for specificity (ability to rule out negative cases, TN/(TN+FP) and sensitivity (ability to identify positive cases, TP/(TP+FN)). A unitary test of model performance that ignores true negative and false positive rates completely would reward sensitivity, but would not penalize for specificity. The best model in that case would be one that predicts every interaction to occur; this model maximizes sensitivity, but is not actually useful for identifying potential links. This is essentially the rightmost point of the receiver operating characteristic curve, where the y-axis of the true positive rate is maximized, but so is the false positive rate. We utilize AUC as a measure of model performance in part because it summarizes model behavior across a range of cost scenarios. In table one we present classification rates based on thresholding at the point that maximizes Youden’s J, effectively weighting the tradeoff between specificity and sensitivity equally. One could instead choose an alternative threshold based on a specified cost function such as a weighted Youden’s J \citep{rucker2010summary}. In our case, it’s not intuitive what that cost function should look like; should sensitivity be 2x more important than specificity or 10x? AUC is partially useful because it helps us avoid making somewhat arbitrary decisions about cutoff values, instead characterizing behavior across a range of values.
+   \paragraph*{}Beyond the choice of evaluation metric, however, conceptually we also believe that where models are wrong (as in which links are classified as FNs according to our sample of interactions) is potentially more important than how often they’re wrong. It’s true that the non-interactions in our dataset are in reality a mix of 1) interactions that cannot or do not occur in the environment, and 2) interactions that occur but just have yet to be observed. However, we think that one of the strengths of a suitability-based approach like ours is that if you can hopefully begin to uncover patterns governing which linkages can occur they might yield insight into which “type” of negative interaction you may be seeing. In an ideal case, link prediction could be used in an iterative process of data collection. Networks can be characterized and predictive approaches can be applied, and out of the set of unobserved interactions those with higher predicted suitability can be resampled. This process can then be repeated, with predicted suitabilities of a given interaction potentially changing as we learn more about the network’s overall structure. 
+
+
+\textcolor{blue}{\textbf{Minor comments:}}
+
+\textcolor{blue}{1. Lines 40-41 and 271-273: Predictive models can help us decide which links to sample first. However, it is not mentioned if we should prioritize unobserved links with high probability (suitability) values (low uncertainty) or the ones with medium probability values around 50\% (high uncertainty) when sampling local networks or the metaweb.}
+\\
+\textbf{Response:} We believe that this question is one that researchers should ask themselves in the context of their local systems and goals. If the goal is to fill in as many links as possible (making your sampled network a more complete representation  of the “true” network), then prioritizing resampling unobserved links with high suitability might be the most fruitful. However, if researchers have a priori expectations about a particular species or group (e.g. “I think this species is undersampled and I want to know which potential partners I should sample for”), then highlighting lower certainty predictions might still hold substantial value. There is a lot of nuance into how to use existing suitability values given particular research contexts, and we feel that trying to reasonably address that nuance here might be a bit outside the scope of the discussion as written. \\
+
+\textcolor{blue}{2. Line 48: Not all mutualistic interactions are symbiotic, and conversely. Since symbiotic interactions are not mentioned again in the manuscript, it may be better to mention mutualistic interactions here.} \\
+\textbf{Response:} We’ve amended this language for clarity as suggested. \\
+
+\textcolor{blue}{3.Line 74: Why may phylogenetic conservatism break down specifically at fine evolutionary scales?}\\
+\textbf{Response:} In the context of species interactions, at local scales traits governing interactions may be under sufficiently strong selection pressures enforced by potential mutualists (or antagonists) to swamp the effects of phylogenetic conservatism. To clarify and focus this point to the context of species interactions, we have amended the language and added a citation to Pérez et al. (2007). Pérez and coauthors exemplify this point by analyzing floral variation across the Schizanthus (Solanaceae) genus, showing that across non-selfing species corolla integrations is not strongly related to phylogenetic distance but instead may potentially be driven by pollinator-mediated selection. We hope this narrowing of the scope and additional citation helps clarify this point. 
+The revised sentence now reads: 
+
+\begin{quote}
+“However, phylogenetic conservatism may break down at fine evolutionary scales due to local selection pressures on traits governing interactions \citep{perez2007phylogenetic}, making phylogenetic information an imperfect proxy in some contexts \citep{rafferty2013}.”
+\end{quote}
+
+\textcolor{blue}{4. Line 82: Define asymmetry in the context of ecological networks.} \\
+\textbf{Response:} We’ve added a definition of interaction asymmetry within this sentence for clarity. The revised sentence now reads: 
+\begin{quote}
+    “While plant-frugivore networks may generally be less coevolutionarily linked and more asymmetric (species with few interactions tend to interact with partners with many interactions) than some other classes of ecological networks\cite{maglianesi2024phylogenetic, jordano1987patterns, wheelwright1982seed}, capturing nodes' shared evolutionary history may still be important for prediction.”
+\end{quote}
+
+
+\textcolor{blue}{5. Lines 118-121: This sentence may be moved to the introduction since it presents an objective of the manuscript.} \\
+\textbf{Response:} We personally feel this sentence flows better when incorporated in the context of our description of the network data we used. However, if the reviewer feels strongly that this does not fit in the methods we are willing to revisit this point. \\
+
+\textcolor{blue}{6. Lines 126-128: Define degree.} \\
+\textbf{Response:} We’ve amended these sentences to incorporate the definition of degree in the contexts of both plants and frugivores. The revised text now reads as follows: 
+\begin{quote}
+“Of our avian-frugivore species (hereafter frugivores), the number of unique plant interactions per frugivore (frugivore degree) ranged from 1 (53 species) to 120 unique plant interactions recorded for \emph{Turdus rufiventris}; median frugivore degree was 5. The number of unique frugivore interactions per plant (plant degree) was generally lower, ranging from 1 (128 species) to 80 unique frugivore interactions recorded for \emph{Myrsine coriacea}; median plant degree was 2.”    
+\end{quote}
+
+\textcolor{blue}{7. Lines 133-135: It might be better to only mention the variables used in the analyses, ignoring the other variables such as migratory status and IUCN listings.} \\
+\textbf{Response:} We have followed this suggestion and remove references to variables not used incorporated into our analysis. The section now reads as follows: 
+\begin{quote}
+	“These include frugivore allometric measures such as body mass and gape size, and ecological traits such as degree of frugivory (scored 1-3). Frugivore mean body mass was unavailable for 3 species, while mean gape size was unavailable for 68 species. Plant traits include fruit diameter, fruit color, growth form, and fruit lipid concentration (scored 1-3)”
+\end{quote}
+
+\textcolor{blue}{8. Lines 166-182: Generally explaining what random forest regression models are and how to use them would help better understand the methods presented in this subsection.} \\
+
+\textbf{Response:} We have incorporated a brief explanation of random forest methods in this section, as well as provided citations that interested readers can pursue in order to read more about the applications of random forest methods to ecological link prediction. The section now reads as follows: 
+    \begin{quote}
+        	“We used random forest regression models informed by different feature types to make comparisons across types of information, as implemented in the R \texttt{randomForest} package \cite{randomForest}. Random forest models are effectively an ensembled series of classification trees, each of which is applied to bootstrapped subsamples of training data and a portion of the potential predictor variables. By incorporating the information of many decision trees together, random forest techniques can often boast high predictive accuracy across a variety of ecological settings, the ability to uncover complex and nonlinear interactions between predictor variables, and internally cross-validate by repeatedly testing on "out of bag samples" (portions of the data not included in a given bootstrap subsample) \cite{breiman2001random,cutler2007random}. In the context of ecological networks, random forest models have been successfully applied to predict species interactions across a variety of systems.\citep{desjardins2017ecological, pichler2020, sydenham2022metacomnet}” 
+    \end{quote}
+
+\textcolor{blue}{9. Line 182: Explain Youden’s J if it is kept in the manuscript.} \\
+\textbf{Response:} We’ve incorporated a definition of Youden’s J as follows: 
+\begin{quote}
+“For each model iteration we also recorded the optimal suitability threshold for classification as the value that maximized Youden's $J$ statistic (the sum of specificity and sensitivity minus one, a common diagnostic statistic for dichotomous tests) \cite{youden1950index}.”
+\end{quote}
+
+\textcolor{blue}{10. Line 191: Explain node impurity.} \\
+\textbf{Response:} In the given sentence form we actually should be using the term “node purity” rather than “node impurity,” thank you for the catch. We’ve amended this wording, as well as added a parenthetical definition of node purity in our context. The revised sentence now reads as follows:  
+\begin{quote}
+``A common variable importance metric for classification problems, MDG is calculated by normalizing the sum of all decreases in node purity (the ability of a given tree to correctly distinguish links from nonlinks) given permutation by the total amount of decision trees in the ensemble \cite{khalilia2011predicting, calle2011stability}."
+\end{quote}
+
+\textcolor{blue}{11. Line 202: The value of trait-only models is missing.} \\
+\textbf{Response:} Thank you for the catch. This section now reads as:
+\begin{quote}
+“Latent and phylogeny-only models had the lowest overall accuracy (56.0, $\pm 0.32$ and 56$\pm 0.40$, respectively), while the most accurate models were those combining trait information with another information type.”
+\end{quote}
+
+\textcolor{blue}{12. Line 228: The term “potential interactions” seems to be used for interactions in the metaweb and missing interactions that are likely to occur. Can this be clarified?} \\
+
+\textbf{Response:} Our intended meaning behind the phrase “potential interactions” is more aligned with the latter meaning. To clarify this point, we’ve replaced the term “potential interactions” in two places that previously may have muddied the definition, lines 132 and 199, as well as added a more explicit definition in line 261-264. These sentences now read as follows:
+\begin{quote}
+Ln 132: “This network effectively represents a regional metaweb of observed interactions, with the realized set of interactions at a given site being a subset, the exact composition of which is determined by local assembly processes.”\\
+Ln 199: “Our total interaction matrix included 3,643 observed interactions and 90,917 unobserved interactions.”\\
+Ln 261-264: “While the ability to reconstitute observed links is important for model performance, focusing on model agreement on the suitability of unobserved interactions can provide insight into which models may identify different potential interactions that are yet unobserved but may occur given the appropriate ecological context.”
+\end{quote}
+
+\textcolor{blue}{13. Lines 234-236: How can we overcome this barrier?} \\
+\textbf{Response:} We believe that composite models informed by multiple predictor classes is one potential way to circumvent this barrier. We’ve highlighted that in the following text change: 
+\begin{quote}
+“The low agreement between the ranking of potential interactions pose a barrier to meaningfully target potential sampling based on the results of these two models used independently, highlighting the importance of composite models that synthesize multiple information types to create predictions.”
+\end{quote}
+
+\textcolor{blue}{14. Line 256: Do latent features of metawebs also capture neutral processes? Ecologically, a metaweb represents potential interactions between taxa regardless of their relative abundances.} \\
+\textbf{Response:} While not directly accounting for neutral processes themselves, we believe latent features may nonetheless be uniquely useful in detecting the structural signatures of neutral processes. Node-level features such as degree or centrality contribute to latent features derived from SVD, and these features are expected to be associated with abundant species in the neutral case that species abundance drives interactions. In the absence of independent abundance estimates across space (undoubtedly useful but seldom available data), these latent features may indirectly reflect abundance-driven processes more effectively than trait- or phylogeny-based approaches. Additionally, the "rich-get-richer" dynamics typical of preferential attachment models \cite{barabasi1999emergence} represent a “neutrality-like” mechanism of network assembly that is also well captured by latent representations. We have added text and additional figures S8 and S9 to the supplement that further explore the ability of latent features to detect and predict abundance-mediated interaction patterns in simulated data (one the simplest neutral cases) in the revised supplement. 
+
+\\
+\textcolor{blue}{15. Lines 323-325: Link prediction methods can help us know which species are interacting now and in the future. Does this concern all prediction methods, even those based on latent features and network structure?} \\
+\textbf{Response:} This is a good question that underlies an important point: the task of predicting interactions that occur now but are just unsampled is related to, but distinct from, the task of predicting interactions that may occur in the future as ecological contexts change. One would think that if we can uncover important variables or approaches that effectively perform the former we can gain insight into the latter, but this assumption has (to our knowledge) not been effectively evaluated by existing literature in the context of mutualistic networks. Latent features might be effective at “filling in the gaps” but less reliable than trait or phylogenetic traits to predict novel interactions that may occur given range shifts; we just don’t currently have the data necessary to answer that question. We highlight this idea with updated text in the final discussion paragraph as follows:
+\begin{quote}
+“Link prediction methods provide an opportunity for us to better understand which species are interacting now, and which may interact in the future. Prediction approaches can also be useful when predicting the potential effects of invaders on mutualistic network structure \cite{fricke2020accelerating,traveset2014mutualistic}. However, at its core, predicting which interactions are unsampled but present in a given ecological context is related to but distinct from the task of predicting how interactions may shift in response to changing biotic or abiotic conditions. If the eco-evolutionary processes governing the formation of novel interactions over short timescales are sufficiently different from those governing the maintenance and structure of long-standing interactions across a community, then different modeling approaches may vary in their effectiveness at predicting missing links versus truly novel ones. To fully understand and predict the scope of mutualistic network change, future work applying predictive approaches to temporally sampled mutualistic networks is necessary. Understanding the spatial and temporal scales at which mutualistic interactions turn over or change strength, and how we can utilize predictive approaches to forecast these changes is a vital next step for understanding the dynamics of mutualistic networks in a changing world.”
+\end{quote}
+
+\textcolor{blue}{16. Table 2: This table might be easier to read if numbers between 0 and 1 are used instead of percentages.} \\
+\textbf{Response:} We appreciate the suggestion and do agree that the table can be a bit unwieldy, but changing to proportions would add a significant number of digits to some entries (e.g. 0.15\% becomes 0.0015). \\
+
+\textcolor{blue}{17. Figures S3 and S4: Change colors to match the new colors of Figure 1.} \\
+\textbf{Response:} We have changed the color scheme of these figures to be consistent with the updated main text.\\
+
+\textcolor{blue}{Moreover, there are a few typos in the manuscript that could be fixed:} \\
+\textbf{Response:} We have corrected all grammatical mistakes and typographical issues noted by Reviewer 4.  For brevity, we have not listed each individual correction here, but all associated text changes are documented in the changelog file accompanying this resubmission. We sincerely thank the reviewer for their close and careful reading, which helped improve the clarity and polish of the manuscript.
+
+\section{Reviewer 1}
+\textcolor{blue}{\textbf{Reviewer 1's Comments to the Author:} \\
+The authors have now addressed all my previous comments sufficiently. Please just see a couple of very minor corrections below.} \newline
+
+\textbf{Comment 1}: \textcolor{blue}{Line 297 – “latend”}
+    \\
+    \textbf{Response}: Thank you for the catch; we have fixed this typo. 
+
+\textbf{Comment 2}: \textcolor{blue}{Line 313 – research effort may be better than studiedness}
+\\
+    \textbf{Response}: We agree with this word-choice suggestion, and have amended the text to reflect this.
+\\
+
+\section{Reviewer 2}
+
+\textcolor{blue}{\textbf{Reviewer 2's Comments to the Author:}} \\
+
+\textcolor{blue}{This was an opportunity to re-review this manuscript (I was R2 last time). I have read through the text and reply and believe that my extensive comments have been dealt with well. I think that this is a valuable contribution to the field of network ecology and congratulate the authors on a job well done. I have also taken the time to read the comments from the other reviewers and see that R3 voices some of my concerns (albeit voiced more eloquently). The main common issue that we had was a variation on the point that it seems that there could be circularity if the best predictor is one derived from the data themselves. As R3 puts it 'The main issue here is that there is some circularity in the analysis. Latent structure is obtained from the decomposition of the interaction matrix. The decomposition of the matrix generates axes that summarize the information in the matrix'.}
+
+\textcolor{blue}{The authors deal with sufficiently well in my opinion and outline the limitations of this approach, and I would also say that a conceptually related issue, the extension of these latent data to other networks is also important. Here I am excited to hear that the authors are considering how to extend their approaches to learn from a range of similar networks, I think that this is really worth mentioning this (as the authors now do). There are some rather older methods that can fill in gaps, it might be worth mentioning the following:}\\
+
+\textcolor{blue}{Pearse, I.S. and Altermatt, F., 2013. Predicting novel trophic interactions in a non‐native world. Ecology letters, 16(8), pp.1088-1094.} 
+
+\textcolor{blue}{This is an example from my field, can these methods (and similar) be usefully extended I wonder?}
+\\
+\textbf{Response}: We thank the reviewer for their comments, and are glad to hear we have dealt with their comments. We also appreciate this additional reference to existing work with similar aims; we have incorporated this as a new reference on line 90 of the updated manuscript. 
+\\
+
+
+
+
+
+\bibliographystyle{RS}
+\bibliography{Protocol/Fruglink}
+\end{document}
+
+%Papers that don't really solve our latent traits problem: 
+Finding missing links in interaction networks (Terry and Lewis, 2020)
+Linear filtering reveals false negatives in species interaction data (Stock et al., 2017)
+A roadmap towards predicting species interaction networks (across space and time) (Strydom et al., 2021)
+Food web reconstruction through phylogenetic transfer of low-rank network representation (Strydom et al., 2022)

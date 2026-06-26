@@ -1,42 +1,220 @@
 \documentclass{article}
 \usepackage{graphicx} % Required for including images
 \usepackage{color}
+\usepackage{natbib}
+\usepackage[a4paper, total={7in, 10in}]{geometry}
 \begin{document}
 
-\textbf{Response summary}
+
+\hfill
+\begin{tabular}{l @{}}
+	\today \bigskip\\ % Date
+	ANONYMIZED\\
+	%Coker Life Sciences Building \\
+    %715 Sumter Street \\
+    %Columbia, SC 29208, USA\\ % Address
+	%Phone: (678) 772-5521 \\
+	%Email: fostergt@email.sc.edu
+\end{tabular}
+
+\bigskip % Vertical whitespace
+
+%----------------------------------------------------------------------------------------
+%	ADDRESSEE AND GREETING
+%----------------------------------------------------------------------------------------
+
+\begin{tabular}{@{} l}
+    Dr. Pedro Peres-Neto \\
+	Editor-in-Chief \\
+	\emph{Oikos} \\
+	%123 Pleasant Lane \\
+	%City, State 12345
+\end{tabular}
+
+\bigskip % Vertical whitespace
+
+Dr. Peres-Neto,
 
 
+\paragraph{}
 
-\textbf{Reviewer 1}
+We appreciate the time and thoughtful comments of all three reviewers of this manuscript, and believe their feedback has been helpful for improving the overall quality and clarity of our work. We are grateful to the editor for the opportunity to address these concerns and revise our submission accordingly, and believe the process have made the manuscript stronger as a whole. In the attached response letter, we respond to each comment in detail, addressing the reviewers' suggestions point by point. We have also included a revised version of the manuscript and updated supplemental materials that address all reviewer recommendations. We thank the editorial board of \emph{Oikos} for considering this work for publication.
 
-\textbf{Comments to the Author:} \\
 
-In this manuscript the authors test whether plant-frugivore interactions can be predicted from phylogenetic structure, species traits and latent structure. The main result is that latent structural features are important to predict the interactions. The main issue here is that there is some circularity in the analysis. Latent structure is obtained from the decomposition of the interaction matrix. The decomposition of the matrix generates axes that summarize the information in the matrix. So, it is expected that those axes will perform well when predicting the interaction matrix. This technique has been used recently to estimate interactions, but combined with other steps, such as phylogenetic imputation, that allow inferring the latent traits for poorly sampled species (see Strydom et al. 2021, Nunes-Martinez and Pires 2024).
-
-Also, because the matrix is sparse other models seem to perform well because they basically have to predict the zeroes. Any model that generates a sparse matrix will have high accuracy. Looking at table 2 we see for instance that the trait only model has a considerably lower rate of true positives (almost five times lower than other models) and high rate of false negatives. I know this dataset well and the main problem with it is that most species are highly undersampled. You cannot predict matrix structure based on traits or phylogeny when sampling is such an important factor generating interaction imbalances between species. The phylogenetic structure the authors find is most likely a mix between true phylogenetic signal in interaction patterns and phylogenetic signal in sampling. One way to address that is to use only well sampled species to train the model and then estimate interactions for undersampled species (as in Nunes-Martinez and Pires 2024). Moreover, although the authors justify their study based on the need to predict interactions, they offer no guidance on how their analysis could be used to estimate interactions.
-
-Specific comments:
-\begin{enumerate}
-    \item Ln 96. and seed dispersal interactions
+\section{Reviewer 1}
+\textcolor{blue}{\textbf{Reviewer 1's Comments to the Author:} \\
+This manuscript looks at different methods of link prediction in species interaction networks and provides very interesting insights into the methods. The authors compare the ability of phylogenetic structure, species traits and latent network structure to predict interactions using network data for fruiting plants and frugivorous birds. The manuscript is well written and presented. I would just give the following suggestions -} \newline
+\\
+\textbf{Comment 1}: \textcolor{blue}{Line 125 – Does this mean that all of the species traits are from Bello et al?}
     \\
-    \textbf{Response}: Response goes here
+    \textbf{Response}: Yes, all traits used in our trait-based models were originally published alongside the interaction dataset in     \cite{bello2017}. To clarify this point, we have updated the text as follows: 
+    \begin{quote}
+        ``The Bello et al. dataset includes a number of informative traits for both plant and frugivore nodes that could be potentially useful for prediction, many of which we used in our trait-based models. These include frugivore allometric measures such as..."
+    \end{quote}
+
+\textbf{Comment 2}: \textcolor{blue}{Line 225 – phrase repetition}
+\\
+    \textbf{Response}: Thank you for the catch. We have amended the sentence beginning on line 225 to now read as follows:
+    \begin{quote}
+    ``This marked drop suggests that most of the agreement in suitability rankings between these models was in known interactions."
+    \end{quote}
+\\
+
+
+\textbf{Comment 3}: \textcolor{blue}{Line 245 – is there not a degree of contrast between how generalist the frugivorous birds and the fruit producing plants are?} \\
+\textbf{Response:} Yes, in general frugivorous vertebrates tend to have broader sets of interactions than fruiting plant species. We have tried to highlight that point and its potential effects on prediction by revising the beginning of this paragraph as follows:
+\begin{quote}
+    ``The strength of latent features for predicting interactions may lie in their particular suitability for relatively generalist interaction networks. Frugivorous vertebrates, for instance, often exhibit high levels of generalism in their interactions \cite{richardson2000plant}, often more-so than their plant-partners \cite{salazar2020frugivory}. In systems characterized by low interaction specificity, latent features may be especially effective at capturing the neutral processes that underlie community assembly. Abundant, wide-ranging, or highly generalist species may drive a "rich get richer" dynamic, where hyper-generalists that already interact with multiple species are more likely to accumulate additional partners..."
+\end{quote}
+
+
+\\
+\textbf{Comment 4}: \textcolor{blue}{Line 272 – are there any studies on how phylogenetically conserved frugivory is in birds?} \\
+    \textbf{Response}: Frugivory is widely distributed across the avian tree, and ornithochorous fruiting syndromes are likewise observed across a breadth of plant taxa. We have added text and citations to this point on line 272. It now reads as follows:
+    \begin{quote}
+The difference in variation and resultant effects on prediction may be due to overall structural features of the phylogeny, or differences in the total phylogenetic divergence characterized by the tree. Frugivory is a strategy that spans the avian tree, occurring in a diverse set of taxonomic orders \cite{daniel2009global}, though this dataset reflects a relatively narrower set of frugivorous taxa. Out of our 242 avian species investigated in this study, the majority belonged to the orders \textit{Passeriformes}, \textit{Piciformes}, and \textit{Columbiformes}, comprising 193, 18, and 10 species, respectively. Ornithochory is also widely distributed across plant taxa in this system, a pattern reflected in other tropical systems \cite{kuhlmann2016fruits, pizo2021frugivory}. 
+    \end{quote}
+
+\\
+\textbf{Comment 4}: \textcolor{blue}{Figure 1 – please can the colours be changed on this to a more colourblind friendly palette?} \\
+\textbf{Response}: We have changed the color palettes used in main text figures 1 and 2 to be more accessible to colorblind readers. 
+\\
+
+\section{Reviewer 2}
+\textcolor{blue}{\textbf{Reviewer 2's Comments to the Author:}}
+\textcolor{blue}{I enjoyed reading this manuscript, the text was well written and well referenced and the authors explained very clearly the logic, motivation and novelty of their work. I have some comments for consideration that I hope will help improve further the impact. In particular I would like to see greater use of examples from ecology to further engage the reader (very few species examples are given).}
+
+\textcolor{blue}{Title (and in general): I found the motivation for predictive modelling very compelling. I would, maybe rather naïvely, classify two types of predictor information as follows:}
+
+\textcolor{blue}{i) For want of a better word, I would call traits and phylogeny 'primary' sources of information in that they are measured externally to the topology of the network and you may argue are quasi-independent (of course trait filtering and co-evolution mean that they will determine interactions, but you can place an organism in a phylogeny regardless of inclusion in a network).}
+
+\textcolor{blue}{ii) Network structure is an emergent feature: it relies on and is derived from the network itself. The exact topology recovered is determined by immigration, emigration, chance, traits, phylogeny and all sorts of other primary variables but there is an asymmetry in terms of how network structure exerts selection on traits in generalist networks vs. how traits allow pre-adapted organisms to interact. If you sample an independent network of the same type (frugivore) in a different location you would expect a similar stricture BUT not necessarily the same species interacting. This means that your primary variables are useful in any context, while latent network structure is (as far as I understand) tied to this particular network. Am I correct? I am happy to be wrong :-) but would say that in this case further clarity is needed for others.}
+
+
+\textcolor{blue}{Overall, I would like to see discussion on (or even longer-range prediction outside of your focal network) as to how widely we can use network structure. Clearly your approach is great for predicting missing interactions in the target network, but what about other networks with different species (which we can measure and sequence)?}
+
+\textcolor{blue}{This is not a major flaw, it just occurs to me that going beyond to use this approach in networks where very few links are known would be really useful. It seems that there could be circularity if the best predictor is one derived from the data themselves. Playing devils advocate: how surprised should we be that latent structure is key? Are there cases where it is not useful and what type of networks are these?}
+\newline
+\\
+\textbf{Response}: We appreciate the constructive comments, and have made some edits to the text to both improve clarity and address this issues. We fundamentally agree with the reviewer in the dichotomy they draw between traits and phylogeny ('primary sources of information') as opposed to latent features, which are specific to the network they are derived from. These limit their transferability to other networks, but we still believe are still useful in filling in missing links from the network they are derived from as well. 
+
+% Fun thought experiment. Similarly structured networks should be similarly predicted by latent features. I am surprised that latent features are as important, since they contain no relevant underlying features. Imagine a world where field biologists were actually correct, and that trait-matching can determine who interacts with whom? Boom, the model would pick up on that and the trait or phylogenetic-informed models would kick the shit out of the latent approach. The fact the latent approach works is either a symptom of a shitty sampling process, a sign that networks all have some underlying generalizable structure (the rich always get richer), or something else I can't think of. 
+\\
+\textbf{Comment 1}: \textcolor{blue} {L8 and L10: Please define latent structure for non-network ecologists.} \\
+\textbf{Response}: We have amended these lines in order to better define latent features at in the abstract; these now read as follows: 
+\begin{quote}
+    To this end, we compare random-forest regression models informed by combinations of phylogenetic structure, species traits, and latent network structure\textbf{-hidden features inferred from the observed network topology-}in their ability to predict interactions in a diverse network of fruiting plants and frugivorous birds in Brazil's Atlantic forest. We found that for our dataset, latent structure \textbf{derived through a single-value decomposition approach} was the most important determinant of model predictive performance. 
+\end{quote} \\
+
+\textbf{Comment 2}: \textcolor{blue}{ L55 and L126: as far as I understand, life history traits are fitness traits that directly influence fitness and are related to the timing and order of an organisms life cycle. These typically relate to age at reproduction, mortality rates and average lifespan. Your list seems to have more overlap with functional or simply morphological traits?}
+\\
+\textbf{Response}: In order to better reflect the traits in question, we have replaced the phrase "life history traits" in both of these places. They now read as follows: 
+    \begin{quote}
+For plant-frugivore seed dispersal systems, information on species \textbf{morphological traits} (gape-width, fruit characteristics, etc), may be at the root of why many taxa do or do not interact \cite{bender2018morphological,gonzalez2015relative, moran2010can}.
+    \end{quote}
+    \begin{quote}
+ These include frugivore allometric measures such as body mass and gape size, \textbf{ecological traits} such as degree of frugivory and migratory status...
+    \end{quote}
     
-    \item Ln 114. Because the Atlantic frugivory database includes species from the entire Atlantic Forest, many of the plant-frugivore interactions are forbidden simply because species do not co-occur. If that is not taken into account in the model, it is unlikely to perform well. How did you deal with that in the trait based model? Could you incorporate sampling in the trait model?
+\textbf{Comment 3}: \textcolor{blue}{L68: Again, define latent network structure for the non-specialist.}
+\\
+\textbf{Response}: Since we focus on defining latent features in this context in paragraph six, we here added a reference to that paragraph rather then introduce the definition here. This is just in the interest of space and clarity. We are happy to provide a more full definition here if the reviewer believes that to be a better approach. The line now reads: 
+\begin{quote}
+    In these cases, alternative information sources such as phylogenetic information or latent network structure \textbf{(discussed below)} may be useful for link prediction. 
+\end{quote}
+We have also added to the aforementioned definition in paragraph six in order to improve the clarity. It now reads as follows:
+\begin{quote}
+   Independent of the phylogenetic relationships and traits of individual nodes in a network, latent structural features of networks themselves may actually be useful for predicting missing links. In this context, the term ``latent features" refers broadly to hidden properties derived from the topology of the interaction network, which can be approximated through any number of dimensionality-reduction approaches \cite{poisot2021imputing}.
+\end{quote}
+\\
+
+\textbf{Comment 4}: \textcolor{blue}{Methods: What is the total size of each data set? Can we have this information in a table? Each data set has species removed, so it would be nice to see the middle of the Venn diagram in terms of what's left.}\\
+\textbf{Response}: We have added an additional table to the supplementary materials (Table S1) that more clearly summarizes this information. 
+\\
+\textbf{Comment 5}: \textcolor{blue}{L266-268: Superficially you could ask, which is more important: biological explanations or the synthetic representation of the phylogeny? I think that having some real world examples here would help the ecologically focused reader because they may like to see these links as interacting species, can you increase the connections to natural history by giving some examples of (for example) nodes that are rich and get richer? Throughout the text I miss solid connections to the organisms themselves (for example, why are frugivore interactions more phylogenetically conserved than plants and what does this mean?).}
+\\
+\textbf{Response}: Thank you for this constructive feedback. We have made changes to the following sections of the discussion in order to better connecting to the biology of our system. The updated sections are as follows:
+
+\begin{quote}
+    ``Abundant, wide-ranging, or highly generalist species may drive a "rich get richer" dynamic, where hyper-generalists that already interact with multiple species are more likely to accumulate additional partners. This pattern is reflected in our results: the 20 links with the highest predicted suitability from our trio model were spread across 16 bird species, many of which already participated in a large number of observed interactions. While the median number of interactions per bird in the dataset was 5, the median degree for these 16 species was 56. The top predicted missing link connected the red-rumped cacique (\emph{Cacicus haemorrhous}) and \emph{Trema micrantha}, two relatively common species that have indeed been documented as interacting in other datasets \cite{fontanari2018rede}."
+\end{quote}
+As well as...
+\begin{quote}
+    ``In models incorporating frugivore and plant phylogentic information, the frugivore phylogeny tended to be more important to model performance. Ideally, this is likely because patterns of interactions are more phylogenetically conserved between frugivores than plants. On average, frugivores tend to interact with a more phylogenetically conserved group of plants than vice versa, with a given plant's fruit being consumed with a more phylogenetically dispersed set of avian taxa."
+\end{quote}
+
+\textbf{Comment 6}: \textcolor{blue}{L273-282. This is a good discussion of the limitations. It might be nice to suggest a way to capture network structure and extend it to different networks of the same type with different species (out of sample)...this is the only way to escape leakage as far as I can see. Is this a limitation to wider application?}
+
+
+As far as we know, this is an inherent limitation of these methods. While this method performs well to fill in potentially missing links from an existing network, there is no immediately obvious way to train a model on one network and then predict on a completely separate one. The reason for this is that the process of matrix decomposition to create prediction features from both phylogenetic and network data does not have inherent meaning outside the context of the given phylogeny or network. So the values of the first axis of variation in one phylogeny are not necessarily related to the values in the first axis of variation for another phylogeny.  It could potentially be interesting to pursue the development of methods that can surmount this barrier (e.g., graph neural networks). This idea is one that is really interesting to us, and we have talked a good deal about it in the context of this project and others. Perhaps some useful insight could be gained by performing latent feature decomposition on a large number of networks, exploring the variation in the resultant axes across networks, and trying to learn about how persistent features of mutualistic networks may allow these features to still be generalizable in some way. However, these analyses have yet to be fully explored and are outside the scope of the current manuscript.\\
+
+In order to better address some of these nuances in the main text, we have edited this paragraph in the discussion to now read as follows... 
+\begin{quote}
+    ``Future work investigating the utility of latent features to predict frugivorous interactions in a variety of empirical systems and the mechanisms through which they act represents an important avenue for future research. While there is not currently clear methods through which we can apply these methods for out-of-sample prediction, these methods are promising ways to target potentially missing links in existing networks."
+\end{quote}
+
+\section{Reviewer 3}
+\textcolor{blue}{\textbf{Reviewer 3's Comments to the Author:} \\
+In this manuscript the authors test whether plant-frugivore interactions can be predicted from phylogenetic structure, species traits and latent structure. The main result is that latent structural features are important to predict the interactions. The main issue here is that there is some circularity in the analysis. Latent structure is obtained from the decomposition of the interaction matrix. The decomposition of the matrix generates axes that summarize the information in the matrix. So, it is expected that those axes will perform well when predicting the interaction matrix. This technique has been used recently to estimate interactions, but combined with other steps, such as phylogenetic imputation, that allow inferring the latent traits for poorly sampled species (see Strydom et al. 2021, Nunes-Martinez and Pires 2024).}
+
+\textcolor{blue}{Also, because the matrix is sparse other models seem to perform well because they basically have to predict the zeroes. Any model that generates a sparse matrix will have high accuracy. Looking at table 2 we see for instance that the trait only model has a considerably lower rate of true positives (almost five times lower than other models) and high rate of false negatives. I know this dataset well and the main problem with it is that most species are highly undersampled. You cannot predict matrix structure based on traits or phylogeny when sampling is such an important factor generating interaction imbalances between species. The phylogenetic structure the authors find is most likely a mix between true phylogenetic signal in interaction patterns and phylogenetic signal in sampling. One way to address that is to use only well sampled species to train the model and then estimate interactions for undersampled species (as in Nunes-Martinez and Pires 2024). Moreover, although the authors justify their study based on the need to predict interactions, they offer no guidance on how their analysis could be used to estimate interactions.}
+\newline
+
+\textbf{Response:} At their core, we believe that some of the concerns raised by reviewer 3 come from the standpoint of choosing a single ``best" approach to predict links. We argue that this is an important perspective, but believe it has been more thoroughly explored by other papers than ours (including by Nunes-Martinez and Pires [2024]\cite{nunes2024estimated} using the same dataset). We hope that our comparative approach instead better addresses how three alternative different sources of predictive information: phylogeny, species traits, and latent network features, differ in their predictive capacity and relative importance when predicting different sorts of ecological links. The suggested methods of phylogenetic imputation based on latent features after Strydhom (2022)\cite{strydom2022food}, while powerful for making predictions, confounds latent features with a presumed phylogenetic signal, which prevents us from answering our central research question.
+
+\paragraph{}
+The reviewer also raised methodological concerns, particularly regarding the potential overestimation of model performance due to inflated AUC values caused by an overrepresentation of 0’s (non-interactions) in the dataset. We used a relatively strict class-balancing scheme of enforcing a 3:1 ratio in our training data in the main text to control for this impact of sparseness. In response to these concerns, we further repeat our analysis with alternative training prevalence ratios of 1:1 and 1:10 and directly compare these to our main text results in new supplemental figures S5, S6, and S7. We find that while altering the training set prevalence values (within a reasonable range) does alter the absolute predicted suitability values as expected (S5), there is no consistent effect on overall model performance (S6) or most importantly variable importance (S7) across any of our models. 
+
+\paragraph{}
+Finally, the reviewer raised concerns about potential information leakage between the training and test sets in models that utilize latent features. As information from the entire interaction set is used to create our latent features, even when we remove large amounts of records from the training set, they may still ostensible leave a potential amount of "signal" in the remaining training values. The method of using SVD-derived features for prediction is shared by a number of other studies, including machine learning approaches looking to predict interactions outside the realm of ecology. These include predicting drug-disease interactions \cite{wu2019prediction}, non-coding RNA sequences and disease \cite{zeng2020sdlda}, and potential interactions within gene networks \cite{yeung2002reverse}. Despite this precedent, we were similarly concerned about the potential for information leakage during the design of our analysis, and it ultimately led to the two-part analysis present in our main text. In our main text initially compare potential model performance between models trained on test and training sets, before then repeating the analysis with the entire dataset to compare variable importance across models. We believe the congruence of our results across these sections, both in terms of model performance and variable importance (S7), speaks to the validity of our model training approach. 
+
+\\
+\\
+    \textbf{Comment 1}: \textcolor{blue}{Ln 96. and seed dispersal interactions}
+
+    \textbf{Response}: We have incorporated this text and its associated citation to Nunes-Martinez and Pires (2024) on this line. \\
+    
+    \textbf{Comment 2}: \textcolor{blue}{Ln 114. Because the Atlantic frugivory database includes species from the entire Atlantic Forest, many of the plant-frugivore interactions are forbidden simply because species do not co-occur. If that is not taken into account in the model, it is unlikely to perform well. How did you deal with that in the trait based model? Could you incorporate sampling in the trait model?}
     \\
-    \textbf{Response}: Response goes here
-
-    \item Ln 114. Ln189. High AUC can be obtained just because the matrix is sparse.
+    \textbf{Response}: We agree that both 1) the presence of interactions forbidden by current species distributions, as well as 2) the potential effects of differential sampling are important features to consider when working with this dataset. We attempt to respond to the first point below, and further discuss the second point in our answer to comment 5.
+    
+    For the purposes of prioritization of targeting sampling efforts of potential interactions, we argue withholding direct information on the role of geographic is important, especially when considering interactions that may occur in future climatic or biotic contexts. Two species that ostensibly have the potential to interact may fail to do so due to a variety of factors, including separation across space or time.  However, as species geographic ranges or phenological periods shift, interaction networks may potentially rewire to include interactions that were previously forbidden. If we can uncover factors associated with the potential for interaction, we can better make predictions about how future changes may potentially drive changes in network structure, a goal we think is particularly salient in the context of global change. In the context of geographical constraints, truly "forbidden" links are only forbidden under current climatic and biotic contexts. If we were maximizing our ability to predict links according to current climatic conditions and range distributions alone, we agree that including information about contemporary distributions would likely increase model performance. However, in pursuing the question of how these different information types compare and overlap in predictive capacity broadly, we argue that a metaweb approach of predicting the potential broadest set of possible interactions is more informative. Any given local network will be a subset of this metaweb, with the realized set of interactions being determined by local assembly processes. This general approach is shared by a number of other studies predicting potential interactions across large spatial scales \cite{hao2025global, strydom2022food, dansereau2024spatially}. For clarity, we have added the following section in the methods addressing this choice:
+    
+    \begin{quote}
+         ``This network effectively represents a regional metaweb of potential interactions, with the realized set of interactions at a given site being a subset, the exact composition of which is determined by local assembly processes. By taking a metaweb approach-predicting “possible” interactions independent of local geographic or temporal variation in species abundance—we aim to better understand the factors associated with the potential for interaction. This general approach is shared by a number of other studies predicting potential interactions across large spatial scales. \cite{hao2025global, strydom2022food, dansereau2024spatially}"
+    \end{quote}
     \\
-    \textbf{Response}: Response goes here
 
-    \item Ln 237. latent traits can be used to predict interaction patterns if you use a protocol to obtain latent traits from an input matrix and then estimate the latent traits for species with limited information as done by Strydon et al. (2021) and Nunes-Martinez and Pires (2024). You only have information on latent traits if there is an interaction matrix, different from phylogenetic information and traits, which are independent from the interactions.
+    \textbf{Comment 3}: \textcolor{blue}{Ln189. High AUC can be obtained just because the matrix is sparse.}
     \\
-    \textbf{Response}: Response goes here
+    \textbf{Response}: It is true that in high AUC values can be inflated by class-imbalanced data, especially when researchers fail to address these class-imbalances in the training dataset for a give model. In our main-text presentation of our results, we attempt to control for this factor by dropping 0's from each training set until we achieve a 25\% prevalence of positive associations, compared to the 3.7\% observed in the empirical network (see lines 166-169 for details). More broadly however, we hope to emphasize the relative performance of our models in comparison to one another over their absolute predictive power, as well as how the same variables change in importance across models. To investigate the sensitivity of these features to our choice of training prevalence ratios, we repeated the first section of our analysis with alternative ratios of either 1:1 or 1:10. We have added 3 corresponding figures to the supplement of our paper exploring the results of these analysis. 
+    \paragraph{}
+    Figures S5 represents pairwise comparisons of the predicted suitability of all links in models trained with either 1:3 or 1:1 training prevalence ratios. We see that increasing the prevalence of 1's in the dataset does increase the absolute value of predicted suitabilities (especially those with high uncertainty), but has very little impact on the relative ranking of potential links (Spearman's $\rho = 0.964$ across all predictions). Figure S6 shows the distribution of overall AUC values across the 7 models presented in our main text when trained on tests sets with alternative prevalence ratios, showing no significant impact on overall model performance. Finally, we also include figure S7, which shows pairwise relative variable importance across models trained on either a 1:3 or 1:1 prevalence ratio. The majority of points on this plot fall very close to a 1:1 line, indicating very little effect of choice of training ratio on variable importance. There is particularly strong agreement between the most important variables for each model, as shown in the top-right quadrant of each subplot, further indicating no serious difference in variable importance across training ratios. All in all, we hope these results help assuage reviewer concerns that the performance of our models are being artificially inflated due to sparsity. We have also added the following reference to this new supplemental analysis in the main text
 
-    \item Ln 273. if all interactions are correctly predicted this assumes that all interactions (and “non-interactions”) are well known, i.e., sampling is assumed to be perfect, and we know this is not true. Therefore, the models are most likely missing a lot of interactions, and you are overestimating their true performance.
+\begin{quote}
+        To address this class imbalance, for each iterations we first randomly selected 80\% of our data for training, and then randomly removed unobserved interactions from the edgelist (i.e. rows of the edgelist where the interaction value is equal to 0) from the training data until we achieved a 1:3 ratio of observed:unobserved interactions \textbf{(see supplementary figures S5-S7 for the results of alternative prevalence values)}.
+\end{quote}
+\\
+
+
+    \textbf{Comment 4}: \textcolor{blue}{Ln 237. latent traits can be used to predict interaction patterns if you use a protocol to obtain latent traits from an input matrix and then estimate the latent traits for species with limited information as done by Strydon et al. (2021) and Nunes-Martinez and Pires (2024). You only have information on latent traits if there is an interaction matrix, different from phylogenetic information and traits, which are independent from the interactions.}
     \\
-    \textbf{Response}: Response goes here
+  \textbf{Response}: With the goal of maximizing prediction performance, we agree that approaches that leverage multiple information types (such as methods that phylogenetically impute latent features as utilized in Strydon et al. (2021) and Nunes-Martinez and Pires (2024)) are powerful approaches. However, we argue that our purpose here is to compare the information and subsequent predictive performance of three  alternative sources of information that could affect species interactions: traits, phylogeny, and latent network features. Aforementioned combinatorial approaches are useful ways to deal with the differences in sampling across species, by assuming a phylogenetic signal to the latent features that may govern interaction probabilities, and is an insightful way to improve overall prediction. However, the phylogenetic conservation of the signal is a serious assumption, and furthermore the approach makes it impossible to separate the effects of phylogenetic and latent features on interaction probability. We submit this paper with the goal of comparing these different information types in their ability to predict interactions, both jointly and in concert, and as such believe utilizing an approach after Strydon et al. 2021 is somewhat antithetical to our aims. 
+    \\
+    \\
+    \textbf{Comment 5}: \textcolor{blue}{Ln 273. if all interactions are correctly predicted this assumes that all interactions (and “non-interactions”) are well known, i.e., sampling is assumed to be perfect, and we know this is not true. Therefore, the models are most likely missing a lot of interactions, and you are overestimating their true performance.}
+    \\
+    \textbf{Response}: To the second point, we acknowledge that incomplete sampling is a serious limitation this dataset, and indeed nearly all datasets looking to empirically observe species interactions. Species with low abundance or detectability are by their nature difficult to sample on their own, and their interactions with similarly rare or low abundance partners are multiplicatively more difficult to sample. We employ cross-validation techniques that evaluate model performance on hold-out data, a consistent approach used in many preceding link prediction studies \cite{strydom2021roadmap, dallas2017predicting, stock2021pairwise, kendall2019pollinator}, as well as more broadly across other subdisciplines of statistical learning. However, when applying our methods to the entire network, we are in many ways most interested in where our models seem to be "wrong" according to our known set of interactions. Many of the interactions with high predicted suitability but that do not occur in our dataset may actually exist in wild communities. We hope that link prediction methods like the ones we use here can help fill in some of these gaps through guiding future sampling efforts. 
 
-\end{enumerate}
 
+
+
+\bibliographystyle{RS}
+\bibliography{Protocol/Fruglink}
 \end{document}
+
+%Papers that don't really solve our latent traits problem: 
+Finding missing links in interaction networks (Terry and Lewis, 2020)
+Linear filtering reveals false negatives in species interaction data (Stock et al., 2017)
+A roadmap towards predicting species interaction networks (across space and time) (Strydom et al., 2021)
+Food web reconstruction through phylogenetic transfer of low-rank network representation (Strydom et al., 2022)
