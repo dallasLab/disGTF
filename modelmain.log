@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.7.11)  26 JUN 2026 17:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.7.11)  26 JUN 2026 21:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1710,9 +1710,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 107--110
  []
 
 
-Overfull \hbox (7.44327pt too wide) in paragraph at lines 111--113
-\T1/lmr/m/n/12 project is al-so pub-li-cal-ly avail-able on github at [][]$http
-s : / / github . com / GTFoster / Fruglink$[][]. 
+Overfull \hbox (4.25471pt too wide) in paragraph at lines 111--113
+\T1/lmr/m/n/12 project is al-so pub-licly avail-able on GitHub at [][]$https : 
+/ / github . com / GTFoster / Fruglink$[][]. 
  []
 
 [26] [27] [28]
@@ -1834,14 +1834,14 @@ Overfull \hbox (0.62pt too wide) in paragraph at lines 183--184
 File: HelmBiogeog/Figures/conceptual/concept.pdf Graphic file (type pdf)
 <use HelmBiogeog/Figures/conceptual/concept.pdf>
 Package pdftex.def Info: HelmBiogeog/Figures/conceptual/concept.pdf  used on in
-put line 104.
+put line 103.
 (pdftex.def)             Requested size: 433.0pt x 379.69104pt.
  [67] [68 <./HelmBiogeog/Figures/conceptual/concept.pdf>]
 <HelmBiogeog/Figures/NB_MarginalPlots_Wide.pdf, id=7353, 578.16pt x 252.945pt>
 File: HelmBiogeog/Figures/NB_MarginalPlots_Wide.pdf Graphic file (type pdf)
 <use HelmBiogeog/Figures/NB_MarginalPlots_Wide.pdf>
 Package pdftex.def Info: HelmBiogeog/Figures/NB_MarginalPlots_Wide.pdf  used on
- input line 115.
+ input line 114.
 (pdftex.def)             Requested size: 433.0pt x 189.43811pt.
  [69
 
@@ -1850,10 +1850,10 @@ Package pdftex.def Info: HelmBiogeog/Figures/NB_MarginalPlots_Wide.pdf  used on
 File: HelmBiogeog/Figures/NODFc_plots.pdf Graphic file (type pdf)
 <use HelmBiogeog/Figures/NODFc_plots.pdf>
 Package pdftex.def Info: HelmBiogeog/Figures/NODFc_plots.pdf  used on input lin
-e 124.
+e 123.
 (pdftex.def)             Requested size: 433.61894pt x 433.61894pt.
 
-Overfull \hbox (0.61894pt too wide) in paragraph at lines 124--125
+Overfull \hbox (0.61894pt too wide) in paragraph at lines 123--124
  [] 
  []
 
@@ -1864,7 +1864,7 @@ Overfull \hbox (0.61894pt too wide) in paragraph at lines 124--125
 File: HelmBiogeog/Figures/GMCC_NODFc_boxplots.pdf Graphic file (type pdf)
 <use HelmBiogeog/Figures/GMCC_NODFc_boxplots.pdf>
 Package pdftex.def Info: HelmBiogeog/Figures/GMCC_NODFc_boxplots.pdf  used on i
-nput line 135.
+nput line 134.
 (pdftex.def)             Requested size: 289.07928pt x 433.61894pt.
 ) [71
 
@@ -1884,13 +1884,7 @@ tem-s can gen-er-ate dy-nam-ic system-
  []
 
 [75] [76] [77] [78] [79] [80] [81] [82] [83] [84] [85] [86] [87] [88] [89]
-[90] [91] [92]
-Overfull \hbox (9.81975pt too wide) in paragraph at lines 139--141
-[]\T1/lmr/bx/sc/12 How are net-work ap-proach-es be-ing u-ti-lized for con-ser-
-va-tion plan-ning/assess-
- []
-
-[93] [94] [95] [96]
+[90] [91] [92] [93] [94] [95] [96]
 <Review/Figures/ReviewConcept.pdf, id=7865, 693.68732pt x 393.91016pt>
 File: Review/Figures/ReviewConcept.pdf Graphic file (type pdf)
 <use Review/Figures/ReviewConcept.pdf>
@@ -1904,25 +1898,19 @@ Package pdftex.def Info: Review/Figures/ReviewConcept.pdf  used on input line 1
 ]
 \openout2 = `NutrientNeutrality/manuscript.aux'.
 
-
-(./NutrientNeutrality/manuscript.tex [100
+ (./NutrientNeutrality/manuscript.tex [100
 
 ] [101
 
-] [102] [103] [104] [105]
-[106]
-Underfull \hbox (badness 10000) in paragraph at lines 66--67
-
- []
-
-[107] [108] [109] [110] [111] [112] [113]
-<NutrientNeutrality/Figures/ConceptDraft.pdf, id=8110, 578.16pt x 361.35pt>
+] [102] [103] [104]
+[105] [106] [107] [108] [109] [110] [111] [112] [113]
+<NutrientNeutrality/Figures/ConceptDraft.pdf, id=8109, 578.16pt x 361.35pt>
 File: NutrientNeutrality/Figures/ConceptDraft.pdf Graphic file (type pdf)
 <use NutrientNeutrality/Figures/ConceptDraft.pdf>
 Package pdftex.def Info: NutrientNeutrality/Figures/ConceptDraft.pdf  used on i
 nput line 122.
 (pdftex.def)             Requested size: 433.0pt x 270.62587pt.
-<NutrientNeutrality/Figures/VitalEst.pdf, id=8111, 505.89pt x 216.81pt>
+<NutrientNeutrality/Figures/VitalEst.pdf, id=8110, 505.89pt x 216.81pt>
 File: NutrientNeutrality/Figures/VitalEst.pdf Graphic file (type pdf)
 <use NutrientNeutrality/Figures/VitalEst.pdf>
 Package pdftex.def Info: NutrientNeutrality/Figures/VitalEst.pdf  used on input
@@ -1932,7 +1920,7 @@ Package pdftex.def Info: NutrientNeutrality/Figures/VitalEst.pdf  used on input
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<NutrientNeutrality/Figures/ComparisonBarchart_icons.pdf, id=8112, 495.8525pt x
+<NutrientNeutrality/Figures/ComparisonBarchart_icons.pdf, id=8111, 495.8525pt x
  263.98625pt>
 File: NutrientNeutrality/Figures/ComparisonBarchart_icons.pdf Graphic file (typ
 e pdf)
@@ -1943,7 +1931,7 @@ f  used on input line 140.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<NutrientNeutrality/Figures/ContrastSummary.pdf, id=8113, 495.8525pt x 423.5825
+<NutrientNeutrality/Figures/ContrastSummary.pdf, id=8112, 495.8525pt x 423.5825
 pt>
 File: NutrientNeutrality/Figures/ContrastSummary.pdf Graphic file (type pdf)
 <use NutrientNeutrality/Figures/ContrastSummary.pdf>
@@ -2008,7 +1996,7 @@ m/it/12 Na-ture Com-mu-ni-ca-tion-s\T1/lmr/m/n/12 , \T1/lmr/m/it/12 12\T1/lmr/m
  []
 
 [154] [155] (./Fruglink/supplement/supplement.tex
-<Fruglink/supplement/figs/FigS1.png, id=8480, 363.41486pt x 290.45657pt>
+<Fruglink/supplement/figs/FigS1.png, id=8479, 363.41486pt x 290.45657pt>
 File: Fruglink/supplement/figs/FigS1.png Graphic file (type png)
 <use Fruglink/supplement/figs/FigS1.png>
 Package pdftex.def Info: Fruglink/supplement/figs/FigS1.png  used on input line
@@ -2022,7 +2010,7 @@ Package pdftex.def Info: Fruglink/supplement/figs/FigS1.png  used on input line
  [156
 
  <./Fruglink/supplement/figs/FigS1.png>]
-<Fruglink/supplement/figs/ReplicatePerformance_CV_NoPolytomies.pdf, id=8486, 33
+<Fruglink/supplement/figs/ReplicatePerformance_CV_NoPolytomies.pdf, id=8485, 33
 8.02647pt x 227.61557pt>
 File: Fruglink/supplement/figs/ReplicatePerformance_CV_NoPolytomies.pdf Graphic
  file (type pdf)
@@ -2036,7 +2024,7 @@ Overfull \vbox (77.45334pt too high) has occurred while \output is active []
 
 [158 <./Fruglink/supplement/figs/ReplicatePerformance_CV_NoPolytomies.pdf>]
 <Fruglink/supplement/figs/VarImportance_ErrBars_Short_col2_withCV_noPoly.pdf, i
-d=8598, 505.89pt x 252.945pt>
+d=8597, 505.89pt x 252.945pt>
 File: Fruglink/supplement/figs/VarImportance_ErrBars_Short_col2_withCV_noPoly.p
 df Graphic file (type pdf)
 <use Fruglink/supplement/figs/VarImportance_ErrBars_Short_col2_withCV_noPoly.pd
@@ -2044,7 +2032,7 @@ f>
 Package pdftex.def Info: Fruglink/supplement/figs/VarImportance_ErrBars_Short_c
 ol2_withCV_noPoly.pdf  used on input line 51.
 (pdftex.def)             Requested size: 433.0pt x 216.50566pt.
-<Fruglink/supplement/figs/fig3_nopoly.pdf, id=8599, 650.43pt x 361.35pt>
+<Fruglink/supplement/figs/fig3_nopoly.pdf, id=8598, 650.43pt x 361.35pt>
 File: Fruglink/supplement/figs/fig3_nopoly.pdf Graphic file (type pdf)
 <use Fruglink/supplement/figs/fig3_nopoly.pdf>
 Package pdftex.def Info: Fruglink/supplement/figs/fig3_nopoly.pdf  used on inpu
@@ -2053,7 +2041,7 @@ t line 59.
 
 [159 <./Fruglink/supplement/figs/VarImportance_ErrBars_Short_col2_withCV_noPoly
 .pdf>]
-<Fruglink/supplement/figs/suitability_comp_unscaled.pdf, id=8609, 505.89pt x 50
+<Fruglink/supplement/figs/suitability_comp_unscaled.pdf, id=8608, 505.89pt x 50
 5.89pt>
 File: Fruglink/supplement/figs/suitability_comp_unscaled.pdf Graphic file (type
  pdf)
@@ -2062,14 +2050,14 @@ Package pdftex.def Info: Fruglink/supplement/figs/suitability_comp_unscaled.pdf
   used on input line 71.
 (pdftex.def)             Requested size: 433.0pt x 433.0113pt.
  [160 <./Fruglink/supplement/figs/fig3_nopoly.pdf>]
-<Fruglink/supplement/figs/AUC_Ratio.pdf, id=8621, 505.89pt x 505.89pt>
+<Fruglink/supplement/figs/AUC_Ratio.pdf, id=8620, 505.89pt x 505.89pt>
 File: Fruglink/supplement/figs/AUC_Ratio.pdf Graphic file (type pdf)
 <use Fruglink/supplement/figs/AUC_Ratio.pdf>
 Package pdftex.def Info: Fruglink/supplement/figs/AUC_Ratio.pdf  used on input 
 line 80.
 (pdftex.def)             Requested size: 433.0pt x 433.0113pt.
  [161 <./Fruglink/supplement/figs/suitability_comp_unscaled.pdf>]
-<Fruglink/supplement/figs/Importance_by_Ratio.pdf, id=8632, 794.97pt x 614.295p
+<Fruglink/supplement/figs/Importance_by_Ratio.pdf, id=8631, 794.97pt x 614.295p
 t>
 File: Fruglink/supplement/figs/Importance_by_Ratio.pdf Graphic file (type pdf)
 <use Fruglink/supplement/figs/Importance_by_Ratio.pdf>
@@ -2082,14 +2070,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 95--96
  []
 
 [163 <./Fruglink/supplement/figs/Importance_by_Ratio.pdf>] [164]
-<Fruglink/supplement/figs/decaysumplot.pdf, id=8661, 578.16pt x 578.16pt>
+<Fruglink/supplement/figs/decaysumplot.pdf, id=8660, 578.16pt x 578.16pt>
 File: Fruglink/supplement/figs/decaysumplot.pdf Graphic file (type pdf)
 <use Fruglink/supplement/figs/decaysumplot.pdf>
 Package pdftex.def Info: Fruglink/supplement/figs/decaysumplot.pdf  used on inp
 ut line 110.
 (pdftex.def)             Requested size: 433.0pt x 433.00139pt.
  [165] [166 <./Fruglink/supplement/figs/decaysumplot.pdf>]
-<Fruglink/supplement/figs/nullsimulationResult.pdf, id=8678, 578.16pt x 578.16p
+<Fruglink/supplement/figs/nullsimulationResult.pdf, id=8677, 578.16pt x 578.16p
 t>
 File: Fruglink/supplement/figs/nullsimulationResult.pdf Graphic file (type pdf)
 
@@ -2098,7 +2086,7 @@ Package pdftex.def Info: Fruglink/supplement/figs/nullsimulationResult.pdf  use
 d on input line 129.
 (pdftex.def)             Requested size: 433.0pt x 433.00139pt.
  [167] [168 <./Fruglink/supplement/figs/nullsimulationResult.pdf>]
-<Fruglink/supplement/figs/Frugivore_cvComparison_small.png, id=8692, 963.6pt x 
+<Fruglink/supplement/figs/Frugivore_cvComparison_small.png, id=8691, 963.6pt x 
 963.6pt>
 File: Fruglink/supplement/figs/Frugivore_cvComparison_small.png Graphic file (t
 ype png)
@@ -2107,7 +2095,7 @@ Package pdftex.def Info: Fruglink/supplement/figs/Frugivore_cvComparison_small.
 png  used on input line 141.
 (pdftex.def)             Requested size: 433.0pt x 432.99846pt.
  [169]
-<Fruglink/supplement/figs/Plant_cvComparison_Small.png, id=8697, 963.6pt x 963.
+<Fruglink/supplement/figs/Plant_cvComparison_Small.png, id=8696, 963.6pt x 963.
 6pt>
 File: Fruglink/supplement/figs/Plant_cvComparison_Small.png Graphic file (type 
 png)
@@ -2117,13 +2105,13 @@ Package pdftex.def Info: Fruglink/supplement/figs/Plant_cvComparison_Small.png
 (pdftex.def)             Requested size: 433.0pt x 432.99846pt.
  [170 <./Fruglink/supplement/figs/Frugivore_cvComparison_small.png (PNG copy)>]
  [171 <./Fruglink/supplement/figs/Plant_cvComparison_Small.png (PNG copy)>]
-<Fruglink/supplement/figs/NoCV_Fig1.png, id=8707, 337.9827pt x 227.6505pt>
+<Fruglink/supplement/figs/NoCV_Fig1.png, id=8706, 337.9827pt x 227.6505pt>
 File: Fruglink/supplement/figs/NoCV_Fig1.png Graphic file (type png)
 <use Fruglink/supplement/figs/NoCV_Fig1.png>
 Package pdftex.def Info: Fruglink/supplement/figs/NoCV_Fig1.png  used on input 
 line 161.
 (pdftex.def)             Requested size: 433.0pt x 291.6591pt.
-<Fruglink/supplement/figs/VarImportance_ErrBars_Short_col2_withCV.pdf, id=8708,
+<Fruglink/supplement/figs/VarImportance_ErrBars_Short_col2_withCV.pdf, id=8707,
  505.89pt x 252.945pt>
 File: Fruglink/supplement/figs/VarImportance_ErrBars_Short_col2_withCV.pdf Grap
 hic file (type pdf)
@@ -2132,7 +2120,7 @@ Package pdftex.def Info: Fruglink/supplement/figs/VarImportance_ErrBars_Short_c
 ol2_withCV.pdf  used on input line 170.
 (pdftex.def)             Requested size: 433.0pt x 216.50566pt.
  [172 <./Fruglink/supplement/figs/NoCV_Fig1.png>]
-<Fruglink/supplement/figs/Importance_comp_CV.pdf, id=8714, 794.97pt x 614.295pt
+<Fruglink/supplement/figs/Importance_comp_CV.pdf, id=8713, 794.97pt x 614.295pt
 >
 File: Fruglink/supplement/figs/Importance_comp_CV.pdf Graphic file (type pdf)
 <use Fruglink/supplement/figs/Importance_comp_CV.pdf>
@@ -2142,7 +2130,7 @@ on input line 178.
 ) [173 <./Fruglink/supplement/figs/VarImportance_ErrBars_Short_col2_withCV.pdf>
 ] [174 <./Fruglink/supplement/figs/Importance_comp_CV.pdf>]
 (./centralRange/supplement.tex
-<centralRange/figs/pdf/sup/sitemap.pdf, id=8738, 578.16pt x 361.35pt>
+<centralRange/figs/pdf/sup/sitemap.pdf, id=8737, 578.16pt x 361.35pt>
 File: centralRange/figs/pdf/sup/sitemap.pdf Graphic file (type pdf)
 <use centralRange/figs/pdf/sup/sitemap.pdf>
 Package pdftex.def Info: centralRange/figs/pdf/sup/sitemap.pdf  used on input l
@@ -2155,7 +2143,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 [175
 
 ]
-<centralRange/figs/pdf/sup/CentralityCorrelations.pdf, id=8743, 578.16pt x 289.
+<centralRange/figs/pdf/sup/CentralityCorrelations.pdf, id=8742, 578.16pt x 289.
 08pt>
 File: centralRange/figs/pdf/sup/CentralityCorrelations.pdf Graphic file (type p
 df)
@@ -2167,7 +2155,7 @@ used on input line 14.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<centralRange/figs/pdf/sup/Local_Centrality_Distributions.pdf, id=8745, 722.7pt
+<centralRange/figs/pdf/sup/Local_Centrality_Distributions.pdf, id=8744, 722.7pt
  x 578.16pt>
 File: centralRange/figs/pdf/sup/Local_Centrality_Distributions.pdf Graphic file
  (type pdf)
@@ -2178,7 +2166,7 @@ ns.pdf  used on input line 25.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<centralRange/figs/pdf/sup/MetawebCentralityPlot.pdf, id=8746, 722.7pt x 578.16
+<centralRange/figs/pdf/sup/MetawebCentralityPlot.pdf, id=8745, 722.7pt x 578.16
 pt>
 File: centralRange/figs/pdf/sup/MetawebCentralityPlot.pdf Graphic file (type pd
 f)
@@ -2189,7 +2177,7 @@ sed on input line 33.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<centralRange/figs/pdf/sup/Cooccurence_vs_GeographicRange.pdf, id=8747, 722.7pt
+<centralRange/figs/pdf/sup/Cooccurence_vs_GeographicRange.pdf, id=8746, 722.7pt
  x 578.16pt>
 File: centralRange/figs/pdf/sup/Cooccurence_vs_GeographicRange.pdf Graphic file
  (type pdf)
@@ -2200,7 +2188,7 @@ ge.pdf  used on input line 42.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<centralRange/figs/pdf/sup/closenesscomparison.pdf, id=8748, 505.89pt x 505.89p
+<centralRange/figs/pdf/sup/closenesscomparison.pdf, id=8747, 505.89pt x 505.89p
 t>
 File: centralRange/figs/pdf/sup/closenesscomparison.pdf Graphic file (type pdf)
 
@@ -2216,7 +2204,7 @@ up/CentralityCorrelations.pdf>] [178 <./centralRange/figs/pdf/sup/Local_Central
 ity_Distributions.pdf>] [179 <./centralRange/figs/pdf/sup/MetawebCentralityPlot
 .pdf>] [180 <./centralRange/figs/pdf/sup/Cooccurence_vs_GeographicRange.pdf>]
 [181 <./centralRange/figs/pdf/sup/closenesscomparison.pdf>]
-<centralRange/figs/pdf/sup/Pairplot_Insect_Visitors_Metaweb.pdf, id=8829, 578.1
+<centralRange/figs/pdf/sup/Pairplot_Insect_Visitors_Metaweb.pdf, id=8828, 578.1
 6pt x 722.7pt>
 File: centralRange/figs/pdf/sup/Pairplot_Insect_Visitors_Metaweb.pdf Graphic fi
 le (type pdf)
@@ -2228,7 +2216,7 @@ aweb.pdf  used on input line 60.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<centralRange/figs/pdf/sup/Pairplot_Insect_Plants_Metaweb.pdf, id=8830, 578.16p
+<centralRange/figs/pdf/sup/Pairplot_Insect_Plants_Metaweb.pdf, id=8829, 578.16p
 t x 722.7pt>
 File: centralRange/figs/pdf/sup/Pairplot_Insect_Plants_Metaweb.pdf Graphic file
  (type pdf)
@@ -2239,7 +2227,7 @@ eb.pdf  used on input line 67.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<centralRange/figs/pdf/sup/Pairplot_Avian_Visitors_Metaweb.pdf, id=8831, 578.16
+<centralRange/figs/pdf/sup/Pairplot_Avian_Visitors_Metaweb.pdf, id=8830, 578.16
 pt x 722.7pt>
 File: centralRange/figs/pdf/sup/Pairplot_Avian_Visitors_Metaweb.pdf Graphic fil
 e (type pdf)
@@ -2250,7 +2238,7 @@ web.pdf  used on input line 75.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<centralRange/figs/pdf/sup/Pairplot_Avian_Plants_Metaweb.pdf, id=8832, 578.16pt
+<centralRange/figs/pdf/sup/Pairplot_Avian_Plants_Metaweb.pdf, id=8831, 578.16pt
  x 722.7pt>
 File: centralRange/figs/pdf/sup/Pairplot_Avian_Plants_Metaweb.pdf Graphic file 
 (type pdf)
@@ -2261,7 +2249,7 @@ b.pdf  used on input line 83.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<centralRange/figs/pdf/sup/Pairplot_Plants_Local.pdf, id=8833, 578.16pt x 722.7
+<centralRange/figs/pdf/sup/Pairplot_Plants_Local.pdf, id=8832, 578.16pt x 722.7
 pt>
 File: centralRange/figs/pdf/sup/Pairplot_Plants_Local.pdf Graphic file (type pd
 f)
@@ -2272,7 +2260,7 @@ sed on input line 92.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<centralRange/figs/pdf/sup/Pairplot_Visitors_Local.pdf, id=8834, 578.16pt x 722
+<centralRange/figs/pdf/sup/Pairplot_Visitors_Local.pdf, id=8833, 578.16pt x 722
 .7pt>
 File: centralRange/figs/pdf/sup/Pairplot_Visitors_Local.pdf Graphic file (type 
 pdf)
@@ -2291,7 +2279,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 [186 <./centralRange/figs/pdf/sup/Pairplot_Avian_Plants_Metaweb.pdf>] [187 <./c
 entralRange/figs/pdf/sup/Pairplot_Plants_Local.pdf>] [188 <./centralRange/figs/
 pdf/sup/Pairplot_Visitors_Local.pdf>] (./HelmBiogeog/supplement.tex
-<HelmBiogeog/Figures/Netsize_corplot.pdf, id=8904, 433.62pt x 433.62pt>
+<HelmBiogeog/Figures/Netsize_corplot.pdf, id=8903, 433.62pt x 433.62pt>
 File: HelmBiogeog/Figures/Netsize_corplot.pdf Graphic file (type pdf)
 <use HelmBiogeog/Figures/Netsize_corplot.pdf>
 Package pdftex.def Info: HelmBiogeog/Figures/Netsize_corplot.pdf  used on input
@@ -2300,7 +2288,7 @@ Package pdftex.def Info: HelmBiogeog/Figures/Netsize_corplot.pdf  used on input
  [189
 
 ]
-<HelmBiogeog/Figures/NODF.z_Plots_Supplement.pdf, id=8912, 433.62pt x 433.62pt>
+<HelmBiogeog/Figures/NODF.z_Plots_Supplement.pdf, id=8911, 433.62pt x 433.62pt>
 
 File: HelmBiogeog/Figures/NODF.z_Plots_Supplement.pdf Graphic file (type pdf)
 <use HelmBiogeog/Figures/NODF.z_Plots_Supplement.pdf>
@@ -2310,7 +2298,7 @@ on input line 16.
 
 [190 <./HelmBiogeog/Figures/Netsize_corplot.pdf>] [191 <./HelmBiogeog/Figures/N
 ODF.z_Plots_Supplement.pdf>]
-<HelmBiogeog/Figures/Spectral.z_Plots_Supplement.pdf, id=8936, 433.62pt x 433.6
+<HelmBiogeog/Figures/Spectral.z_Plots_Supplement.pdf, id=8935, 433.62pt x 433.6
 2pt>
 File: HelmBiogeog/Figures/Spectral.z_Plots_Supplement.pdf Graphic file (type pd
 f)
@@ -2321,21 +2309,21 @@ sed on input line 26.
  [192
 
  <./HelmBiogeog/Figures/Spectral.z_Plots_Supplement.pdf>]
-<HelmBiogeog/Figures/ParDiv_diagnostics.pdf, id=8953, 505.89pt x 505.89pt>
+<HelmBiogeog/Figures/ParDiv_diagnostics.pdf, id=8952, 505.89pt x 505.89pt>
 File: HelmBiogeog/Figures/ParDiv_diagnostics.pdf Graphic file (type pdf)
 <use HelmBiogeog/Figures/ParDiv_diagnostics.pdf>
 Package pdftex.def Info: HelmBiogeog/Figures/ParDiv_diagnostics.pdf  used on in
 put line 60.
 (pdftex.def)             Requested size: 433.0pt x 433.0113pt.
  [193]
-<HelmBiogeog/Figures/HostDiv_diagnostics.pdf, id=8958, 505.89pt x 505.89pt>
+<HelmBiogeog/Figures/HostDiv_diagnostics.pdf, id=8957, 505.89pt x 505.89pt>
 File: HelmBiogeog/Figures/HostDiv_diagnostics.pdf Graphic file (type pdf)
 <use HelmBiogeog/Figures/HostDiv_diagnostics.pdf>
 Package pdftex.def Info: HelmBiogeog/Figures/HostDiv_diagnostics.pdf  used on i
 nput line 68.
 (pdftex.def)             Requested size: 433.0pt x 433.0113pt.
  [194 <./HelmBiogeog/Figures/ParDiv_diagnostics.pdf>]
-<HelmBiogeog/Figures/NODFc_Distance_diagnostics.pdf, id=8969, 505.89pt x 505.89
+<HelmBiogeog/Figures/NODFc_Distance_diagnostics.pdf, id=8968, 505.89pt x 505.89
 pt>
 File: HelmBiogeog/Figures/NODFc_Distance_diagnostics.pdf Graphic file (type pdf
 )
@@ -2346,7 +2334,7 @@ ed on input line 76.
 )
 [195 <./HelmBiogeog/Figures/HostDiv_diagnostics.pdf>] [196 <./HelmBiogeog/Figur
 es/NODFc_Distance_diagnostics.pdf>] (./NutrientNeutrality/supplement.tex
-<NutrientNeutrality/Figures/ExamplePlates.png, id=8990, 431.6928pt x 273.6624pt
+<NutrientNeutrality/Figures/ExamplePlates.png, id=8989, 431.6928pt x 273.6624pt
 >
 File: NutrientNeutrality/Figures/ExamplePlates.png Graphic file (type png)
 <use NutrientNeutrality/Figures/ExamplePlates.png>
@@ -2360,7 +2348,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 [197
 
 ]
-<NutrientNeutrality/Figures/CommunityBarcharts.pdf, id=9000, 745.78625pt x 206.
+<NutrientNeutrality/Figures/CommunityBarcharts.pdf, id=8999, 745.78625pt x 206.
 7725pt>
 File: NutrientNeutrality/Figures/CommunityBarcharts.pdf Graphic file (type pdf)
 
@@ -2375,7 +2363,7 @@ Overfull \hbox (33.78285pt too wide) in paragraph at lines 33--58
 
 [198 <./NutrientNeutrality/Figures/ExamplePlates.png>] [199 <./NutrientNeutrali
 ty/Figures/CommunityBarcharts.pdf>] [200]
-<NutrientNeutrality/Figures/growthCurves.pdf, id=9094, 505.89pt x 505.89pt>
+<NutrientNeutrality/Figures/growthCurves.pdf, id=9093, 505.89pt x 505.89pt>
 File: NutrientNeutrality/Figures/growthCurves.pdf Graphic file (type pdf)
 <use NutrientNeutrality/Figures/growthCurves.pdf>
 Package pdftex.def Info: NutrientNeutrality/Figures/growthCurves.pdf  used on i
@@ -2385,7 +2373,7 @@ nput line 74.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<NutrientNeutrality/Figures/Sup_RvsKscaling.pdf, id=9095, 505.89pt x 289.08pt>
+<NutrientNeutrality/Figures/Sup_RvsKscaling.pdf, id=9094, 505.89pt x 289.08pt>
 File: NutrientNeutrality/Figures/Sup_RvsKscaling.pdf Graphic file (type pdf)
 <use NutrientNeutrality/Figures/Sup_RvsKscaling.pdf>
 Package pdftex.def Info: NutrientNeutrality/Figures/Sup_RvsKscaling.pdf  used o
@@ -2396,7 +2384,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 ) [201] [202 <./NutrientNeutrality/Figures/growthCurves.pdf>] [203 <./NutrientN
 eutrality/Figures/Sup_RvsKscaling.pdf>] (./ccApp.tex
-<FigCC/cc40.pdf, id=9125, 556.39473pt x 330.68051pt>
+<FigCC/cc40.pdf, id=9124, 556.39473pt x 330.68051pt>
 File: FigCC/cc40.pdf Graphic file (type pdf)
 <use FigCC/cc40.pdf>
 Package pdftex.def Info: FigCC/cc40.pdf  used on input line 3.
@@ -2421,19 +2409,19 @@ Package pdftex.def Info: FigCC/cc40.pdf  used on input line 3.
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `modelmain.out' has not changed.
-(rerunfilecheck)             Checksum: B23923FFDB1DADC3B977D446990EC663;4771.
+(rerunfilecheck)             Checksum: D0EAC5B27617E2935C09CCC536CC768E;4771.
 Package logreq Info: Writing requests to 'modelmain.run.xml'.
 \openout1 = `modelmain.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 43671 strings out of 480261
- 908628 string characters out of 5896481
- 1821597 words of memory out of 5000000
+ 43670 strings out of 480261
+ 908616 string characters out of 5896481
+ 1822656 words of memory out of 5000000
  59690 multiletter control sequences out of 15000+600000
  537837 words of font info for 87 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 90i,12n,99p,3191b,5035s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 90i,12n,99p,3190b,5035s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/share/texmf/fonts/en
 c/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/s
 hare/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm
@@ -2447,10 +2435,10 @@ e/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/
 lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmri12.pfb></usr/share/texmf
 /fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8
 .pfb></usr/share/texmf/fonts/type1/public/lm/lmtt12.pfb>
-Output written on modelmain.pdf (215 pages, 40437087 bytes).
+Output written on modelmain.pdf (215 pages, 40437464 bytes).
 PDF statistics:
- 9383 PDF objects out of 10688 (max. 8388607)
- 6785 compressed objects within 68 object streams
- 821 named destinations out of 1000 (max. 500000)
+ 9382 PDF objects out of 10688 (max. 8388607)
+ 6784 compressed objects within 68 object streams
+ 820 named destinations out of 1000 (max. 500000)
  550 words of extra memory for PDF output out of 10000 (max. 10000000)
 

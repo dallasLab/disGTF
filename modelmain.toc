@@ -31,12 +31,11 @@
 \contentsline {paragraph}{}{91}{section*.132}%
 \vskip -20pt
 \contentsline {chapter}{\chapternumberline {6}Environmental context alters the predictability of yeast community assembly from monoculture demographic parameters}{99}{chapter.6}%
-\contentsline {paragraph}{}{107}{section*.158}%
-\contentsline {paragraph}{}{110}{section*.164}%
+\contentsline {paragraph}{}{110}{section*.163}%
+\contentsline {paragraph}{}{111}{section*.164}%
 \contentsline {paragraph}{}{111}{section*.165}%
-\contentsline {paragraph}{}{111}{section*.166}%
-\contentsline {paragraph}{}{112}{section*.167}%
-\contentsline {chapter}{References}{118}{section*.170}%
+\contentsline {paragraph}{}{112}{section*.166}%
+\contentsline {chapter}{References}{118}{section*.169}%
 \vskip -20pt
 \contentsline {appendix}{\chapternumberline {A}Supplemental information for Chapter 2}{156}{chapter.A}%
 \vskip -20pt
