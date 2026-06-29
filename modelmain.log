@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.7.11)  26 JUN 2026 21:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.7.11)  29 JUN 2026 08:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1908,13 +1908,13 @@ Package pdftex.def Info: Review/Figures/ReviewConcept.pdf  used on input line 1
 File: NutrientNeutrality/Figures/ConceptDraft.pdf Graphic file (type pdf)
 <use NutrientNeutrality/Figures/ConceptDraft.pdf>
 Package pdftex.def Info: NutrientNeutrality/Figures/ConceptDraft.pdf  used on i
-nput line 122.
+nput line 118.
 (pdftex.def)             Requested size: 433.0pt x 270.62587pt.
 <NutrientNeutrality/Figures/VitalEst.pdf, id=8110, 505.89pt x 216.81pt>
 File: NutrientNeutrality/Figures/VitalEst.pdf Graphic file (type pdf)
 <use NutrientNeutrality/Figures/VitalEst.pdf>
 Package pdftex.def Info: NutrientNeutrality/Figures/VitalEst.pdf  used on input
- line 131.
+ line 127.
 (pdftex.def)             Requested size: 433.0pt x 185.57626pt.
 
 
@@ -1926,7 +1926,7 @@ File: NutrientNeutrality/Figures/ComparisonBarchart_icons.pdf Graphic file (typ
 e pdf)
 <use NutrientNeutrality/Figures/ComparisonBarchart_icons.pdf>
 Package pdftex.def Info: NutrientNeutrality/Figures/ComparisonBarchart_icons.pd
-f  used on input line 140.
+f  used on input line 136.
 (pdftex.def)             Requested size: 433.0pt x 230.52415pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -1936,7 +1936,7 @@ pt>
 File: NutrientNeutrality/Figures/ContrastSummary.pdf Graphic file (type pdf)
 <use NutrientNeutrality/Figures/ContrastSummary.pdf>
 Package pdftex.def Info: NutrientNeutrality/Figures/ContrastSummary.pdf  used o
-n input line 150.
+n input line 146.
 (pdftex.def)             Requested size: 433.0pt x 369.89049pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -2155,13 +2155,13 @@ used on input line 14.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<centralRange/figs/pdf/sup/Local_Centrality_Distributions.pdf, id=8744, 722.7pt
- x 578.16pt>
-File: centralRange/figs/pdf/sup/Local_Centrality_Distributions.pdf Graphic file
- (type pdf)
-<use centralRange/figs/pdf/sup/Local_Centrality_Distributions.pdf>
+<centralRange/figs/pdf/sup/Local_Centrality_Distributions_unlabeled.pdf, id=874
+4, 722.7pt x 578.16pt>
+File: centralRange/figs/pdf/sup/Local_Centrality_Distributions_unlabeled.pdf Gr
+aphic file (type pdf)
+<use centralRange/figs/pdf/sup/Local_Centrality_Distributions_unlabeled.pdf>
 Package pdftex.def Info: centralRange/figs/pdf/sup/Local_Centrality_Distributio
-ns.pdf  used on input line 25.
+ns_unlabeled.pdf  used on input line 25.
 (pdftex.def)             Requested size: 433.0pt x 346.40463pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -2201,10 +2201,10 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [176 <./centralRange/figs/pdf/sup/sitemap.pdf>] [177 <./centralRange/figs/pdf/s
 up/CentralityCorrelations.pdf>] [178 <./centralRange/figs/pdf/sup/Local_Central
-ity_Distributions.pdf>] [179 <./centralRange/figs/pdf/sup/MetawebCentralityPlot
-.pdf>] [180 <./centralRange/figs/pdf/sup/Cooccurence_vs_GeographicRange.pdf>]
-[181 <./centralRange/figs/pdf/sup/closenesscomparison.pdf>]
-<centralRange/figs/pdf/sup/Pairplot_Insect_Visitors_Metaweb.pdf, id=8828, 578.1
+ity_Distributions_unlabeled.pdf>] [179 <./centralRange/figs/pdf/sup/MetawebCent
+ralityPlot.pdf>] [180 <./centralRange/figs/pdf/sup/Cooccurence_vs_GeographicRan
+ge.pdf>] [181 <./centralRange/figs/pdf/sup/closenesscomparison.pdf>]
+<centralRange/figs/pdf/sup/Pairplot_Insect_Visitors_Metaweb.pdf, id=8826, 578.1
 6pt x 722.7pt>
 File: centralRange/figs/pdf/sup/Pairplot_Insect_Visitors_Metaweb.pdf Graphic fi
 le (type pdf)
@@ -2216,7 +2216,7 @@ aweb.pdf  used on input line 60.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<centralRange/figs/pdf/sup/Pairplot_Insect_Plants_Metaweb.pdf, id=8829, 578.16p
+<centralRange/figs/pdf/sup/Pairplot_Insect_Plants_Metaweb.pdf, id=8827, 578.16p
 t x 722.7pt>
 File: centralRange/figs/pdf/sup/Pairplot_Insect_Plants_Metaweb.pdf Graphic file
  (type pdf)
@@ -2227,7 +2227,7 @@ eb.pdf  used on input line 67.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<centralRange/figs/pdf/sup/Pairplot_Avian_Visitors_Metaweb.pdf, id=8830, 578.16
+<centralRange/figs/pdf/sup/Pairplot_Avian_Visitors_Metaweb.pdf, id=8828, 578.16
 pt x 722.7pt>
 File: centralRange/figs/pdf/sup/Pairplot_Avian_Visitors_Metaweb.pdf Graphic fil
 e (type pdf)
@@ -2238,7 +2238,7 @@ web.pdf  used on input line 75.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<centralRange/figs/pdf/sup/Pairplot_Avian_Plants_Metaweb.pdf, id=8831, 578.16pt
+<centralRange/figs/pdf/sup/Pairplot_Avian_Plants_Metaweb.pdf, id=8829, 578.16pt
  x 722.7pt>
 File: centralRange/figs/pdf/sup/Pairplot_Avian_Plants_Metaweb.pdf Graphic file 
 (type pdf)
@@ -2249,7 +2249,7 @@ b.pdf  used on input line 83.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<centralRange/figs/pdf/sup/Pairplot_Plants_Local.pdf, id=8832, 578.16pt x 722.7
+<centralRange/figs/pdf/sup/Pairplot_Plants_Local.pdf, id=8830, 578.16pt x 722.7
 pt>
 File: centralRange/figs/pdf/sup/Pairplot_Plants_Local.pdf Graphic file (type pd
 f)
@@ -2260,7 +2260,7 @@ sed on input line 92.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<centralRange/figs/pdf/sup/Pairplot_Visitors_Local.pdf, id=8833, 578.16pt x 722
+<centralRange/figs/pdf/sup/Pairplot_Visitors_Local.pdf, id=8831, 578.16pt x 722
 .7pt>
 File: centralRange/figs/pdf/sup/Pairplot_Visitors_Local.pdf Graphic file (type 
 pdf)
@@ -2279,7 +2279,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 [186 <./centralRange/figs/pdf/sup/Pairplot_Avian_Plants_Metaweb.pdf>] [187 <./c
 entralRange/figs/pdf/sup/Pairplot_Plants_Local.pdf>] [188 <./centralRange/figs/
 pdf/sup/Pairplot_Visitors_Local.pdf>] (./HelmBiogeog/supplement.tex
-<HelmBiogeog/Figures/Netsize_corplot.pdf, id=8903, 433.62pt x 433.62pt>
+<HelmBiogeog/Figures/Netsize_corplot.pdf, id=8901, 433.62pt x 433.62pt>
 File: HelmBiogeog/Figures/Netsize_corplot.pdf Graphic file (type pdf)
 <use HelmBiogeog/Figures/Netsize_corplot.pdf>
 Package pdftex.def Info: HelmBiogeog/Figures/Netsize_corplot.pdf  used on input
@@ -2288,7 +2288,7 @@ Package pdftex.def Info: HelmBiogeog/Figures/Netsize_corplot.pdf  used on input
  [189
 
 ]
-<HelmBiogeog/Figures/NODF.z_Plots_Supplement.pdf, id=8911, 433.62pt x 433.62pt>
+<HelmBiogeog/Figures/NODF.z_Plots_Supplement.pdf, id=8909, 433.62pt x 433.62pt>
 
 File: HelmBiogeog/Figures/NODF.z_Plots_Supplement.pdf Graphic file (type pdf)
 <use HelmBiogeog/Figures/NODF.z_Plots_Supplement.pdf>
@@ -2298,7 +2298,7 @@ on input line 16.
 
 [190 <./HelmBiogeog/Figures/Netsize_corplot.pdf>] [191 <./HelmBiogeog/Figures/N
 ODF.z_Plots_Supplement.pdf>]
-<HelmBiogeog/Figures/Spectral.z_Plots_Supplement.pdf, id=8935, 433.62pt x 433.6
+<HelmBiogeog/Figures/Spectral.z_Plots_Supplement.pdf, id=8933, 433.62pt x 433.6
 2pt>
 File: HelmBiogeog/Figures/Spectral.z_Plots_Supplement.pdf Graphic file (type pd
 f)
@@ -2309,21 +2309,21 @@ sed on input line 26.
  [192
 
  <./HelmBiogeog/Figures/Spectral.z_Plots_Supplement.pdf>]
-<HelmBiogeog/Figures/ParDiv_diagnostics.pdf, id=8952, 505.89pt x 505.89pt>
+<HelmBiogeog/Figures/ParDiv_diagnostics.pdf, id=8950, 505.89pt x 505.89pt>
 File: HelmBiogeog/Figures/ParDiv_diagnostics.pdf Graphic file (type pdf)
 <use HelmBiogeog/Figures/ParDiv_diagnostics.pdf>
 Package pdftex.def Info: HelmBiogeog/Figures/ParDiv_diagnostics.pdf  used on in
 put line 60.
 (pdftex.def)             Requested size: 433.0pt x 433.0113pt.
  [193]
-<HelmBiogeog/Figures/HostDiv_diagnostics.pdf, id=8957, 505.89pt x 505.89pt>
+<HelmBiogeog/Figures/HostDiv_diagnostics.pdf, id=8955, 505.89pt x 505.89pt>
 File: HelmBiogeog/Figures/HostDiv_diagnostics.pdf Graphic file (type pdf)
 <use HelmBiogeog/Figures/HostDiv_diagnostics.pdf>
 Package pdftex.def Info: HelmBiogeog/Figures/HostDiv_diagnostics.pdf  used on i
 nput line 68.
 (pdftex.def)             Requested size: 433.0pt x 433.0113pt.
  [194 <./HelmBiogeog/Figures/ParDiv_diagnostics.pdf>]
-<HelmBiogeog/Figures/NODFc_Distance_diagnostics.pdf, id=8968, 505.89pt x 505.89
+<HelmBiogeog/Figures/NODFc_Distance_diagnostics.pdf, id=8966, 505.89pt x 505.89
 pt>
 File: HelmBiogeog/Figures/NODFc_Distance_diagnostics.pdf Graphic file (type pdf
 )
@@ -2334,7 +2334,7 @@ ed on input line 76.
 )
 [195 <./HelmBiogeog/Figures/HostDiv_diagnostics.pdf>] [196 <./HelmBiogeog/Figur
 es/NODFc_Distance_diagnostics.pdf>] (./NutrientNeutrality/supplement.tex
-<NutrientNeutrality/Figures/ExamplePlates.png, id=8989, 431.6928pt x 273.6624pt
+<NutrientNeutrality/Figures/ExamplePlates.png, id=8987, 431.6928pt x 273.6624pt
 >
 File: NutrientNeutrality/Figures/ExamplePlates.png Graphic file (type png)
 <use NutrientNeutrality/Figures/ExamplePlates.png>
@@ -2348,7 +2348,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 [197
 
 ]
-<NutrientNeutrality/Figures/CommunityBarcharts.pdf, id=8999, 745.78625pt x 206.
+<NutrientNeutrality/Figures/CommunityBarcharts.pdf, id=8997, 745.78625pt x 206.
 7725pt>
 File: NutrientNeutrality/Figures/CommunityBarcharts.pdf Graphic file (type pdf)
 
@@ -2363,28 +2363,28 @@ Overfull \hbox (33.78285pt too wide) in paragraph at lines 33--58
 
 [198 <./NutrientNeutrality/Figures/ExamplePlates.png>] [199 <./NutrientNeutrali
 ty/Figures/CommunityBarcharts.pdf>] [200]
-<NutrientNeutrality/Figures/growthCurves.pdf, id=9093, 505.89pt x 505.89pt>
+<NutrientNeutrality/Figures/growthCurves.pdf, id=9091, 505.89pt x 505.89pt>
 File: NutrientNeutrality/Figures/growthCurves.pdf Graphic file (type pdf)
 <use NutrientNeutrality/Figures/growthCurves.pdf>
 Package pdftex.def Info: NutrientNeutrality/Figures/growthCurves.pdf  used on i
-nput line 74.
+nput line 68.
 (pdftex.def)             Requested size: 433.0pt x 433.0113pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<NutrientNeutrality/Figures/Sup_RvsKscaling.pdf, id=9094, 505.89pt x 289.08pt>
+<NutrientNeutrality/Figures/Sup_RvsKscaling.pdf, id=9092, 505.89pt x 289.08pt>
 File: NutrientNeutrality/Figures/Sup_RvsKscaling.pdf Graphic file (type pdf)
 <use NutrientNeutrality/Figures/Sup_RvsKscaling.pdf>
 Package pdftex.def Info: NutrientNeutrality/Figures/Sup_RvsKscaling.pdf  used o
-n input line 84.
+n input line 78.
 (pdftex.def)             Requested size: 433.0pt x 247.43503pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 ) [201] [202 <./NutrientNeutrality/Figures/growthCurves.pdf>] [203 <./NutrientN
 eutrality/Figures/Sup_RvsKscaling.pdf>] (./ccApp.tex
-<FigCC/cc40.pdf, id=9124, 556.39473pt x 330.68051pt>
+<FigCC/cc40.pdf, id=9122, 556.39473pt x 330.68051pt>
 File: FigCC/cc40.pdf Graphic file (type pdf)
 <use FigCC/cc40.pdf>
 Package pdftex.def Info: FigCC/cc40.pdf  used on input line 3.
@@ -2415,10 +2415,10 @@ Package logreq Info: Writing requests to 'modelmain.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 43670 strings out of 480261
- 908616 string characters out of 5896481
- 1822656 words of memory out of 5000000
- 59690 multiletter control sequences out of 15000+600000
+ 43671 strings out of 480261
+ 908702 string characters out of 5896481
+ 1821665 words of memory out of 5000000
+ 59692 multiletter control sequences out of 15000+600000
  537837 words of font info for 87 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  90i,12n,99p,3190b,5035s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2435,10 +2435,10 @@ e/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/
 lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmri12.pfb></usr/share/texmf
 /fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8
 .pfb></usr/share/texmf/fonts/type1/public/lm/lmtt12.pfb>
-Output written on modelmain.pdf (215 pages, 40437464 bytes).
+Output written on modelmain.pdf (215 pages, 40418252 bytes).
 PDF statistics:
- 9382 PDF objects out of 10688 (max. 8388607)
+ 9380 PDF objects out of 10688 (max. 8388607)
  6784 compressed objects within 68 object streams
- 820 named destinations out of 1000 (max. 500000)
+ 819 named destinations out of 1000 (max. 500000)
  550 words of extra memory for PDF output out of 10000 (max. 10000000)
 

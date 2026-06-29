@@ -4,14 +4,14 @@ For each community spread plate, the number of colonies of each composite phenot
 \begin{figure}[h!]
   \begin{center}
     \includegraphics[width=\textwidth]{NutrientNeutrality/Figures/ExamplePlates.png}
-    \caption[Example plates of community samples from a variety of replicates]{Example plates of community samples from a variety of replicates. Panels A, B, and C, represent samples of one-, two-, and four-strain communities, respectively. Panels D and E represent two samples of the same replicate three-strain community. Although experimental communities were inoculated only with colored strains, a minority of colonies did not express visible phenotypes and could instead appear wild-type appearing (mean = 15.2\% across strain-nutrient combinations), see \ref{fig:FullModel_CommunityBarcharts}.}
+    \caption[Example plates of community samples from a variety of replicates]{Example plates of community samples from a variety of replicates. Panels A, B, and C, represent samples of one-, two-, and four-strain communities, respectively. Panels D and E represent two samples of the same replicate three-strain community. Although experimental communities were inoculated only with colored strains, a minority of colonies did not express visible phenotypes and could instead appear wild-type appearing (mean = 15.2\% across strain-nutrient combinations), see Figure \ref{fig:FullModel_CommunityBarcharts}.}
     \label{fig:plateImages}
   \end{center}
 \end{figure}
 
 Although experimental communities were inoculated only with colored strains, some colonies did not express visible phenotypes and could instead appear wild-type appearing. Because wild-type-appearing colonies in multispecies communities could originate from any strain present in the community, we used a Bayesian hidden-state model informed by monoculture expression rates and observed phenotype counts to estimate underlying strain relative abundances in each final community. 
 
-We model the relative abundances within each community-treatment combination as a singular grand mean, with individual replicates deviating from this mean according to a replicate-level variance parameter. Individual plates are modeled as multinomial draws from replicate-level distributions, modified by the independently modeled strain-specific phenotype expression rates. As such, we are able to model the best-fit relative abundance distribution of each replicate given our our observed phenotypic counts, along with our estimates uncertainty around those relative abundances. We present the results of these modeled relative abundances in main text figure \ref{fig:CommunityBarcharts}. Visual comparisons of raw and modeled relative abundances are presented in \ref{fig:FullModel_CommunityBarcharts}.  
+We model the relative abundances within each community-treatment combination as a singular grand mean, with individual replicates deviating from this mean according to a replicate-level variance parameter. Individual plates are modeled as multinomial draws from replicate-level distributions, modified by the independently modeled strain-specific phenotype expression rates. As such, we are able to model the best-fit relative abundance distribution of each replicate given our our observed phenotypic counts, along with our estimates uncertainty around those relative abundances. We present the results of these modeled relative abundances in main text Figure \ref{fig:CommunityBarcharts}. Visual comparisons of raw and modeled relative abundances are presented in Figure \ref{fig:FullModel_CommunityBarcharts}.  
 
         
 \begin{sidewaysfigure}[p]
@@ -58,13 +58,7 @@ We model the relative abundances within each community-treatment combination as 
 \end{table}
 \newpage
 \paragraph*{Monoculture Growth Curves}\mbox{}\\
-We estimated strain-specific vital by growing each strain in liquid monocultures. Figure \ref{fig:growthCurves} shows the example demographic curves used to fit a logistic model, such
-
-\begin{equation}
-    N_{n,t+1}=N_{n,t}+R_nN_{n,t}\left(1-\frac{N_{n,t}}{K_n}\right)
-\end{equation}
-
-The finite rate of increase (R) and carrying capacity (K) were estimated separately for each strain-by-nutrient combination; each timestep of our discrete model represented a 10 minute interval between OD600 measurements. Replicate trajectories were allowed to vary in R around their corresponding strain-by-nutrient mean, with a single replicate-level variance parameter shared across all groups. Observation error was modeled with a shared lognormal error term, and weakly informative priors were placed on log-transformed vital-rate parameters and variances. Models were fit using four MCMC chains with 1000 timesteps following a 1000-timestep burn-in period. Models were checked for convergence by analyzing ESS and $\hat{R}$ for each parameter estimate, as well as through posterior predictive visualizations. Though with high variability, we observed a potential negative trade-off between R and K across strains in both high- and low-nutrient treatments (Figure \ref{fig:Sup_RvsKscaling}).
+We estimated strain-specific vital by growing each strain in liquid monocultures. Figure \ref{fig:growthCurves} shows the example demographic curves fit to equation \ref{eq:logistic}. The finite rate of increase (R) and carrying capacity (K) were estimated separately for each strain-by-nutrient combination; each timestep of our discrete model represented a 10 minute interval between OD600 measurements. Replicate trajectories were allowed to vary in R around their corresponding strain-by-nutrient mean, with a single replicate-level variance parameter shared across all groups. Observation error was modeled with a shared lognormal error term, and weakly informative priors were placed on log-transformed vital-rate parameters and variances. Models were fit using four MCMC chains with 1000 timesteps following a 1000-timestep burn-in period. Models were checked for convergence by analyzing ESS and $\hat{R}$ for each parameter estimate, as well as through posterior predictive visualizations. Though with high variability, we observed a potential negative trade-off between R and K across strains in both high- and low-nutrient treatments (Figure \ref{fig:Sup_RvsKscaling}).
 
 
 
