@@ -90,7 +90,7 @@ For the subset of species which occurred across multiple sites, we further inves
 \section*{\textbf{\underline{Results}}}
 
 \paragraph*{Species Occurrences and Interactions}\mbox{}\\ 
-Species' geographic range sizes in insect-plant networks varied widely, ranging from 2,232 km$^2$ (\textit{Chaetanthera lycopodioides}, a range-restricted montane Aster endemic to Chile and Argentina \cite{arroyo2007display}) to over 119 million km$^2$ (\textit{Sonchus oleraceus}, a cosmopolitan weed native to Eurasia), with a median value of 3,749,391 km$^2$. Geographic distributions of species in avian-plant visitation networks ranged from 2,518 km$^2$ (\textit{Barbacenia longiflora}, a monocot forb restricted to Minas Gerais, Brazil) to over 85 million km$^2$ (\textit{Prunella vulgaris}, a cosmopolitan invasive weed), with a median value of 1,536,647 km$^2$. Across sites, geographic and environmental range size were positively correlated ($r$=0.667, $p <$ 0.001). Typical of large-scale interaction metawebs, realized connectance (the percentage of realized links out of the total possible number of interactions) was low \parencite{jordano1987patterns}. At the global scale, only 0.32\% and 2.8\% of potential links were realized in insect and avian interaction metawebs, respectively. At the site-level, average connectance of insect-plant networks was 0.194, whereas average avian-plant network connectance was 0.356. 
+Species' geographic range sizes in insect-plant networks varied widely, ranging from 2,232 km$^2$ (\textit{Chaetanthera lycopodioides}, a range-restricted montane Aster endemic to Chile and Argentina \cite{arroyo2007display}) to over 119 million km$^2$ (\textit{Sonchus oleraceus}, a cosmopolitan weed native to Eurasia), with a median value of 3,749,391 km$^2$. Geographic distributions of species in avian-plant visitation networks ranged from 2,518 km$^2$ (\textit{Barbacenia longiflora}, a monocot forb restricted to Minas Gerais, Brazil) to over 85 million km$^2$ (\textit{Prunella vulgaris}, a cosmopolitan invasive weed), with a median value of 1,536,647 km$^2$. Across sites, geographic and environmental range size were positively correlated ($r$=0.667, $p <$ 0.001). Typical of large-scale interaction metawebs, realized connectance (the percentage of realized links out of the total possible number of interactions) was low \parencite{jordano1987patterns}. At the metaweb scale, only 0.32\% and 2.8\% of potential links were realized in insect and avian interaction metawebs, respectively. At the site-level, average connectance of insect-plant networks was 0.194, whereas average avian-plant network connectance was 0.356. 
 
 % TAD: numbers don't go in math font unless you're willing to put every number in math font. 
 %GF: Fixed
@@ -121,7 +121,7 @@ Average species centrality in local floral visitation networks was positively co
 
 \section*{\textbf{\underline{Discussion}}}
 %The effect of geographic range size on metaweb centrality is mediated through cooccurrence. 
-\paragraph*{} Generally we find species' geographic range size and niche breadth are more clearly linked to their centrality in aggregate plant-pollinator metawebs than within local interaction networks. The positive impact of geographic range size on metaweb centrality we observed across all node classes may be caused by a number of potential drivers. Species with broad geographic ranges are likely to co-occur with more potential interaction partners across their range (Figure \ref{fig:S4}). In this case, even if species are relatively peripheral across local networks, they may be relatively central at the metaweb level if interaction turnover is high across their range \parencite{martins2025determinants}. Our results support this interpretation, as while species with large geographic ranges tended to be more central in the global metaweb, they did not tend to be more central than null expectations based on their connections across all local webs (Figure \ref{fig:MetawebEffect}). Additionally, generalized additive models indicated a large partial effect of interaction turnover on measured metaweb centrality, but this effect largely disappeared once these centrality values were $z$-transformed (Figure \ref{fig:gam}). Together, these patterns suggest that, at the global scale, species centrality in these metawebs is shaped more by neutral processes-namely the accumulation of interactions across space-than by the specific identity of those interactions. 
+\paragraph*{} Generally we find species' geographic range size and niche breadth are more clearly linked to their centrality in aggregate plant-pollinator metawebs than within local interaction networks. The positive impact of geographic range size on metaweb centrality we observed across all node classes may be caused by a number of potential drivers. Species with broad geographic ranges are likely to co-occur with more potential interaction partners across their range (Figure \ref{fig:S4}). In this case, even if species are relatively peripheral across local networks, they may be relatively central at the metaweb level if interaction turnover is high across their range \parencite{martins2025determinants}. Our results support this interpretation, as while species with large geographic ranges tended to be more central in the global metaweb, they did not tend to be more central than null expectations based on their connections across all local webs (Figure \ref{fig:MetawebEffect}). Additionally, generalized additive models indicated a large partial effect of interaction turnover on measured metaweb centrality, but this effect largely disappeared once these centrality values were $z$-transformed (Figure \ref{fig:gam}). Together, these patterns suggest that, at the metaweb scale, species centrality is shaped more by neutral processes-namely the accumulation of interactions across space-than by the specific identity of those interactions. 
 
 \paragraph*{}
 Contrary to our expectations, standardized centrality was negatively related to geographic range size of plants in avian-plant networks after accounting for niche breadth. This pattern may indicate slower accumulation of interactions across space (lower interaction turnover) than otherwise expected. This pattern may be driven by wide-ranging, disturbance-adapted species that occur in many networks but are less likely to form interactions with narrowly distributed specialists. Nectarivory has evolved numerous times within birds, but contemporary biogeographical distributions of avian nectarivore diversity are clustered in the neotropics and parts of Australasia \parencite{kissling2012bird}. This spatial clustering of potential partner diversity may drive lower rates of interaction turnover of avian-pollinated plants across large spatial scales. 
@@ -145,20 +145,27 @@ Understanding the factors that determine species positions in mutualistic networ
 
 \section*{\textbf{\underline{Figures}}}
 
-\begin{figure}[H]
-    \includegraphics[width=22cm, angle=90, alt={Theoretical diagram summarizing the effects of geographic range size and niche breadth and network centrality across geographic scales}]{centralRange/figs/pdf/Concept_v2_busy_sized.pdf}
-    \label{fig:conceptCentralRange}
+\begin{landscape}
+\begin{figure}[p]
+\thispagestyle{empty}
+\centering
+
+\includegraphics[
+  width=12cm,
+  alt={Theoretical diagram summarizing the effects of geographic range size and niche breadth and network centrality across geographic scales}
+]{centralRange/figs/pdf/Concept_v2_busy_sized.pdf}
+
+\caption[Geographic range size and node centrality]{Local interaction networks are embedded along natural environmental gradients (A), with species occurring in one or more sites and contributing interactions to a global metaweb, defined as the union of all observed interactions across sites. At the metaweb scale, species with broad geographic ranges or wide abiotic tolerances may accumulate interactions across multiple sites. At the local scale, such species may also be more central if interaction generalism covaries with environmental or habitat generalism. Species centrality can be quantified within individual site-level networks as well as in the global metaweb (node color). However, metaweb centrality is jointly influenced by the identity of interactions and by interaction turnover across sites. To isolate these effects, we implement a site-level null randomization (B) that shuffles interaction identities within each site while preserving the total number of interactions per species. Repeating this procedure generates null distributions of expected centrality values for each species at both local and metaweb scales (C), given the constraints of observed local network structure. Empirical centrality values can then be standardized (e.g., $z$-transformed) relative to these expectations, allowing scale-dependent effects of range size on network centrality to be evaluated (D).}
+
+\label{fig:conceptCentralRange}
+
+\begin{tikzpicture}[remember picture, overlay]
+  \node at ([xshift=3.25in,yshift=-5in]current page.east) {\thepage};
+  \end{tikzpicture}
+
 \end{figure}
-
-\addtocounter{figure}{0}
-\begin{figure} [H]
-  \caption[Geographic range size and node centrality]{Local interaction networks are embedded along natural environmental gradients (A), with species occurring in one or more sites and contributing interactions to a global metaweb, defined as the union of all observed interactions across sites. At the metaweb scale, species with broad geographic ranges or wide abiotic tolerances may accumulate interactions across multiple sites. At the local scale, such species may also be more central if interaction generalism covaries with environmental or habitat generalism. Species centrality can be quantified within individual site-level networks as well as in the global metaweb (node color). However, metaweb centrality is jointly influenced by the identity of interactions and by interaction turnover across sites. To isolate these effects, we implement a site-level null randomization (B) that shuffles interaction identities within each site while preserving the total number of interactions per species. Repeating this procedure generates null distributions of expected centrality values for each species at both local and metaweb scales (C), given the constraints of observed local network structure. Empirical centrality values can then be standardized (e.g., $z$-transformed) relative to these expectations, allowing scale-dependent effects of range size on network centrality to be evaluated (D).}
-\end{figure}
-
-\clearpage 
-
-
-
+\clearpage
+\end{landscape}
 
 \begin{figure}[H]
 \centering

@@ -140,27 +140,37 @@ Plant & Fruit Diameter &  mm  & 1.2-325  \\
 \clearpage 
 
 
-\begin{sidewaystable}
-\caption[True and false positive and negative rates for models trained on the entire interaction network]{True and false positive and negative rates for models trained on the entire interaction network, classified assuming the average threshold value across all training interactions that maximized Youden's $J$ statistic. Percentages represent proportions in each category out of all total links each model predicted; the absolute count of each category is represented in parenthesis. Total number of predicted links differed across models according to availability of covariant data.}
+\begin{landscape}
+\begin{table}[p]
+\thispagestyle{empty}
+\centering
+
+\caption[True and false positive and negative rates for models trained on the entire interaction network]{True and false positive and negative rates for models trained on the entire interaction network, classified assuming the average threshold value across all training interactions that maximized Youden's $J$ statistic. Percentages represent proportions in each category out of all total links each model predicted; the absolute count of each category is represented in parentheses. Total number of predicted links differed across models according to availability of covariate data.}
 \label{tab:confusion}
+
 \vspace{20pt}
+
 \begin{tabular}{@{}lllll@{}}
 \toprule
-{\ul } & {\ul } & {\ul } & {\ul } & {\ul } \\ 
-   \textbf{Model}    &  \textbf{True Positives}      &    \textbf{False Positives}    &    \textbf{True Negatives}    &    \textbf{False Negatives}    \\
+\textbf{Model} & \textbf{True Positives} & \textbf{False Positives} & \textbf{True Negatives} & \textbf{False Negatives} \\
 \midrule
-\textbf{Latent}   &  3.85\% (3,643)      &    0.28\% (263)&    95.87\% (90,654)&    0.00\% (0)    \\
-\textbf{Phy}       &   3.87\% (3,350)&  0.27\% (231)&   95.66\% (82,806)&     0.29\% (175)\\
-\textbf{Traits}       &   1.86 \% (778)&  0.22\% (92)&  93.20\% (39,021)&       4.73\% (1,979)\\ 
-\textbf{PhyLatent}       &    4.07\% (3,525)&     0.124\% (107)&    95.80\% (82,930)&    0.00\% (0)     \\ 
-\textbf{PhyTraits}      &   6.63\% (2,723)&  0.35\% (143)&    93.02\% (38,212)&   0.01\% (2)\\ 
-\textbf{TraitsLatent}       &   6.59\% (2,757)     & 0.44\% (185)& 92.97\% (38,928)&   0.00\% (0)     \\ 
-\textbf{Trio}       &   6.863\% (2,725)&  0.15\% (61)&  93.22\% (38,294)&     0.00\% (0)    \\ 
+\textbf{Latent} & 3.85\% (3,643) & 0.28\% (263) & 95.87\% (90,654) & 0.00\% (0) \\
+\textbf{Phy} & 3.87\% (3,350) & 0.27\% (231) & 95.66\% (82,806) & 0.29\% (175) \\
+\textbf{Traits} & 1.86\% (778) & 0.22\% (92) & 93.20\% (39,021) & 4.73\% (1,979) \\
+\textbf{PhyLatent} & 4.07\% (3,525) & 0.124\% (107) & 95.80\% (82,930) & 0.00\% (0) \\
+\textbf{PhyTraits} & 6.63\% (2,723) & 0.35\% (143) & 93.02\% (38,212) & 0.01\% (2) \\
+\textbf{TraitsLatent} & 6.59\% (2,757) & 0.44\% (185) & 92.97\% (38,928) & 0.00\% (0) \\
+\textbf{Trio} & 6.863\% (2,725) & 0.15\% (61) & 93.22\% (38,294) & 0.00\% (0) \\
 \bottomrule
 \end{tabular}
-\end{sidewaystable}
 
+\begin{tikzpicture}[remember picture, overlay]
+  \node at ([xshift=3.25in,yshift=-5in]current page.east) {\thepage};
+\end{tikzpicture}
 
+\end{table}
+\clearpage
+\end{landscape}
 \clearpage 
 
 

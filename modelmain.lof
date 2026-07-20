@@ -6,62 +6,62 @@
 \contentsline {figure}{\numberline {2.2}{\ignorespaces Variable importance across all models as measure by Gini importance score}}{30}{figure.2.2}%
 \contentsline {figure}{\numberline {2.3}{\ignorespaces Pairwise Spearman's rank correlations of link suitabilities across models}}{31}{figure.2.3}%
 \addvspace {10pt}
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Geographic range size and node centrality}}{51}{figure.3.1}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Sampled posterior slope densities for multivariate Bayesian generalized linear models of species centrality in the global metaweb}}{52}{figure.3.2}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Partial effects of interaction turnover on metaweb centrality}}{53}{figure.3.3}%
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Relationships between average z-standardized centrality in local networks, geographic range size, and niche breadth}}{54}{figure.3.4}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Geographic range size and node centrality}}{50}{figure.3.1}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Sampled posterior slope densities for multivariate Bayesian generalized linear models of species centrality in the global metaweb}}{51}{figure.3.2}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Partial effects of interaction turnover on metaweb centrality}}{52}{figure.3.3}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Relationships between average z-standardized centrality in local networks, geographic range size, and niche breadth}}{53}{figure.3.4}%
 \addvspace {10pt}
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Island biogeography of host-helminth interaction networks}}{68}{figure.4.1}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Island area and isolation relationships with host and helminth richness}}{69}{figure.4.2}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Relationship between island characteristics and network nestedness}}{70}{figure.4.3}%
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Island network properties as a function of last glacial maximum connection}}{71}{figure.4.4}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Island biogeography of host-helminth interaction networks}}{67}{figure.4.1}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Island area and isolation relationships with host and helminth richness}}{68}{figure.4.2}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Relationship between island characteristics and network nestedness}}{69}{figure.4.3}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Island network properties as a function of last glacial maximum connection}}{70}{figure.4.4}%
 \addvspace {10pt}
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Structural changes in mutualistic networks under global anthropogenic pressure}}{98}{figure.5.1}%
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Structural changes in mutualistic networks under global anthropogenic pressure}}{97}{figure.5.1}%
 \addvspace {10pt}
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Conceptual overview of our experimental approach.}}{114}{figure.6.1}%
-\contentsline {figure}{\numberline {6.2}{\ignorespaces Strain-specific vital rates estimated from single-species liquid cultures.}}{115}{figure.6.2}%
-\contentsline {figure}{\numberline {6.3}{\ignorespaces Relative abundance of strains across community compositions}}{116}{figure.6.3}%
-\contentsline {figure}{\numberline {6.4}{\ignorespaces Pairwise contrasts of strain relative abundance estimates across simulated and observed multi-strain communities}}{117}{figure.6.4}%
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Conceptual overview of our experimental approach.}}{113}{figure.6.1}%
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Strain-specific vital rates estimated from single-species liquid cultures.}}{114}{figure.6.2}%
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Relative abundance of strains across community compositions}}{115}{figure.6.3}%
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Pairwise contrasts of strain relative abundance estimates across simulated and observed multi-strain communities}}{116}{figure.6.4}%
 \addvspace {10pt}
-\contentsline {figure}{\numberline {A.1}{\ignorespaces Observed degree distribution of avian frugivores}}{156}{figure.A.1}%
-\contentsline {figure}{\numberline {A.2}{\ignorespaces Observed degree distribution of avian plant species}}{157}{figure.A.2}%
-\contentsline {figure}{\numberline {A.3}{\ignorespaces Summary performance metrics of all 7 models when species without full phylogenetic information are excluded}}{158}{figure.A.3}%
-\contentsline {figure}{\numberline {A.4}{\ignorespaces Variable importance across all models as measure by Gini importance score when species without full phylogenetic information are excluded}}{159}{figure.A.4}%
-\contentsline {figure}{\numberline {A.5}{\ignorespaces Link suitabilities across models when species without full phylogenetic information are excluded}}{160}{figure.A.5}%
-\contentsline {figure}{\numberline {A.6}{\ignorespaces Scatterplot of relative suitability values of models trained under alternative prevalence values}}{161}{figure.A.6}%
-\contentsline {figure}{\numberline {A.7}{\ignorespaces AUC of models trained under alternative prevalence values}}{162}{figure.A.7}%
-\contentsline {figure}{\numberline {A.8}{\ignorespaces Variable importance of models trained under alternative prevalence values}}{163}{figure.A.8}%
-\contentsline {figure}{\numberline {A.9}{\ignorespaces Plot of intraguild latent pairwise distance matrices derived from compared to the true network}}{166}{figure.A.9}%
-\contentsline {figure}{\numberline {A.10}{\ignorespaces Plot of mean decrease in AUC performance as a function of the proportion of links removed from the observed set}}{168}{figure.A.10}%
-\contentsline {figure}{\numberline {A.11}{\ignorespaces SVD values for frugivores compared to those calculated from network subsets}}{170}{figure.A.11}%
-\contentsline {figure}{\numberline {A.12}{\ignorespaces SVD values for plants compared to those calculated from network subsets}}{171}{figure.A.12}%
-\contentsline {figure}{\numberline {A.13}{\ignorespaces Model performance metrics when latent features are created from the entire network prior to dividing data into test and train sets.}}{172}{figure.A.13}%
-\contentsline {figure}{\numberline {A.14}{\ignorespaces Variable importance plots for models trained on 80\% training subsets, with latent features recalculated within each subset.}}{173}{figure.A.14}%
-\contentsline {figure}{\numberline {A.15}{\ignorespaces Comparison of variable importance between the same models informed by latent features calculated from the entire network or only from 80\% training subsets}}{174}{figure.A.15}%
+\contentsline {figure}{\numberline {A.1}{\ignorespaces Observed degree distribution of avian frugivores}}{155}{figure.A.1}%
+\contentsline {figure}{\numberline {A.2}{\ignorespaces Observed degree distribution of avian plant species}}{156}{figure.A.2}%
+\contentsline {figure}{\numberline {A.3}{\ignorespaces Summary performance metrics of all 7 models when species without full phylogenetic information are excluded}}{159}{figure.A.3}%
+\contentsline {figure}{\numberline {A.4}{\ignorespaces Variable importance across all models as measure by Gini importance score when species without full phylogenetic information are excluded}}{160}{figure.A.4}%
+\contentsline {figure}{\numberline {A.5}{\ignorespaces Link suitabilities across models when species without full phylogenetic information are excluded}}{161}{figure.A.5}%
+\contentsline {figure}{\numberline {A.6}{\ignorespaces Scatterplot of relative suitability values of models trained under alternative prevalence values}}{162}{figure.A.6}%
+\contentsline {figure}{\numberline {A.7}{\ignorespaces AUC of models trained under alternative prevalence values}}{163}{figure.A.7}%
+\contentsline {figure}{\numberline {A.8}{\ignorespaces Variable importance of models trained under alternative prevalence values}}{164}{figure.A.8}%
+\contentsline {figure}{\numberline {A.9}{\ignorespaces Plot of intraguild latent pairwise distance matrices derived from compared to the true network}}{167}{figure.A.9}%
+\contentsline {figure}{\numberline {A.10}{\ignorespaces Plot of mean decrease in AUC performance as a function of the proportion of links removed from the observed set}}{169}{figure.A.10}%
+\contentsline {figure}{\numberline {A.11}{\ignorespaces SVD values for frugivores compared to those calculated from network subsets}}{171}{figure.A.11}%
+\contentsline {figure}{\numberline {A.12}{\ignorespaces SVD values for plants compared to those calculated from network subsets}}{172}{figure.A.12}%
+\contentsline {figure}{\numberline {A.13}{\ignorespaces Model performance metrics when latent features are created from the entire network prior to dividing data into test and train sets.}}{173}{figure.A.13}%
+\contentsline {figure}{\numberline {A.14}{\ignorespaces Variable importance plots for models trained on 80\% training subsets, with latent features recalculated within each subset.}}{174}{figure.A.14}%
+\contentsline {figure}{\numberline {A.15}{\ignorespaces Comparison of variable importance between the same models informed by latent features calculated from the entire network or only from 80\% training subsets}}{175}{figure.A.15}%
 \addvspace {10pt}
-\contentsline {figure}{\numberline {B.1}{\ignorespaces Map of networks used in Chapter 3}}{176}{figure.B.1}%
-\contentsline {figure}{\numberline {B.2}{\ignorespaces Pairwise correlations of common centrality metrics}}{177}{figure.B.2}%
-\contentsline {figure}{\numberline {B.3}{\ignorespaces Distribution of local closeness centrality}}{178}{figure.B.3}%
-\contentsline {figure}{\numberline {B.4}{\ignorespaces Species-level closeness centrality in the global metaweb as a function of environmental niche breadth or geographic range size}}{179}{figure.B.4}%
-\contentsline {figure}{\numberline {B.5}{\ignorespaces Relationship between log geographic range size and number of potential partners}}{180}{figure.B.5}%
-\contentsline {figure}{\numberline {B.6}{\ignorespaces Comparison of unstandardized and z-standardized closeness centrality}}{181}{figure.B.6}%
-\contentsline {figure}{\numberline {B.7}{\ignorespaces Global Closeness centrality pairsplots of floral visitors}}{183}{figure.B.7}%
-\contentsline {figure}{\numberline {B.8}{\ignorespaces Global closeness centrality pairsplots of insect-visited plants}}{184}{figure.B.8}%
-\contentsline {figure}{\numberline {B.9}{\ignorespaces Global closeness centrality pairsplots of avian floral visitors}}{185}{figure.B.9}%
-\contentsline {figure}{\numberline {B.10}{\ignorespaces Global closeness centrality pairsplots of avian-visited plants}}{186}{figure.B.10}%
-\contentsline {figure}{\numberline {B.11}{\ignorespaces Closeness centrality pairsplots of plants in the local webs}}{187}{figure.B.11}%
-\contentsline {figure}{\numberline {B.12}{\ignorespaces Closeness centrality pairsplots of floral visitors in the local webs}}{188}{figure.B.12}%
+\contentsline {figure}{\numberline {B.1}{\ignorespaces Map of networks used in Chapter 3}}{177}{figure.B.1}%
+\contentsline {figure}{\numberline {B.2}{\ignorespaces Pairwise correlations of common centrality metrics}}{178}{figure.B.2}%
+\contentsline {figure}{\numberline {B.3}{\ignorespaces Distribution of local closeness centrality}}{179}{figure.B.3}%
+\contentsline {figure}{\numberline {B.4}{\ignorespaces Species-level closeness centrality in the global metaweb as a function of environmental niche breadth or geographic range size}}{180}{figure.B.4}%
+\contentsline {figure}{\numberline {B.5}{\ignorespaces Relationship between log geographic range size and number of potential partners}}{181}{figure.B.5}%
+\contentsline {figure}{\numberline {B.6}{\ignorespaces Comparison of unstandardized and z-standardized closeness centrality}}{182}{figure.B.6}%
+\contentsline {figure}{\numberline {B.7}{\ignorespaces Global Closeness centrality pairsplots of floral visitors}}{184}{figure.B.7}%
+\contentsline {figure}{\numberline {B.8}{\ignorespaces Global closeness centrality pairsplots of insect-visited plants}}{185}{figure.B.8}%
+\contentsline {figure}{\numberline {B.9}{\ignorespaces Global closeness centrality pairsplots of avian floral visitors}}{186}{figure.B.9}%
+\contentsline {figure}{\numberline {B.10}{\ignorespaces Global closeness centrality pairsplots of avian-visited plants}}{187}{figure.B.10}%
+\contentsline {figure}{\numberline {B.11}{\ignorespaces Closeness centrality pairsplots of plants in the local webs}}{188}{figure.B.11}%
+\contentsline {figure}{\numberline {B.12}{\ignorespaces Closeness centrality pairsplots of floral visitors in the local webs}}{189}{figure.B.12}%
 \addvspace {10pt}
-\contentsline {figure}{\numberline {C.1}{\ignorespaces Relationship between network size and alternative measures of nestedness}}{190}{figure.C.1}%
-\contentsline {figure}{\numberline {C.2}{\ignorespaces Relationship between NODF and island characteristics}}{191}{figure.C.2}%
-\contentsline {figure}{\numberline {C.3}{\ignorespaces Relationship between spectral radius and island characteristics}}{192}{figure.C.3}%
-\contentsline {figure}{\numberline {C.4}{\ignorespaces Parasite richness model diagnostics}}{194}{figure.C.4}%
-\contentsline {figure}{\numberline {C.5}{\ignorespaces Host richness model diagnostics}}{195}{figure.C.5}%
-\contentsline {figure}{\numberline {C.6}{\ignorespaces $NODF_c$ model diagnostics}}{196}{figure.C.6}%
+\contentsline {figure}{\numberline {C.1}{\ignorespaces Relationship between network size and alternative measures of nestedness}}{191}{figure.C.1}%
+\contentsline {figure}{\numberline {C.2}{\ignorespaces Relationship between NODF and island characteristics}}{192}{figure.C.2}%
+\contentsline {figure}{\numberline {C.3}{\ignorespaces Relationship between spectral radius and island characteristics}}{193}{figure.C.3}%
+\contentsline {figure}{\numberline {C.4}{\ignorespaces Parasite richness model diagnostics}}{195}{figure.C.4}%
+\contentsline {figure}{\numberline {C.5}{\ignorespaces Host richness model diagnostics}}{196}{figure.C.5}%
+\contentsline {figure}{\numberline {C.6}{\ignorespaces $NODF_c$ model diagnostics}}{197}{figure.C.6}%
 \addvspace {10pt}
-\contentsline {figure}{\numberline {D.1}{\ignorespaces Example plates of community samples from a variety of replicates}}{198}{figure.D.1}%
-\contentsline {figure}{\numberline {D.2}{\ignorespaces Comparisons of observed and modeled relative abundance of strains across community compositions}}{199}{figure.D.2}%
-\contentsline {figure}{\numberline {D.3}{\ignorespaces Monoculture growth curves used to inform vital rate estimates}}{202}{figure.D.3}%
-\contentsline {figure}{\numberline {D.4}{\ignorespaces Comparison of best fit carrying capacity (K) and finite rate of increase (R) values across nutrient environment}}{203}{figure.D.4}%
+\contentsline {figure}{\numberline {D.1}{\ignorespaces Example plates of community samples from a variety of replicates}}{199}{figure.D.1}%
+\contentsline {figure}{\numberline {D.2}{\ignorespaces Comparisons of observed and modeled relative abundance of strains across community compositions}}{200}{figure.D.2}%
+\contentsline {figure}{\numberline {D.3}{\ignorespaces Monoculture growth curves used to inform vital rate estimates}}{203}{figure.D.3}%
+\contentsline {figure}{\numberline {D.4}{\ignorespaces Comparison of best fit carrying capacity (K) and finite rate of increase (R) values across nutrient environment}}{204}{figure.D.4}%
 \addvspace {10pt}
-\contentsline {figure}{\numberline {E.1}{\ignorespaces Rights to reprint open-access material}}{204}{figure.E.1}%
+\contentsline {figure}{\numberline {E.1}{\ignorespaces Rights to reprint open-access material}}{205}{figure.E.1}%
